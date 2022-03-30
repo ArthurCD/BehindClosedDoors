@@ -3,7 +3,12 @@ guid: 1cc359da3405b5546b7edadfdd5e89b3
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tx_books_1
+    second: {fileID: 2100000, guid: c25ad9f7818d82743be82f50df1cfb3e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
