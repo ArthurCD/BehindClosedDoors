@@ -8,7 +8,8 @@ public class EnterNewScene : MonoBehaviour
     [SerializeField]
     public string sceneName; 
     [SerializeField]
-    bool canEnter=false;
+    private bool canEnter=false;
+    public int gotoSpawnerID;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class EnterNewScene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0) && canEnter )
         {
+            SpawnManager.NextSpawnpointID = gotoSpawnerID;
             SceneManager.LoadScene(sceneName);
         }
     }
