@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="690783697" Language="SFX" Hash="3373327977">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Test</ObjectPath>
+			<ShortName>SB_Test</ShortName>
+			<Path>SB_Test.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="167288481" Language="SFX">
+							<ShortName>Snow_BareFoot_run-05.wav</ShortName>
+							<Path>SFX\Snow_BareFoot_run-05_10C4C929.wem</Path>
+						</File>
+						<File Id="512566219" Language="SFX">
+							<ShortName>Snow_BareFoot_run-01.wav</ShortName>
+							<Path>SFX\Snow_BareFoot_run-01_10C4C929.wem</Path>
+						</File>
+						<File Id="616512323" Language="SFX">
+							<ShortName>Snow_BareFoot_run-03.wav</ShortName>
+							<Path>SFX\Snow_BareFoot_run-03_10C4C929.wem</Path>
+						</File>
+						<File Id="691951630" Language="SFX">
+							<ShortName>Snow_BareFoot_run-02.wav</ShortName>
+							<Path>SFX\Snow_BareFoot_run-02_10C4C929.wem</Path>
+						</File>
+						<File Id="833692850" Language="SFX">
+							<ShortName>Snow_BareFoot_run-04.wav</ShortName>
+							<Path>SFX\Snow_BareFoot_run-04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="167288481" Language="SFX">
+					<ShortName>Snow_BareFoot_run-05.wav</ShortName>
+					<Path>SFX\Snow_BareFoot_run-05_10C4C929.wem</Path>
+				</File>
+				<File Id="512566219" Language="SFX">
+					<ShortName>Snow_BareFoot_run-01.wav</ShortName>
+					<Path>SFX\Snow_BareFoot_run-01_10C4C929.wem</Path>
+				</File>
+				<File Id="616512323" Language="SFX">
+					<ShortName>Snow_BareFoot_run-03.wav</ShortName>
+					<Path>SFX\Snow_BareFoot_run-03_10C4C929.wem</Path>
+				</File>
+				<File Id="691951630" Language="SFX">
+					<ShortName>Snow_BareFoot_run-02.wav</ShortName>
+					<Path>SFX\Snow_BareFoot_run-02_10C4C929.wem</Path>
+				</File>
+				<File Id="833692850" Language="SFX">
+					<ShortName>Snow_BareFoot_run-04.wav</ShortName>
+					<Path>SFX\Snow_BareFoot_run-04_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
