@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3187507146	Play_Test			\Default Work Unit\Play_Test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	167288481	Snow_BareFoot_run-05	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\Snow_BareFoot_run-05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Snow_BareFoot_run-05		61172
+	512566219	Snow_BareFoot_run-01	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\Snow_BareFoot_run-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Snow_BareFoot_run-01		81948
+	616512323	Snow_BareFoot_run-03	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\Snow_BareFoot_run-03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Snow_BareFoot_run-03		69748
+	691951630	Snow_BareFoot_run-02	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\Snow_BareFoot_run-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Snow_BareFoot_run-02		55644
+	833692850	Snow_BareFoot_run-04	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\Snow_BareFoot_run-04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Snow_BareFoot_run-04		50374
+

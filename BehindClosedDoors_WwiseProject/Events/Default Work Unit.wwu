@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{48ABD96A-6F8A-4675-B07D-0009F6D14C73}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{48ABD96A-6F8A-4675-B07D-0009F6D14C73}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{48ABD96A-6F8A-4675-B07D-0009F6D14C73}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Test" ID="{22257857-59CB-4F05-9348-E4D389756961}">
+					<ChildrenList>
+						<Action Name="" ID="{4DB342A0-183F-40C3-B56E-E28CA518F6C8}" ShortID="446811785">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test" ID="{00972C6F-BB8C-4E4D-A7F7-F7262DCC22C8}" WorkUnitID="{17B501CD-BE4B-4B01-8D1B-39D462B99030}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
