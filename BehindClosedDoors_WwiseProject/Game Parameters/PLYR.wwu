@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D9CF4E69-953A-4F0D-8BC0-4F7A4FD526F7}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="PLYR" ID="{D9CF4E69-953A-4F0D-8BC0-4F7A4FD526F7}" PersistMode="Standalone"/>
+	</GameParameters>
+</WwiseDocument>

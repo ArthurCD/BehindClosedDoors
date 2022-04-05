@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{32943A16-3506-4438-8E2E-A19FFD8EA394}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="PLYR" ID="{32943A16-3506-4438-8E2E-A19FFD8EA394}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Switch_PLYR_Material" ID="{A02CC695-7E44-4D86-BA47-4512761CEC6D}">
+					<ChildrenList>
+						<Switch Name="Carpet" ID="{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}"/>
+						<Switch Name="Wood" ID="{CBED6EF4-13BD-470F-8E25-34143630256D}"/>
+						<Switch Name="Stone" ID="{9C632D9B-619E-4AC3-BF20-0745AAD5FBAA}"/>
+						<Switch Name="Stone_Stairs" ID="{8FA7927B-AD4F-4E63-9406-3F2C89B29275}"/>
+						<Switch Name="Wood_Stairs" ID="{B44064C8-DE4F-4C95-B78D-36D48557F3E0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Switch_PLYR_Movement" ID="{4DE7B166-A6A9-4071-A3E4-807E500E590D}">
+					<ChildrenList>
+						<Switch Name="Idle" ID="{8934EDA8-4160-4C17-B679-1F071933ED4F}"/>
+						<Switch Name="Sneak" ID="{E740F6EE-1A13-4726-8343-2E2C670F8661}"/>
+						<Switch Name="Walk" ID="{D0F8DC77-7847-453E-B96D-8073B3203887}"/>
+						<Switch Name="Run" ID="{6E612C08-2132-4037-9418-ED516343770A}"/>
+						<Switch Name="Stop" ID="{5E7B659A-FD95-42BE-AE41-BABBB6FC9EBA}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

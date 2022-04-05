@@ -38,8 +38,107 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 842d537a7374744cb5d9930a2406e154
     GuidInternal: 
-    m_lastTime: -8585533761368388303
+
+    m_lastTime: -8585525206568488581
+
     List:
+    - name: Abient
+      guid: 216d9e083016204295860ea90d99faa7
+      id: 1374360688
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: AmbientMaster
+        ObjectType: 2
+        guid: bab90ed80ad74344a56b1fb8be1cd978
+      - ElementName: Abient
+        ObjectType: 2
+        guid: 216d9e083016204295860ea90d99faa7
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AmbientMaster\Abient
+    - name: AmbientMaster
+      guid: bab90ed80ad74344a56b1fb8be1cd978
+      id: 1459460693
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: AmbientMaster
+        ObjectType: 2
+        guid: bab90ed80ad74344a56b1fb8be1cd978
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AmbientMaster
+    - name: Corridor
+      guid: 9b566d320f0bba4ab24f91113e8e8bb0
+      id: 4063189299
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: 19afe2a0d66b1e43be9d999eda2c4a36
+      - ElementName: Corridor
+        ObjectType: 1
+        guid: 9b566d320f0bba4ab24f91113e8e8bb0
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Corridor
+    - name: CorridorEnd
+      guid: c9dadac69fda6846ae894aff4460e880
+      id: 617071738
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: 19afe2a0d66b1e43be9d999eda2c4a36
+      - ElementName: CorridorEnd
+        ObjectType: 1
+        guid: c9dadac69fda6846ae894aff4460e880
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\CorridorEnd
+    - name: LargeRoom
+      guid: 0368fcba7f07564b9be42ceb442e9d1e
+      id: 187046019
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: 19afe2a0d66b1e43be9d999eda2c4a36
+      - ElementName: LargeRoom
+        ObjectType: 1
+        guid: 0368fcba7f07564b9be42ceb442e9d1e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -54,6 +153,203 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: MediumRoom
+      guid: 46dfbac4e3c73647b4d99580e883739e
+      id: 1245295233
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: 19afe2a0d66b1e43be9d999eda2c4a36
+      - ElementName: MediumRoom
+        ObjectType: 1
+        guid: 46dfbac4e3c73647b4d99580e883739e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\MediumRoom
+    - name: NPCMaster
+      guid: 9b001b6718be52439f39214c9b45a837
+      id: 2033911932
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: NPCMaster
+        ObjectType: 2
+        guid: 9b001b6718be52439f39214c9b45a837
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\NPCMaster
+    - name: PlayerBreath
+      guid: db96bca0a5fcc347a36c340f9bd9f01e
+      id: 2935399792
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: PlayerMaster
+        ObjectType: 2
+        guid: f213c5510dc4614e9079b88d9075fb79
+      - ElementName: PlayerBreath
+        ObjectType: 2
+        guid: db96bca0a5fcc347a36c340f9bd9f01e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerBreath
+    - name: PlayerCloths
+      guid: 5908c21838478f42b8fbe41179677ecb
+      id: 2932224181
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: PlayerMaster
+        ObjectType: 2
+        guid: f213c5510dc4614e9079b88d9075fb79
+      - ElementName: PlayerMovement
+        ObjectType: 2
+        guid: e22578c2ffeb42498151d6107bfd5d74
+      - ElementName: PlayerCloths
+        ObjectType: 2
+        guid: 5908c21838478f42b8fbe41179677ecb
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerMovement\PlayerCloths
+    - name: PlayerFootsteps
+      guid: 35f3e2ba32331842b7741aafe768a236
+      id: 1681012287
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: PlayerMaster
+        ObjectType: 2
+        guid: f213c5510dc4614e9079b88d9075fb79
+      - ElementName: PlayerMovement
+        ObjectType: 2
+        guid: e22578c2ffeb42498151d6107bfd5d74
+      - ElementName: PlayerFootsteps
+        ObjectType: 2
+        guid: 35f3e2ba32331842b7741aafe768a236
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerMovement\PlayerFootsteps
+    - name: PlayerHolding
+      guid: ae4c54ed85fa7249b16b452aec63db09
+      id: 1153836899
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: PlayerMaster
+        ObjectType: 2
+        guid: f213c5510dc4614e9079b88d9075fb79
+      - ElementName: PlayerHolding
+        ObjectType: 2
+        guid: ae4c54ed85fa7249b16b452aec63db09
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerHolding
+    - name: PlayerMaster
+      guid: f213c5510dc4614e9079b88d9075fb79
+      id: 3538689948
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: PlayerMaster
+        ObjectType: 2
+        guid: f213c5510dc4614e9079b88d9075fb79
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PlayerMaster
+    - name: PlayerMovement
+      guid: e22578c2ffeb42498151d6107bfd5d74
+      id: 1350496757
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: PlayerMaster
+        ObjectType: 2
+        guid: f213c5510dc4614e9079b88d9075fb79
+      - ElementName: PlayerMovement
+        ObjectType: 2
+        guid: e22578c2ffeb42498151d6107bfd5d74
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerMovement
+    - name: Reverbs
+      guid: 19afe2a0d66b1e43be9d999eda2c4a36
+      id: 3545700988
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: 19afe2a0d66b1e43be9d999eda2c4a36
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs
+    - name: SmallRoom
+      guid: 063a017bb4fa7f4ba5782a1a5523965a
+      id: 2933838247
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: 19afe2a0d66b1e43be9d999eda2c4a36
+      - ElementName: SmallRoom
+        ObjectType: 1
+        guid: 063a017bb4fa7f4ba5782a1a5523965a
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\SmallRoom
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,8 +362,23 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8e9d7f6496ac724b99dc1425213e2a9b
     GuidInternal: 
-    m_lastTime: -8585526146580646056
+    m_lastTime: -8585524893585609828
+
     List:
+    - name: SB_PLYR
+      guid: c3e7bc363d477c46bcfe85a72d3fa280
+      id: 3748169348
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8e9d7f6496ac724b99dc1425213e2a9b
+      - ElementName: SB_PLYR
+        ObjectType: 7
+        guid: c3e7bc363d477c46bcfe85a72d3fa280
+      Path: SoundBanks\Default Work Unit\SB_PLYR
     - name: SB_Test
       guid: e7455e11c65aee40971ad899eda18dd2
       id: 690783697
@@ -94,7 +405,8 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6ad9ab488a6f7546b07d0009f6d14c73
     GuidInternal: 
-    m_lastTime: -8585526146580976139
+    m_lastTime: -8585525101839347075
+
     List:
     - name: Play_Test
       guid: 57782522cb59054f9348e4d389756961
@@ -111,8 +423,157 @@ MonoBehaviour:
         guid: 57782522cb59054f9348e4d389756961
       Path: Events\Default Work Unit\Play_Test
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\PLYR.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: PLYR
+      ObjectType: 12
+      guid: ede3344aaabac04989951999f935a582
+    ParentPath: Events\PLYR
+    guid: ede3344aaabac04989951999f935a582
+    GuidInternal: 
+    m_lastTime: -8585525212983820590
+    List: []
+  - PhysicalPath: Events\PLYR_FS.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: PLYR
+      ObjectType: 12
+      guid: ede3344aaabac04989951999f935a582
+    - ElementName: PLYR_FS
+      ObjectType: 12
+      guid: b7004b6494f6dc499034e6b9807c7898
+    ParentPath: Events\PLYR\PLYR_FS
+    guid: b7004b6494f6dc499034e6b9807c7898
+    GuidInternal: 
+    m_lastTime: -8585524892873357737
+    List:
+    - name: Play_ACD_FireOrganic_Breath_Rage_01
+      guid: 344eeae15566a842ac453343096c5066
+      id: 2092626675
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: ede3344aaabac04989951999f935a582
+      - ElementName: PLYR_FS
+        ObjectType: 12
+        guid: b7004b6494f6dc499034e6b9807c7898
+      - ElementName: Play_ACD_FireOrganic_Breath_Rage_01
+        ObjectType: 3
+        guid: 344eeae15566a842ac453343096c5066
+      Path: Events\PLYR\PLYR_FS\Play_ACD_FireOrganic_Breath_Rage_01
+      maxAttenuation: 0
+      maxDuration: 14.965896
+      minDuration: 14.965896
+    - name: Play_PLYR_FS_Rotate
+      guid: f4b4122fa8d52b4abf4e110e13bf8c96
+      id: 363322671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: ede3344aaabac04989951999f935a582
+      - ElementName: PLYR_FS
+        ObjectType: 12
+        guid: b7004b6494f6dc499034e6b9807c7898
+      - ElementName: Play_PLYR_FS_Rotate
+        ObjectType: 3
+        guid: f4b4122fa8d52b4abf4e110e13bf8c96
+      Path: Events\PLYR\PLYR_FS\Play_PLYR_FS_Rotate
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_PLYR_FS_Run
+      guid: c07b4e40ff4ad54e99e88aaec6da51c2
+      id: 913920749
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: ede3344aaabac04989951999f935a582
+      - ElementName: PLYR_FS
+        ObjectType: 12
+        guid: b7004b6494f6dc499034e6b9807c7898
+      - ElementName: Play_PLYR_FS_Run
+        ObjectType: 3
+        guid: c07b4e40ff4ad54e99e88aaec6da51c2
+      Path: Events\PLYR\PLYR_FS\Play_PLYR_FS_Run
+      maxAttenuation: 0
+      maxDuration: 0.81347
+      minDuration: 0
+    - name: Play_PLYR_FS_Sneak
+      guid: 9ae7598da61cf344873cc750ddb48ebf
+      id: 1884485130
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: ede3344aaabac04989951999f935a582
+      - ElementName: PLYR_FS
+        ObjectType: 12
+        guid: b7004b6494f6dc499034e6b9807c7898
+      - ElementName: Play_PLYR_FS_Sneak
+        ObjectType: 3
+        guid: 9ae7598da61cf344873cc750ddb48ebf
+      Path: Events\PLYR\PLYR_FS\Play_PLYR_FS_Sneak
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_PLYR_FS_Stop
+      guid: 581a20a175df5144a0dfe4506c1c59c9
+      id: 965817426
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: ede3344aaabac04989951999f935a582
+      - ElementName: PLYR_FS
+        ObjectType: 12
+        guid: b7004b6494f6dc499034e6b9807c7898
+      - ElementName: Play_PLYR_FS_Stop
+        ObjectType: 3
+        guid: 581a20a175df5144a0dfe4506c1c59c9
+      Path: Events\PLYR\PLYR_FS\Play_PLYR_FS_Stop
+      maxAttenuation: 0
+      maxDuration: 1.022333
+      minDuration: 0
+    - name: Play_PLYR_FS_Walk
+      guid: b69ea28ac70d09488cecb47d0fb5cce9
+      id: 2246640637
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: ede3344aaabac04989951999f935a582
+      - ElementName: PLYR_FS
+        ObjectType: 12
+        guid: b7004b6494f6dc499034e6b9807c7898
+      - ElementName: Play_PLYR_FS_Walk
+        ObjectType: 3
+        guid: b69ea28ac70d09488cecb47d0fb5cce9
+      Path: Events\PLYR\PLYR_FS\Play_PLYR_FS_Walk
+      maxAttenuation: 0
+      maxDuration: 0.74187
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -125,7 +586,36 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8c47cece733b9b4d98afe92930752407
     GuidInternal: 
-    m_lastTime: -8585533761368428474
+
+    m_lastTime: -8585525212983973509
+    List:
+    - name: RTPC_PLYR_WetFeet
+      guid: f294b87b02859842ac8c0b7b5f40175c
+      id: 2149904807
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8c47cece733b9b4d98afe92930752407
+      - ElementName: RTPC_PLYR_WetFeet
+        ObjectType: 13
+        guid: f294b87b02859842ac8c0b7b5f40175c
+      Path: Game Parameters\Default Work Unit\RTPC_PLYR_WetFeet
+  - PhysicalPath: Game Parameters\PLYR.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: PLYR
+      ObjectType: 12
+      guid: 694ecfd93a950d4f8bc04f7a4fd526f7
+    ParentPath: Game Parameters\PLYR
+    guid: 694ecfd93a950d4f8bc04f7a4fd526f7
+    GuidInternal: 
+    m_lastTime: -8585525213069955276
+
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -139,7 +629,9 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: eecfbea7d09bb549bc17348f1c94e5a6
     GuidInternal: 
-    m_lastTime: -8585533761368238277
+
+    m_lastTime: -8585524857155380575
+
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -153,8 +645,218 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a0124bc36bfec7478fd19c60508ce9e4
     GuidInternal: 
-    m_lastTime: -8585533761368218272
+    m_lastTime: -8585525212984362801
+
     List: []
+  - PhysicalPath: Switches\PLYR.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: PLYR
+      ObjectType: 12
+      guid: 163a9432063538448e2ea19ffd8ea394
+    ParentPath: Switches\PLYR
+    guid: 163a9432063538448e2ea19ffd8ea394
+    GuidInternal: 
+    m_lastTime: -8585525212983453558
+    List:
+    - name: Switch_PLYR_Material
+      guid: 95c62ca0447e864dba474512761cec6d
+      id: 3106369571
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: 163a9432063538448e2ea19ffd8ea394
+      - ElementName: Switch_PLYR_Material
+        ObjectType: 11
+        guid: 95c62ca0447e864dba474512761cec6d
+      Path: Switches\PLYR\Switch_PLYR_Material
+      values:
+      - name: Carpet
+        guid: d0490381195af64a9baddf10a4486ba8
+        id: 2412606308
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PLYR
+          ObjectType: 12
+          guid: 163a9432063538448e2ea19ffd8ea394
+        - ElementName: Switch_PLYR_Material
+          ObjectType: 11
+          guid: 95c62ca0447e864dba474512761cec6d
+        - ElementName: Carpet
+          ObjectType: 10
+          guid: d0490381195af64a9baddf10a4486ba8
+      - name: Stone
+        guid: 9b2d639c9e61c34abf200745aad5fbaa
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PLYR
+          ObjectType: 12
+          guid: 163a9432063538448e2ea19ffd8ea394
+        - ElementName: Switch_PLYR_Material
+          ObjectType: 11
+          guid: 95c62ca0447e864dba474512761cec6d
+        - ElementName: Stone
+          ObjectType: 10
+          guid: 9b2d639c9e61c34abf200745aad5fbaa
+      - name: Stone_Stairs
+        guid: 7b92a78f4fad634e94063f2c89b29275
+        id: 4044498913
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PLYR
+          ObjectType: 12
+          guid: 163a9432063538448e2ea19ffd8ea394
+        - ElementName: Switch_PLYR_Material
+          ObjectType: 11
+          guid: 95c62ca0447e864dba474512761cec6d
+        - ElementName: Stone_Stairs
+          ObjectType: 10
+          guid: 7b92a78f4fad634e94063f2c89b29275
+      - name: Wood
+        guid: f46eedcbbd130f478e2534143630256d
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PLYR
+          ObjectType: 12
+          guid: 163a9432063538448e2ea19ffd8ea394
+        - ElementName: Switch_PLYR_Material
+          ObjectType: 11
+          guid: 95c62ca0447e864dba474512761cec6d
+        - ElementName: Wood
+          ObjectType: 10
+          guid: f46eedcbbd130f478e2534143630256d
+      - name: Wood_Stairs
+        guid: c86440b44fde954cb78d36d48557f3e0
+        id: 1994379643
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PLYR
+          ObjectType: 12
+          guid: 163a9432063538448e2ea19ffd8ea394
+        - ElementName: Switch_PLYR_Material
+          ObjectType: 11
+          guid: 95c62ca0447e864dba474512761cec6d
+        - ElementName: Wood_Stairs
+          ObjectType: 10
+          guid: c86440b44fde954cb78d36d48557f3e0
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Switch_PLYR_Movement
+      guid: 66b1e74da9a67140a3e4807e500e590d
+      id: 4043495927
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: 163a9432063538448e2ea19ffd8ea394
+      - ElementName: Switch_PLYR_Movement
+        ObjectType: 11
+        guid: 66b1e74da9a67140a3e4807e500e590d
+      Path: Switches\PLYR\Switch_PLYR_Movement
+      values:
+      - name: Idle
+        guid: a8ed34896041174cb6791f071933ed4f
+        id: 1874288895
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PLYR
+          ObjectType: 12
+          guid: 163a9432063538448e2ea19ffd8ea394
+        - ElementName: Switch_PLYR_Movement
+          ObjectType: 11
+          guid: 66b1e74da9a67140a3e4807e500e590d
+        - ElementName: Idle
+          ObjectType: 10
+          guid: a8ed34896041174cb6791f071933ed4f
+      - name: Run
+        guid: 082c616e322137409418ed516343770a
+        id: 712161704
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PLYR
+          ObjectType: 12
+          guid: 163a9432063538448e2ea19ffd8ea394
+        - ElementName: Switch_PLYR_Movement
+          ObjectType: 11
+          guid: 66b1e74da9a67140a3e4807e500e590d
+        - ElementName: Run
+          ObjectType: 10
+          guid: 082c616e322137409418ed516343770a
+      - name: Sneak
+        guid: eef640e7131a264783432e2c670f8661
+        id: 2884887403
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PLYR
+          ObjectType: 12
+          guid: 163a9432063538448e2ea19ffd8ea394
+        - ElementName: Switch_PLYR_Movement
+          ObjectType: 11
+          guid: 66b1e74da9a67140a3e4807e500e590d
+        - ElementName: Sneak
+          ObjectType: 10
+          guid: eef640e7131a264783432e2c670f8661
+      - name: Stop
+        guid: 9a657b5e95fdbe42ae41babbb6fc9eba
+        id: 788884573
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PLYR
+          ObjectType: 12
+          guid: 163a9432063538448e2ea19ffd8ea394
+        - ElementName: Switch_PLYR_Movement
+          ObjectType: 11
+          guid: 66b1e74da9a67140a3e4807e500e590d
+        - ElementName: Stop
+          ObjectType: 10
+          guid: 9a657b5e95fdbe42ae41babbb6fc9eba
+      - name: Walk
+        guid: 77dcf8d047783e45b96d8073b3203887
+        id: 2108779966
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: PLYR
+          ObjectType: 12
+          guid: 163a9432063538448e2ea19ffd8ea394
+        - ElementName: Switch_PLYR_Movement
+          ObjectType: 11
+          guid: 66b1e74da9a67140a3e4807e500e590d
+        - ElementName: Walk
+          ObjectType: 10
+          guid: 77dcf8d047783e45b96d8073b3203887
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +872,8 @@ MonoBehaviour:
     m_lastTime: -8585533761368198260
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000c0000000d00000010000000120000001300000014000000
+
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

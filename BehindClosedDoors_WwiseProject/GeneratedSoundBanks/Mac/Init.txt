@@ -1,5 +1,22 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	1153836899	PlayerHolding			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerHolding	
+	1350496757	PlayerMovement			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerMovement	
+	1374360688	Abient			\Default Work Unit\Master Audio Bus\AmbientMaster\Abient	
+	1459460693	AmbientMaster			\Default Work Unit\Master Audio Bus\AmbientMaster	
+	1681012287	PlayerFootsteps			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerMovement\PlayerFootsteps	
+	2033911932	NPCMaster			\Default Work Unit\Master Audio Bus\NPCMaster	
+	2932224181	PlayerCloths			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerMovement\PlayerCloths	
+	2935399792	PlayerBreath			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerBreath	
+	3538689948	PlayerMaster			\Default Work Unit\Master Audio Bus\PlayerMaster	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	187046019	LargeRoom			\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom	
+	617071738	CorridorEnd			\Default Work Unit\Master Audio Bus\Reverbs\CorridorEnd	
+	1245295233	MediumRoom			\Default Work Unit\Master Audio Bus\Reverbs\MediumRoom	
+	2933838247	SmallRoom			\Default Work Unit\Master Audio Bus\Reverbs\SmallRoom	
+	3545700988	Reverbs			\Default Work Unit\Master Audio Bus\Reverbs	
+	4063189299	Corridor			\Default Work Unit\Master Audio Bus\Reverbs\Corridor	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

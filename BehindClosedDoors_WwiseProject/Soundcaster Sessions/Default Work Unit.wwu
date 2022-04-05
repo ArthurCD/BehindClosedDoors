@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D5C85610-E131-48A6-A4F0-C46FF548550B}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{D5C85610-E131-48A6-A4F0-C46FF548550B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D5C85610-E131-48A6-A4F0-C46FF548550B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{75795ADA-98F1-44A0-8079-BC2BB752CBB8}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_PLYR_FS_Sneak" ID="{8D59E79A-1CA6-44F3-873C-C750DDB48EBF}" WorkUnitID="{644B00B7-F694-49DC-9034-E6B9807C7898}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PLYR_FS_Walk" ID="{8AA29EB6-0DC7-4809-8CEC-B47D0FB5CCE9}" WorkUnitID="{644B00B7-F694-49DC-9034-E6B9807C7898}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PLYR_FS_Rotate" ID="{2F12B4F4-D5A8-4A2B-BF4E-110E13BF8C96}" WorkUnitID="{644B00B7-F694-49DC-9034-E6B9807C7898}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PLYR_FS_Run" ID="{404E7BC0-4AFF-4ED5-99E8-8AAEC6DA51C2}" WorkUnitID="{644B00B7-F694-49DC-9034-E6B9807C7898}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PLYR_FS_Stop" ID="{A1201A58-DF75-4451-A0DF-E4506C1C59C9}" WorkUnitID="{644B00B7-F694-49DC-9034-E6B9807C7898}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_PLYR_WetFeet" ID="{7BB894F2-8502-4298-AC8C-0B7B5F40175C}"/>
+							<Value>44.0654843110505</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Idle" ID="{8934EDA8-4160-4C17-B679-1F071933ED4F}"/>
+						<CurrentSwitchRef Name="Carpet" ID="{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

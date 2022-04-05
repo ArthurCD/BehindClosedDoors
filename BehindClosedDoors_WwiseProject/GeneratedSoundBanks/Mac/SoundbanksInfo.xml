@@ -11,63 +11,383 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="690783697" Language="SFX" Hash="3373327977">
+		<SoundBank Id="690783697" Language="SFX" Hash="3687692407">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Test</ObjectPath>
 			<ShortName>SB_Test</ShortName>
 			<Path>SB_Test.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="167288481" Language="SFX">
-							<ShortName>Snow_BareFoot_run-05.wav</ShortName>
-							<Path>SFX\Snow_BareFoot_run-05_10C4C929.wem</Path>
-						</File>
-						<File Id="512566219" Language="SFX">
-							<ShortName>Snow_BareFoot_run-01.wav</ShortName>
-							<Path>SFX\Snow_BareFoot_run-01_10C4C929.wem</Path>
-						</File>
-						<File Id="616512323" Language="SFX">
-							<ShortName>Snow_BareFoot_run-03.wav</ShortName>
-							<Path>SFX\Snow_BareFoot_run-03_10C4C929.wem</Path>
-						</File>
-						<File Id="691951630" Language="SFX">
-							<ShortName>Snow_BareFoot_run-02.wav</ShortName>
-							<Path>SFX\Snow_BareFoot_run-02_10C4C929.wem</Path>
-						</File>
-						<File Id="833692850" Language="SFX">
-							<ShortName>Snow_BareFoot_run-04.wav</ShortName>
-							<Path>SFX\Snow_BareFoot_run-04_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="167288481" Language="SFX">
-					<ShortName>Snow_BareFoot_run-05.wav</ShortName>
-					<Path>SFX\Snow_BareFoot_run-05_10C4C929.wem</Path>
-				</File>
-				<File Id="512566219" Language="SFX">
-					<ShortName>Snow_BareFoot_run-01.wav</ShortName>
-					<Path>SFX\Snow_BareFoot_run-01_10C4C929.wem</Path>
-				</File>
-				<File Id="616512323" Language="SFX">
-					<ShortName>Snow_BareFoot_run-03.wav</ShortName>
-					<Path>SFX\Snow_BareFoot_run-03_10C4C929.wem</Path>
-				</File>
-				<File Id="691951630" Language="SFX">
-					<ShortName>Snow_BareFoot_run-02.wav</ShortName>
-					<Path>SFX\Snow_BareFoot_run-02_10C4C929.wem</Path>
-				</File>
-				<File Id="833692850" Language="SFX">
-					<ShortName>Snow_BareFoot_run-04.wav</ShortName>
-					<Path>SFX\Snow_BareFoot_run-04_10C4C929.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2540115480">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
+				<AuxBus Id="617071738" Name="CorridorEnd" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\CorridorEnd"/>
+				<AuxBus Id="1245295233" Name="MediumRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\MediumRoom"/>
+				<AuxBus Id="2933838247" Name="SmallRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\SmallRoom"/>
+				<AuxBus Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs"/>
+				<AuxBus Id="4063189299" Name="Corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Corridor"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="3748169348" Language="SFX" Hash="1450674069">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_PLYR</ObjectPath>
+			<ShortName>SB_PLYR</ShortName>
+			<Path>SB_PLYR.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2092626675" Name="Play_ACD_FireOrganic_Breath_Rage_01" ObjectPath="\Events\PLYR\PLYR_FS\Play_ACD_FireOrganic_Breath_Rage_01" DurationType="OneShot" DurationMin="14.965896" DurationMax="14.965896">
+					<IncludedMemoryFiles>
+						<File Id="537191668" Language="SFX">
+							<ShortName>ACD_FireOrganic_Breath&amp;Rage_01.wav</ShortName>
+							<Path>SFX\ACD_FireOrganic_Breath&amp;Rage_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="363322671" Name="Play_PLYR_FS_Rotate" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Rotate" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<DefaultSwitchValue>{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}</DefaultSwitchValue>
+					<SwitchContainers/>
+				</Event>
+				<Event Id="913920749" Name="Play_PLYR_FS_Run" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Run" DurationType="OneShot" DurationMin="0." DurationMax="0.81347">
+					<IncludedMemoryFiles>
+						<File Id="3420148" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Run_05.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Run_05_10C4C929.wem</Path>
+						</File>
+						<File Id="208366561" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Run_02.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Run_02_10C4C929.wem</Path>
+						</File>
+						<File Id="277923748" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Run_03.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Run_03_10C4C929.wem</Path>
+						</File>
+						<File Id="394251339" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Run_04.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Run_04_10C4C929.wem</Path>
+						</File>
+						<File Id="459480607" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Run_04.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Run_04_10C4C929.wem</Path>
+						</File>
+						<File Id="460705998" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Run_02.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Run_02_10C4C929.wem</Path>
+						</File>
+						<File Id="461385852" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Run_01.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Run_01_10C4C929.wem</Path>
+						</File>
+						<File Id="651114871" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Run_05.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Run_05_10C4C929.wem</Path>
+						</File>
+						<File Id="651762795" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Run_02.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Run_02_10C4C929.wem</Path>
+						</File>
+						<File Id="696611772" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Run_05.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Run_05_10C4C929.wem</Path>
+						</File>
+						<File Id="708748435" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Run_01.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Run_01_10C4C929.wem</Path>
+						</File>
+						<File Id="735496419" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Run_04.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Run_04_10C4C929.wem</Path>
+						</File>
+						<File Id="753650674" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Run_03.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Run_03_10C4C929.wem</Path>
+						</File>
+						<File Id="781937004" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Run_01.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Run_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1038944621" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Run_03.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Run_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8FA7927B-AD4F-4E63-9406-3F2C89B29275}">
+							<Media>
+								<File Id="461385852"/>
+								<File Id="651114871"/>
+								<File Id="651762795"/>
+								<File Id="735496419"/>
+								<File Id="1038944621"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9C632D9B-619E-4AC3-BF20-0745AAD5FBAA}">
+							<Media>
+								<File Id="461385852"/>
+								<File Id="651114871"/>
+								<File Id="651762795"/>
+								<File Id="735496419"/>
+								<File Id="1038944621"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B44064C8-DE4F-4C95-B78D-36D48557F3E0}">
+							<Media>
+								<File Id="394251339"/>
+								<File Id="460705998"/>
+								<File Id="696611772"/>
+								<File Id="708748435"/>
+								<File Id="753650674"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}">
+							<Media>
+								<File Id="3420148"/>
+								<File Id="208366561"/>
+								<File Id="277923748"/>
+								<File Id="459480607"/>
+								<File Id="781937004"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CBED6EF4-13BD-470F-8E25-34143630256D}">
+							<Media>
+								<File Id="394251339"/>
+								<File Id="460705998"/>
+								<File Id="696611772"/>
+								<File Id="708748435"/>
+								<File Id="753650674"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1884485130" Name="Play_PLYR_FS_Sneak" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Sneak" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<DefaultSwitchValue>{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}</DefaultSwitchValue>
+					<SwitchContainers/>
+				</Event>
+				<Event Id="965817426" Name="Play_PLYR_FS_Stop" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Stop" DurationType="OneShot" DurationMin="0." DurationMax="1.022333">
+					<IncludedMemoryFiles>
+						<File Id="41289258" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Stop_01.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Stop_01_10C4C929.wem</Path>
+						</File>
+						<File Id="300016291" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Stop_04.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Stop_04_10C4C929.wem</Path>
+						</File>
+						<File Id="345383289" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Stop_01.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Stop_01_10C4C929.wem</Path>
+						</File>
+						<File Id="472384301" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Stop_02.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Stop_02_10C4C929.wem</Path>
+						</File>
+						<File Id="534355044" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Stop_02.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Stop_02_10C4C929.wem</Path>
+						</File>
+						<File Id="653503990" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Stop_03.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Stop_03_10C4C929.wem</Path>
+						</File>
+						<File Id="745863359" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Stop_03.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Stop_03_10C4C929.wem</Path>
+						</File>
+						<File Id="858635656" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Stop_02.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Stop_02_10C4C929.wem</Path>
+						</File>
+						<File Id="977123911" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Stop_03.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Stop_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1029014956" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Stop_01.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Stop_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1059868682" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Stop_05.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Stop_05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8FA7927B-AD4F-4E63-9406-3F2C89B29275}">
+							<Media>
+								<File Id="345383289"/>
+								<File Id="472384301"/>
+								<File Id="745863359"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9C632D9B-619E-4AC3-BF20-0745AAD5FBAA}">
+							<Media>
+								<File Id="345383289"/>
+								<File Id="472384301"/>
+								<File Id="745863359"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B44064C8-DE4F-4C95-B78D-36D48557F3E0}">
+							<Media>
+								<File Id="653503990"/>
+								<File Id="858635656"/>
+								<File Id="1029014956"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}">
+							<Media>
+								<File Id="41289258"/>
+								<File Id="300016291"/>
+								<File Id="534355044"/>
+								<File Id="977123911"/>
+								<File Id="1059868682"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CBED6EF4-13BD-470F-8E25-34143630256D}">
+							<Media>
+								<File Id="653503990"/>
+								<File Id="858635656"/>
+								<File Id="1029014956"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2246640637" Name="Play_PLYR_FS_Walk" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Walk" DurationType="OneShot" DurationMin="0." DurationMax="0.74187">
+					<IncludedMemoryFiles>
+						<File Id="21458953" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Walk_04.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Walk_04_372DCD0D.wem</Path>
+						</File>
+						<File Id="144047649" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Walk_01.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Walk_01_10C4C929.wem</Path>
+						</File>
+						<File Id="206852334" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Walk_01.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Walk_01_372DCD0D.wem</Path>
+						</File>
+						<File Id="340435101" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Walk_02.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Walk_02_10C4C929.wem</Path>
+						</File>
+						<File Id="449716198" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Walk_05.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Walk_05_10C4C929.wem</Path>
+						</File>
+						<File Id="463420156" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Walk_03.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Walk_03_10C4C929.wem</Path>
+						</File>
+						<File Id="601625554" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Walk_05.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Walk_05_372DCD0D.wem</Path>
+						</File>
+						<File Id="621949173" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Walk_02.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Walk_02_10C4C929.wem</Path>
+						</File>
+						<File Id="675622091" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Walk_03.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Walk_03_10C4C929.wem</Path>
+						</File>
+						<File Id="697521044" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Walk_04.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Walk_04_10C4C929.wem</Path>
+						</File>
+						<File Id="786412894" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Walk_03.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Walk_03_372DCD0D.wem</Path>
+						</File>
+						<File Id="816516669" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Walk_05.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Walk_05_10C4C929.wem</Path>
+						</File>
+						<File Id="901189569" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Walk_01.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Walk_01_10C4C929.wem</Path>
+						</File>
+						<File Id="998682165" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Walk_02.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Walk_02_372DCD0D.wem</Path>
+						</File>
+						<File Id="1013897705" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Walk_04.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Walk_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8FA7927B-AD4F-4E63-9406-3F2C89B29275}">
+							<Media>
+								<File Id="463420156"/>
+								<File Id="621949173"/>
+								<File Id="697521044"/>
+								<File Id="816516669"/>
+								<File Id="901189569"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9C632D9B-619E-4AC3-BF20-0745AAD5FBAA}">
+							<Media>
+								<File Id="463420156"/>
+								<File Id="621949173"/>
+								<File Id="697521044"/>
+								<File Id="816516669"/>
+								<File Id="901189569"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B44064C8-DE4F-4C95-B78D-36D48557F3E0}">
+							<Media>
+								<File Id="144047649"/>
+								<File Id="340435101"/>
+								<File Id="449716198"/>
+								<File Id="675622091"/>
+								<File Id="1013897705"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}">
+							<Media>
+								<File Id="21458953"/>
+								<File Id="206852334"/>
+								<File Id="601625554"/>
+								<File Id="786412894"/>
+								<File Id="998682165"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CBED6EF4-13BD-470F-8E25-34143630256D}">
+							<Media>
+								<File Id="144047649"/>
+								<File Id="340435101"/>
+								<File Id="449716198"/>
+								<File Id="675622091"/>
+								<File Id="1013897705"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<IncludedAuxBusses>
+				<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
+				<AuxBus Id="617071738" Name="CorridorEnd" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\CorridorEnd"/>
+				<AuxBus Id="1245295233" Name="MediumRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\MediumRoom"/>
+				<AuxBus Id="2933838247" Name="SmallRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\SmallRoom"/>
+				<AuxBus Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs"/>
+				<AuxBus Id="4063189299" Name="Corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Corridor"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="2149904807" Name="RTPC_PLYR_WetFeet" ObjectPath="\Game Parameters\Default Work Unit\RTPC_PLYR_WetFeet"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3106369571" Name="Switch_PLYR_Material" ObjectPath="\Switches\PLYR\Switch_PLYR_Material" GUID="{A02CC695-7E44-4D86-BA47-4512761CEC6D}">
+					<Switches>
+						<Switch Id="2412606308" Name="Carpet" ObjectPath="\Switches\PLYR\Switch_PLYR_Material\Carpet" GUID="{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\PLYR\Switch_PLYR_Material\Wood" GUID="{CBED6EF4-13BD-470F-8E25-34143630256D}"/>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\PLYR\Switch_PLYR_Material\Stone" GUID="{9C632D9B-619E-4AC3-BF20-0745AAD5FBAA}"/>
+						<Switch Id="4044498913" Name="Stone_Stairs" ObjectPath="\Switches\PLYR\Switch_PLYR_Material\Stone_Stairs" GUID="{8FA7927B-AD4F-4E63-9406-3F2C89B29275}"/>
+						<Switch Id="1994379643" Name="Wood_Stairs" ObjectPath="\Switches\PLYR\Switch_PLYR_Material\Wood_Stairs" GUID="{B44064C8-DE4F-4C95-B78D-36D48557F3E0}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
