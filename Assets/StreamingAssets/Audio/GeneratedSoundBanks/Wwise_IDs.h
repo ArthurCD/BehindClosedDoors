@@ -13,7 +13,6 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_ACD_FIREORGANIC_BREATH_RAGE_01 = 2092626675U;
         static const AkUniqueID PLAY_PLYR_FS_ROTATE = 363322671U;
         static const AkUniqueID PLAY_PLYR_FS_RUN = 913920749U;
         static const AkUniqueID PLAY_PLYR_FS_SNEAK = 1884485130U;

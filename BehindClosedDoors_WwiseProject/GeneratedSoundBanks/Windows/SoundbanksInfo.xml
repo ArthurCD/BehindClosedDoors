@@ -32,19 +32,11 @@
 				<AuxBus Id="4063189299" Name="Corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Corridor"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3748169348" Language="SFX" Hash="1419024387">
+		<SoundBank Id="3748169348" Language="SFX" Hash="39063679">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PLYR</ObjectPath>
 			<ShortName>SB_PLYR</ShortName>
 			<Path>SB_PLYR.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2092626675" Name="Play_ACD_FireOrganic_Breath_Rage_01" ObjectPath="\Events\PLYR\PLYR_FS\Play_ACD_FireOrganic_Breath_Rage_01" DurationType="OneShot" DurationMin="14.965896" DurationMax="14.965896">
-					<IncludedMemoryFiles>
-						<File Id="537191668" Language="SFX">
-							<ShortName>ACD_FireOrganic_Breath&amp;Rage_01.wav</ShortName>
-							<Path>SFX\ACD_FireOrganic_Breath&amp;Rage_01_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="363322671" Name="Play_PLYR_FS_Rotate" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Rotate" DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<DefaultSwitchValue>{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}</DefaultSwitchValue>
 					<SwitchContainers/>

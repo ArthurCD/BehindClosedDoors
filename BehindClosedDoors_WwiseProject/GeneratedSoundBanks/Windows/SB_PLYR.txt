@@ -3,7 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	913920749	Play_PLYR_FS_Run			\PLYR\PLYR_FS\Play_PLYR_FS_Run	
 	965817426	Play_PLYR_FS_Stop			\PLYR\PLYR_FS\Play_PLYR_FS_Stop	
 	1884485130	Play_PLYR_FS_Sneak			\PLYR\PLYR_FS\Play_PLYR_FS_Sneak	
-	2092626675	Play_ACD_FireOrganic_Breath_Rage_01			\PLYR\PLYR_FS\Play_ACD_FireOrganic_Breath_Rage_01	
 	2246640637	Play_PLYR_FS_Walk			\PLYR\PLYR_FS\Play_PLYR_FS_Walk	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -58,7 +57,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	463420156	PLYR_FS_Stone_Walk_03	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Walk_03_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Walk\PLYR_FS_Walk_Material\Stone\PLYR_FS_Stone_Walk_03		45178
 	472384301	PLYR_FS_Stone_Stop_02	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Stop_02_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Stop\PLYR_FS_Stop_Material\Stone\PLYR_FS_Stone_Stop_02		33250
 	534355044	PLYR_FS_Carpet_Stop_02	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Carpet_Stop_02_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Stop\PLYR_FS_Stop_Material\Carpet\PLYR_FS_Carpet_Stop_02		58654
-	537191668	ACD_FireOrganic_Breath&Rage_01	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\ACD_FireOrganic_Breath&Rage_01_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\ACD_FireOrganic_Breath&Rage_01		2873516
 	601625554	PLYR_FS_Carpet_Walk_05	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Carpet_Walk_05_372DCD0D.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Walk\PLYR_FS_Walk_Material\Carpet\PLYR_FS_Carpet_Walk_05		69440
 	621949173	PLYR_FS_Stone_Walk_02	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Walk_02_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Walk\PLYR_FS_Walk_Material\Stone\PLYR_FS_Stone_Walk_02		46996
 	651114871	PLYR_FS_Stone_Run_05	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Run_05_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Run\PLYR_FS_Run_Material\Stone\PLYR_FS_Stone_Run_05		28610

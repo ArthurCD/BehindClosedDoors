@@ -1130,6 +1130,41 @@
 						<ActiveSource Name="PLYR_Breath_Idle_05" ID="{16B07782-9566-4513-B2BB-E2C14A1315F8}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="TEST_WIND" ID="{A4E17077-2AC9-4F00-B393-5F360A2FDD75}" ShortID="270054498">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="SoundSeed Air Wind" ID="{71EE01E5-00C3-4E58-9BCB-AF8A86AEE232}" ShortID="496502463" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+							<PropertyList>
+								<Property Name="AverageVelocity" Type="Real32" Value="-280"/>
+								<Property Name="Direction" Type="Real32" Value="8"/>
+								<Property Name="Variability" Type="Real32" Value="0.21"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<PluginData/>
+							<PluginInnerObjectList>
+								<List Name="Deflectors">
+									<PluginInnerObject Name="" ID="{A1B6C986-3544-4278-A131-F4562B8DDB4B}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="PanX" Type="Real64" Value="2.51346499102336"/>
+											<Property Name="PanY" Type="Real64" Value="24.6376811594203"/>
+										</PropertyList>
+									</PluginInnerObject>
+								</List>
+							</PluginInnerObjectList>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SoundSeed Air Wind" ID="{71EE01E5-00C3-4E58-9BCB-AF8A86AEE232}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
