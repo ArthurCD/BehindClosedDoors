@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{644B00B7-F694-49DC-9034-E6B9807C7898}" SchemaVersion="103" RootDocumentID="{4A34E3ED-BAAA-49C0-8995-1999F935A582}" ParentDocumentID="{4A34E3ED-BAAA-49C0-8995-1999F935A582}">
+	<Events>
+		<WorkUnit Name="PLYR_FS" ID="{644B00B7-F694-49DC-9034-E6B9807C7898}" OwnerID="{4A34E3ED-BAAA-49C0-8995-1999F935A582}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_PLYR_FS_Rotate" ID="{2F12B4F4-D5A8-4A2B-BF4E-110E13BF8C96}">
+					<ChildrenList>
+						<Action Name="" ID="{15A68C9C-E54A-48EC-85BB-48B03FB1F7BD}" ShortID="167653534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLYR_FS_Rotate" ID="{FC9FD834-B020-4ECA-92A5-599D835638C9}" WorkUnitID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PLYR_FS_Sneak" ID="{8D59E79A-1CA6-44F3-873C-C750DDB48EBF}">
+					<ChildrenList>
+						<Action Name="" ID="{BE63B4A9-B0CB-443B-8EAA-B0D87944C196}" ShortID="779707300">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLYR_FS_Sneak" ID="{9868889C-20D4-43EA-8DCF-3DDF1DCA9D6E}" WorkUnitID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PLYR_FS_Walk" ID="{8AA29EB6-0DC7-4809-8CEC-B47D0FB5CCE9}">
+					<ChildrenList>
+						<Action Name="" ID="{4139D4D0-0FF3-4A2E-8812-15A27F5C7967}" ShortID="301360239">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLYR_FS_Walk" ID="{BC9709E1-A14A-454F-A9C3-96EA7E297809}" WorkUnitID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PLYR_FS_Stop" ID="{A1201A58-DF75-4451-A0DF-E4506C1C59C9}">
+					<ChildrenList>
+						<Action Name="" ID="{D7685C1A-CF26-47C0-AEBB-FA3190167720}" ShortID="583029163">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLYR_FS_Stop" ID="{7A8CAA19-2B4B-4968-B288-77B393E09513}" WorkUnitID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PLYR_FS_Run" ID="{404E7BC0-4AFF-4ED5-99E8-8AAEC6DA51C2}">
+					<ChildrenList>
+						<Action Name="" ID="{11B11E49-6AD6-4763-8D3C-E90E655DF289}" ShortID="828228635">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLYR_FS_Run" ID="{24514D5A-73F5-4461-B39C-14D36E523261}" WorkUnitID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ACD_FireOrganic_Breath_Rage_01" ID="{E1EA4E34-6655-42A8-AC45-3343096C5066}">
+					<ChildrenList>
+						<Action Name="" ID="{D9256F39-1BA1-4216-A5A5-552B44453C26}" ShortID="723269177">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ACD_FireOrganic_Breath&amp;Rage_01" ID="{40E0856D-13E4-4B68-A0F7-912D8560E69F}" WorkUnitID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

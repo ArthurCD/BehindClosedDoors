@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CECE478C-3B73-4D9B-98AF-E92930752407}" SchemaVersion="103">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{CECE478C-3B73-4D9B-98AF-E92930752407}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CECE478C-3B73-4D9B-98AF-E92930752407}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_PLYR_WetFeet" ID="{7BB894F2-8502-4298-AC8C-0B7B5F40175C}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

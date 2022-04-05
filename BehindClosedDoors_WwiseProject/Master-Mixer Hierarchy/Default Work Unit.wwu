@@ -9,6 +9,64 @@
 							<ObjectRef Name="System" ID="{BF6FE5EC-2AD6-4CEF-A891-E2F102F9B7C4}" WorkUnitID="{E6A649B0-DB37-4F35-A4F3-9ABA05C5D09B}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="PlayerMaster" ID="{51C513F2-C40D-4E61-9079-B88D9075FB79}">
+							<ChildrenList>
+								<Bus Name="PlayerMovement" ID="{C27825E2-EBFF-4942-8151-D6107BFD5D74}">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="PlayerFootsteps" ID="{BAE2F335-3332-4218-B774-1AAFE768A236}">
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="PlayerCloths" ID="{18C20859-4738-428F-B8FB-E41179677ECB}">
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}">
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="PlayerHolding" ID="{ED544CAE-FA85-4972-B16B-452AEC63DB09}">
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="AmbientMaster" ID="{D80EB9BA-D70A-4443-A56B-1FB8BE1CD978}">
+							<ChildrenList>
+								<Bus Name="Abient" ID="{089E6D21-1630-4220-9586-0EA90D99FAA7}">
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="NPCMaster" ID="{671B009B-BE18-4352-9F39-214C9B45A837}">
+							<ObjectLists/>
+						</Bus>
+						<AuxBus Name="Reverbs" ID="{A0E2AF19-6BD6-431E-BE9D-999EDA2C4A36}">
+							<ChildrenList>
+								<AuxBus Name="LargeRoom" ID="{BAFC6803-077F-4B56-9BE4-2CEB442E9D1E}">
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Corridor" ID="{326D569B-0B0F-4ABA-B24F-91113E8E8BB0}">
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="CorridorEnd" ID="{C6DADAC9-DA9F-4668-AE89-4AFF4460E880}">
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="MediumRoom" ID="{C4BADF46-C7E3-4736-B4D9-9580E883739E}">
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="SmallRoom" ID="{7B013A06-FAB4-4B7F-A578-2A1A5523965A}">
+									<ObjectLists/>
+								</AuxBus>
+							</ChildrenList>
+							<ObjectLists/>
+						</AuxBus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>

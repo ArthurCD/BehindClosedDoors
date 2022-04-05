@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4A34E3ED-BAAA-49C0-8995-1999F935A582}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="PLYR" ID="{4A34E3ED-BAAA-49C0-8995-1999F935A582}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="PLYR_FS" ID="{644B00B7-F694-49DC-9034-E6B9807C7898}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

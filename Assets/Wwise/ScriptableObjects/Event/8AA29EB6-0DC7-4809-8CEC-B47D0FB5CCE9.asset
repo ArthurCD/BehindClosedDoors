@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 731799fd3b236854cadb4449cd7959bd, type: 3}
+  m_Name: 8AA29EB6-0DC7-4809-8CEC-B47D0FB5CCE9
+  m_EditorClassIdentifier: 
+  objectName: Play_PLYR_FS_Walk
+  id: 2246640637
+  guid: 8AA29EB6-0DC7-4809-8CEC-B47D0FB5CCE9
