@@ -313,10 +313,6 @@
 				</ActorMixer>
 				<ActorMixer Name="PLYR_Movement" ID="{0FDB1E91-F053-4414-B2B2-495ACCEB2850}" ShortID="1017327688">
 					<PropertyList>
-<<<<<<< Updated upstream
-=======
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
->>>>>>> Stashed changes
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>12</Value>

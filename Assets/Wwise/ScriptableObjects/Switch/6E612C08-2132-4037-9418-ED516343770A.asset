@@ -15,8 +15,4 @@ MonoBehaviour:
   objectName: Run
   id: 712161704
   guid: 6E612C08-2132-4037-9418-ED516343770A
-<<<<<<< Updated upstream
-  WwiseSwitchGroupReference: {fileID: 11400000, guid: e1de89fe7c09c3d4ea07781f3d535fee, type: 2}
-=======
-  WwiseSwitchGroupReference: {fileID: 11400000, guid: 8f415dc1298d17740955f81adf1cfc75, type: 2}
->>>>>>> Stashed changes
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 828342afe8158f14787f58d824abf244, type: 2}

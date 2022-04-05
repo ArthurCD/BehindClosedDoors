@@ -15,8 +15,4 @@ MonoBehaviour:
   objectName: Stone
   id: 1216965916
   guid: 9C632D9B-619E-4AC3-BF20-0745AAD5FBAA
-<<<<<<< Updated upstream
-  WwiseSwitchGroupReference: {fileID: 11400000, guid: 5dd9d84df95fc294bb017e3b691bc092, type: 2}
-=======
-  WwiseSwitchGroupReference: {fileID: 11400000, guid: 732414e1483231d4892a9ab2d0f870a1, type: 2}
->>>>>>> Stashed changes
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: d66237181af01cb44b623133189b8b83, type: 2}
