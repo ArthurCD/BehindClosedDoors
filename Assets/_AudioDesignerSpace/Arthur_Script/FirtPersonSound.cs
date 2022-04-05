@@ -49,8 +49,9 @@ public class FirtPersonSound : MonoBehaviour
     public float FootstepSpeedRun = 0.5f;
 
 
-
     [SerializeField] private bool m_IsRunning;
+    private bool m_IsPostedBreathRun;
+    private bool m_IsPostedBreathStop;
     [SerializeField] private float m_WalkSpeed;
     [SerializeField] private float m_RunSpeed;
     [SerializeField] private float m_StepInterval;
@@ -63,6 +64,16 @@ public class FirtPersonSound : MonoBehaviour
     public AK.Wwise.Event FS_Rotate;
     // public AK.Wwise.Event footstepSound_Jump;           // the sound played when character leaves the ground.
     // public AK.Wwise.Event footstepSound_Land;           // the sound played when character touches back on ground.
+
+
+    public AK.Wwise.Event PLYR_Breath_Idle;
+    public AK.Wwise.Event PLYR_Breath_Run;
+    public AK.Wwise.Event PLYR_Breath_Stop;
+
+
+
+
+
     public AK.Wwise.Switch Switch_PLYR_Movement_Walk;
     public AK.Wwise.Switch Switch_PLYR_Movement_Run;
 
@@ -90,6 +101,7 @@ public class FirtPersonSound : MonoBehaviour
     private void Start()
     {
         //FS_Run.Post(gameObject);
+        PLYR_Breath_Idle.Post(gameObject);
     }
 
 
@@ -104,14 +116,22 @@ public class FirtPersonSound : MonoBehaviour
         if (rb.velocity.magnitude < .1f)
         {
             m_IsRunning = false;
-
+            if (m_IsPostedBreathRun == true)
+            {
+                PLYR_Breath_Stop.Post(gameObject);
+                m_IsPostedBreathRun = false;
+            }
         }
         else
         {
             //RUN
             if (Input.GetKey(KeyCode.LeftShift))
-
             {
+                if (m_IsPostedBreathRun==false)
+                {
+                    m_IsPostedBreathRun = true;
+                    PLYR_Breath_Run.Post(gameObject);
+                }
                 m_IsRunning = true;
                 FootstepSpeed = FootstepSpeedRun;
             }
@@ -119,8 +139,14 @@ public class FirtPersonSound : MonoBehaviour
             //WALK
             else
             {
+                if (m_IsPostedBreathRun == true)
+                {
+                    PLYR_Breath_Stop.Post(gameObject);
+                    m_IsPostedBreathRun = false;
+                }
                 m_IsRunning = false;
                 FootstepSpeed = FootstepSpeedWalk;
+               
             }
 
             //Debug.Log(FootstepSpeedWalk);

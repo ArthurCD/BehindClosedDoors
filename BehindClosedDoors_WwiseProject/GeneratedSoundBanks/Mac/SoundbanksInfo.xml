@@ -19,7 +19,7 @@
 				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="769882980">
+		<SoundBank Id="1355168291" Language="SFX" Hash="4044585971">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -32,11 +32,182 @@
 				<AuxBus Id="4063189299" Name="Corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Corridor"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3748169348" Language="SFX" Hash="39063679">
+		<SoundBank Id="3748169348" Language="SFX" Hash="3733757443">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PLYR</ObjectPath>
 			<ShortName>SB_PLYR</ShortName>
 			<Path>SB_PLYR.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1874744501" Name="Play_PLYR_Breath_Idle" ObjectPath="\Events\PLYR\PLYR_Breath\Play_PLYR_Breath_Idle" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="36064865" Language="SFX">
+							<ShortName>PLYR_Breath_Idle_07.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Idle_07_10C4C929.wem</Path>
+						</File>
+						<File Id="48952422" Language="SFX">
+							<ShortName>PLYR_Breath_Idle_02.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Idle_02_10C4C929.wem</Path>
+						</File>
+						<File Id="91173053" Language="SFX">
+							<ShortName>PLYR_Breath_Idle_03.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Idle_03_10C4C929.wem</Path>
+						</File>
+						<File Id="232280034" Language="SFX">
+							<ShortName>PLYR_Breath_Idle_04.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Idle_04_10C4C929.wem</Path>
+						</File>
+						<File Id="374918903" Language="SFX">
+							<ShortName>PLYR_Breath_Idle_08.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Idle_08_10C4C929.wem</Path>
+						</File>
+						<File Id="375617061" Language="SFX">
+							<ShortName>PLYR_Breath_Idle_01.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Idle_01_10C4C929.wem</Path>
+						</File>
+						<File Id="550925798" Language="SFX">
+							<ShortName>PLYR_Breath_Idle_05.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Idle_05_10C4C929.wem</Path>
+						</File>
+						<File Id="832832787" Language="SFX">
+							<ShortName>PLYR_Breath_Idle_06.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Idle_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="9500703" Name="Play_PLYR_Breath_Oneoff_Stop" ObjectPath="\Events\PLYR\PLYR_Breath\Play_PLYR_Breath_Oneoff_Stop" DurationType="OneShot" DurationMin="2.418396" DurationMax="5.229823">
+					<IncludedMemoryFiles>
+						<File Id="129455262" Language="SFX">
+							<ShortName>PLYR_Breath_Oneoff_Stop_05.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Oneoff_Stop_05_10C4C929.wem</Path>
+						</File>
+						<File Id="178219868" Language="SFX">
+							<ShortName>PLYR_Breath_Oneoff_Stop_07.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Oneoff_Stop_07_10C4C929.wem</Path>
+						</File>
+						<File Id="198953322" Language="SFX">
+							<ShortName>PLYR_Breath_Oneoff_Stop_03.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Oneoff_Stop_03_10C4C929.wem</Path>
+						</File>
+						<File Id="323480168" Language="SFX">
+							<ShortName>PLYR_Breath_Oneoff_Stop_02.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Oneoff_Stop_02_10C4C929.wem</Path>
+						</File>
+						<File Id="345126499" Language="SFX">
+							<ShortName>PLYR_Breath_Oneoff_Stop_Fear_10.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Oneoff_Stop_Fear_10_10C4C929.wem</Path>
+						</File>
+						<File Id="487552850" Language="SFX">
+							<ShortName>PLYR_Breath_Oneoff_Stop_Fear_09.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Oneoff_Stop_Fear_09_10C4C929.wem</Path>
+						</File>
+						<File Id="614077428" Language="SFX">
+							<ShortName>PLYR_Breath_Oneoff_Stop_01.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Oneoff_Stop_01_10C4C929.wem</Path>
+						</File>
+						<File Id="889604810" Language="SFX">
+							<ShortName>PLYR_Breath_Oneoff_Stop_Fear_08.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Oneoff_Stop_Fear_08_10C4C929.wem</Path>
+						</File>
+						<File Id="921036703" Language="SFX">
+							<ShortName>PLYR_Breath_Oneoff_Stop_04.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Oneoff_Stop_04_10C4C929.wem</Path>
+						</File>
+						<File Id="954682014" Language="SFX">
+							<ShortName>PLYR_Breath_Oneoff_Stop_06.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Oneoff_Stop_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1874744501" Name="Play_PLYR_Breath_Idle" ObjectPath="\Events\PLYR\PLYR_Breath\Play_PLYR_Breath_Idle"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3866605154" Name="Play_PLYR_Breath_Run" ObjectPath="\Events\PLYR\PLYR_Breath\Play_PLYR_Breath_Run" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="92669397" Language="SFX">
+							<ShortName>PLYR_Breath_Run_01.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_01_10C4C929.wem</Path>
+						</File>
+						<File Id="141158885" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_11.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_11_10C4C929.wem</Path>
+						</File>
+						<File Id="165750038" Language="SFX">
+							<ShortName>PLYR_Breath_Run_05.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_05_10C4C929.wem</Path>
+						</File>
+						<File Id="215940025" Language="SFX">
+							<ShortName>PLYR_Breath_Run_03.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_03_10C4C929.wem</Path>
+						</File>
+						<File Id="236008944" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_Extreme_19.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_Extreme_19_10C4C929.wem</Path>
+						</File>
+						<File Id="274334517" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_Extreme_18.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_Extreme_18_10C4C929.wem</Path>
+						</File>
+						<File Id="275148262" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_09.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_09_10C4C929.wem</Path>
+						</File>
+						<File Id="313682024" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_08.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_08_10C4C929.wem</Path>
+						</File>
+						<File Id="500630788" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_12.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_12_10C4C929.wem</Path>
+						</File>
+						<File Id="502563069" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_Extreme_16.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_Extreme_16_10C4C929.wem</Path>
+						</File>
+						<File Id="541391618" Language="SFX">
+							<ShortName>PLYR_Breath_Run_04.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_04_10C4C929.wem</Path>
+						</File>
+						<File Id="629281556" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_Extreme_21.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_Extreme_21_10C4C929.wem</Path>
+						</File>
+						<File Id="652351590" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_Extreme_17.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_Extreme_17_10C4C929.wem</Path>
+						</File>
+						<File Id="684425409" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_Extreme_15.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_Extreme_15_10C4C929.wem</Path>
+						</File>
+						<File Id="735505700" Language="SFX">
+							<ShortName>PLYR_Breath_Run_02.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_02_10C4C929.wem</Path>
+						</File>
+						<File Id="770241698" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_06.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_06_10C4C929.wem</Path>
+						</File>
+						<File Id="841562488" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_07.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_07_10C4C929.wem</Path>
+						</File>
+						<File Id="844525585" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_14.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_14_10C4C929.wem</Path>
+						</File>
+						<File Id="873501584" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_Extreme_20.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_Extreme_20_10C4C929.wem</Path>
+						</File>
+						<File Id="941301198" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_10.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_10_10C4C929.wem</Path>
+						</File>
+						<File Id="1073685588" Language="SFX">
+							<ShortName>PLYR_Breath_Run_Exhaust_13.wav</ShortName>
+							<Path>SFX\PLYR_Breath_Run_Exhaust_13_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="363322671" Name="Play_PLYR_FS_Rotate" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Rotate" DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<DefaultSwitchValue>{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}</DefaultSwitchValue>
 					<SwitchContainers/>
@@ -367,7 +538,9 @@
 				<AuxBus Id="4063189299" Name="Corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Corridor"/>
 			</IncludedAuxBusses>
 			<GameParameters>
+				<GameParameter Id="1288385545" Name="RTPC_PLYR_Exhaust" ObjectPath="\Game Parameters\PLYR\RTPC_PLYR_Exhaust"/>
 				<GameParameter Id="2149904807" Name="RTPC_PLYR_WetFeet" ObjectPath="\Game Parameters\Default Work Unit\RTPC_PLYR_WetFeet"/>
+				<GameParameter Id="3723109863" Name="RTPC_PLYR_Fear" ObjectPath="\Game Parameters\PLYR\RTPC_PLYR_Fear"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3106369571" Name="Switch_PLYR_Material" ObjectPath="\Switches\PLYR\Switch_PLYR_Material" GUID="{A02CC695-7E44-4D86-BA47-4512761CEC6D}">

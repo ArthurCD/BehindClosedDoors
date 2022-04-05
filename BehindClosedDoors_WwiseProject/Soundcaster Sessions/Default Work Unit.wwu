@@ -3,7 +3,7 @@
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{D5C85610-E131-48A6-A4F0-C46FF548550B}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundcasterSession Name="New Soundcaster Session" ID="{75795ADA-98F1-44A0-8079-BC2BB752CBB8}">
+				<SoundcasterSession Name="FS" ID="{75795ADA-98F1-44A0-8079-BC2BB752CBB8}">
 					<ModuleList>
 						<Module>
 							<ObjectRef Name="Play_PLYR_FS_Sneak" ID="{8D59E79A-1CA6-44F3-873C-C750DDB48EBF}" WorkUnitID="{644B00B7-F694-49DC-9034-E6B9807C7898}"/>
@@ -30,6 +30,49 @@
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_PLYR_WetFeet" ID="{7BB894F2-8502-4298-AC8C-0B7B5F40175C}"/>
 							<Value>44.0654843110505</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_PLYR_Exhaust" ID="{4969E5D6-A894-4562-91BD-1DC1DB1EF212}"/>
+							<Value>12.7340823970037</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_PLYR_Fear" ID="{3505892A-73FB-4A8B-A7DA-5C14D45DC3CC}"/>
+							<Value>15.0749063670412</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Idle" ID="{8934EDA8-4160-4C17-B679-1F071933ED4F}"/>
+						<CurrentSwitchRef Name="Carpet" ID="{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Breath" ID="{8C3E3081-1A68-4921-A78B-DD4DFA67C768}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_PLYR_Breath_Idle" ID="{3EA84646-3604-4DAE-B4B4-1BE5C33935B8}" WorkUnitID="{467C1FB4-CAD1-4563-9B8F-1B529FEF4CF0}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PLYR_Breath_Oneoff_Stop" ID="{5DD6F3B0-CCAC-490A-BE72-DF67BE1E714B}" WorkUnitID="{467C1FB4-CAD1-4563-9B8F-1B529FEF4CF0}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PLYR_Breath_Run" ID="{0BB0BD5A-03C2-4622-BFD3-E676BB32DB3B}" WorkUnitID="{467C1FB4-CAD1-4563-9B8F-1B529FEF4CF0}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_PLYR_WetFeet" ID="{7BB894F2-8502-4298-AC8C-0B7B5F40175C}"/>
+							<Value>44.0654843110505</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_PLYR_Exhaust" ID="{4969E5D6-A894-4562-91BD-1DC1DB1EF212}"/>
+							<Value>12.7340823970037</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_PLYR_Fear" ID="{3505892A-73FB-4A8B-A7DA-5C14D45DC3CC}"/>
+							<Value>15.0749063670412</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

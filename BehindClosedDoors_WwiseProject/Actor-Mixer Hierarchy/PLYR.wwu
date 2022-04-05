@@ -4,6 +4,13 @@
 		<WorkUnit Name="PLYR" ID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="PLYR_Breath" ID="{9E28C1CC-1283-4232-A8EC-710F01F8C9A5}" ShortID="658434762">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
@@ -13,48 +20,50 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<SwitchContainer Name="PLYR_Breath" ID="{7ABADC68-4541-4906-995A-F74A72C7A152}" ShortID="933052792">
+						<RandomSequenceContainer Name="PLYR_Breath_Oneoff_Move" ID="{67F41357-3414-45D9-BB3B-A5E9B8D497B5}" ShortID="718471382">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+									<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="PLYR_Breath_Idle" ID="{CFB5D440-4B28-4DAD-B5F0-70C8D40E384B}" ShortID="865254853">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C2C3BBEF-26B1-482A-80E0-9C40479A17ED}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="PLYR_Breath_Oneoff_Stop" ID="{D6F4B670-FBDC-44F6-B45D-09139824705B}" ShortID="762784424">
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-										</Reference>
-									</ReferenceList>
-									<ObjectLists/>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="PLYR_Breath_Oneoff_Move" ID="{67F41357-3414-45D9-BB3B-A5E9B8D497B5}" ShortID="718471382">
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-										</Reference>
-									</ReferenceList>
-									<ObjectLists/>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="PLYR_Breath_Idle" ID="{CFB5D440-4B28-4DAD-B5F0-70C8D40E384B}" ShortID="865254853">
-									<PropertyList>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-									</PropertyList>
+								<Sound Name="PLYR_Breath_Idle_06" ID="{EF783A75-22BF-44D3-90C3-18CE3598CD75}" ShortID="360181102">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
@@ -64,200 +73,513 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="PLYR_Breath_Idle_06" ID="{526E3A5E-278D-4A2E-906C-C1DCB40F53EE}" ShortID="522899804">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PLYR_Breath_Idle_06" ID="{9B8C6E50-DBAE-4733-A3AB-2710E888186B}">
-													<Language>SFX</Language>
-													<AudioFile>PLYR_Breath_Idle_06.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="832832787"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="PLYR_Breath_Idle_06" ID="{9B8C6E50-DBAE-4733-A3AB-2710E888186B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PLYR_Breath_Idle_08" ID="{46879A89-1BFC-4A7A-A1AE-7205136002B4}" ShortID="570613697">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PLYR_Breath_Idle_08" ID="{C649682D-043C-4B4B-910D-956F56912A2F}">
-													<Language>SFX</Language>
-													<AudioFile>PLYR_Breath_Idle_08.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="374918903"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="PLYR_Breath_Idle_08" ID="{C649682D-043C-4B4B-910D-956F56912A2F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PLYR_Breath_Idle_04" ID="{A33121AF-AACB-4D5F-B576-522CC9113BD8}" ShortID="423053297">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PLYR_Breath_Idle_04" ID="{3E42ADF3-7C14-4279-8EEB-A4E30499A1F8}">
-													<Language>SFX</Language>
-													<AudioFile>PLYR_Breath_Idle_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="232280034"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="PLYR_Breath_Idle_04" ID="{3E42ADF3-7C14-4279-8EEB-A4E30499A1F8}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PLYR_Breath_Idle_02" ID="{ECCED419-88D9-4DCE-8C60-9FB9AA022712}" ShortID="81866665">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PLYR_Breath_Idle_02" ID="{A0CD6194-3D7C-4DE5-AA13-C04252C903D8}">
-													<Language>SFX</Language>
-													<AudioFile>PLYR_Breath_Idle_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="48952422"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="PLYR_Breath_Idle_02" ID="{A0CD6194-3D7C-4DE5-AA13-C04252C903D8}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PLYR_Breath_Idle_07" ID="{3DED71A7-BCA9-4745-AB8D-0F186C143DD0}" ShortID="1021007617">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PLYR_Breath_Idle_07" ID="{CD8612CA-F017-4947-8E44-6E7770E23A00}">
-													<Language>SFX</Language>
-													<AudioFile>PLYR_Breath_Idle_07.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="36064865"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="PLYR_Breath_Idle_07" ID="{CD8612CA-F017-4947-8E44-6E7770E23A00}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PLYR_Breath_Idle_03" ID="{54DD0E40-B5F8-44D1-9FD2-156F3640F80E}" ShortID="607403643">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PLYR_Breath_Idle_03" ID="{920B4FE9-B3AE-4226-8797-07BAD6B1A5CF}">
-													<Language>SFX</Language>
-													<AudioFile>PLYR_Breath_Idle_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="91173053"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="PLYR_Breath_Idle_03" ID="{920B4FE9-B3AE-4226-8797-07BAD6B1A5CF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PLYR_Breath_Idle_01" ID="{A642E767-7398-4065-B6C4-85F2464CC58D}" ShortID="283490293">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PLYR_Breath_Idle_01" ID="{E563018C-2276-47CA-945D-B28844C7DF11}">
-													<Language>SFX</Language>
-													<AudioFile>PLYR_Breath_Idle_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="375617061"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="PLYR_Breath_Idle_01" ID="{E563018C-2276-47CA-945D-B28844C7DF11}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="PLYR_Breath_Idle_05" ID="{E368209D-9092-4EE8-9ACF-961727202E52}" ShortID="701339078">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="PLYR_Breath_Idle_05" ID="{2C3E3130-89CD-425A-BE38-144D9F1939E0}">
-													<Language>SFX</Language>
-													<AudioFile>PLYR_Breath_Idle_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="550925798"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="PLYR_Breath_Idle_05" ID="{2C3E3130-89CD-425A-BE38-144D9F1939E0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										<AudioFileSource Name="PLYR_Breath_Idle_06" ID="{54778481-2C3D-4204-BBFF-FC0CB1F40178}">
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Idle_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="832832787"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
-								</RandomSequenceContainer>
-								<BlendContainer Name="PLYR_Breath_Run" ID="{1BEBB91E-26C5-4C99-90C2-45974A73608B}" ShortID="885078538">
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Idle_06" ID="{54778481-2C3D-4204-BBFF-FC0CB1F40178}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Idle_04" ID="{6810C3F3-13F2-4051-A8CC-581AEC2DD85B}" ShortID="925488316">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Idle_04" ID="{7D785435-B3D7-4FDF-881A-769795ADF739}">
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Idle_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="232280034"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Idle_04" ID="{7D785435-B3D7-4FDF-881A-769795ADF739}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Idle_03" ID="{76AFD59C-1B9E-419E-803F-D5E05C48029C}" ShortID="262910510">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Idle_03" ID="{3ED6B110-1ADB-4A39-A067-3DB90F04D868}">
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Idle_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="91173053"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Idle_03" ID="{3ED6B110-1ADB-4A39-A067-3DB90F04D868}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Idle_05" ID="{B216511B-6330-4CDB-8FE9-650876DC55B9}" ShortID="993138178">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Idle_05" ID="{85C6CC5D-8579-4493-B017-59FD7B5211B7}">
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Idle_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="550925798"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Idle_05" ID="{85C6CC5D-8579-4493-B017-59FD7B5211B7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Idle_08" ID="{1A1FF117-92C8-4012-A4EC-AF5BB17B64DB}" ShortID="964417285">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Idle_08" ID="{CA88249A-E2B8-4682-836F-5797A6F7370D}">
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Idle_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="374918903"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Idle_08" ID="{CA88249A-E2B8-4682-836F-5797A6F7370D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Idle_02" ID="{C10EBBF7-0E51-4F6B-99CD-401B34433A93}" ShortID="275175871">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Idle_02" ID="{853E581B-2732-4D5A-926B-81CDF45528BC}">
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Idle_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="48952422"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Idle_02" ID="{853E581B-2732-4D5A-926B-81CDF45528BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Idle_07" ID="{E31192DB-2783-41A4-A98D-8CABE0521AD4}" ShortID="554216953">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Idle_07" ID="{A5394DE8-C3E1-4DE3-AE36-DDE834353D4F}">
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Idle_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="36064865"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Idle_07" ID="{A5394DE8-C3E1-4DE3-AE36-DDE834353D4F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Idle_01" ID="{EC9C73B8-A2BD-4BA4-8CAE-2801F6387CD9}" ShortID="578131184">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Idle_01" ID="{41F16997-9DAA-4257-B153-48CD650A4DC6}">
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Idle_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="375617061"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Idle_01" ID="{41F16997-9DAA-4257-B153-48CD650A4DC6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<BlendContainer Name="PLYR_Breath_Oneoff_Stop" ID="{ACF21057-BCA7-45BD-9BB3-6013A5BAB535}" ShortID="636120743">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="PLYR_Breath_Oneoff_Stop" ID="{39059C71-D0E3-4C6E-835E-CCB7F2CE0383}" ShortID="136623319">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="PLYR_Breath_Oneoff_Stop_05" ID="{C3281AA8-2E72-4FAE-9CAF-194D9A7E19F2}" ShortID="739275898">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLYR_Breath_Oneoff_Stop_05" ID="{B2513A0D-9A95-4495-93B3-499BE1A18210}">
+													<Language>SFX</Language>
+													<AudioFile>PLYR_Breath_Oneoff_Stop_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="129455262"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="PLYR_Breath_Oneoff_Stop_05" ID="{B2513A0D-9A95-4495-93B3-499BE1A18210}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLYR_Breath_Oneoff_Stop_04" ID="{25E41E22-69B0-4DB7-B069-2822EF2DF1C6}" ShortID="682284756">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLYR_Breath_Oneoff_Stop_04" ID="{EC9A36E8-4D22-4677-B07A-051F7DC96524}">
+													<Language>SFX</Language>
+													<AudioFile>PLYR_Breath_Oneoff_Stop_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="921036703"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="PLYR_Breath_Oneoff_Stop_04" ID="{EC9A36E8-4D22-4677-B07A-051F7DC96524}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLYR_Breath_Oneoff_Stop_03" ID="{35B025E1-73B8-4D37-B66D-2D81A25C05A2}" ShortID="666159466">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLYR_Breath_Oneoff_Stop_03" ID="{64314114-2DF4-4806-888B-F550C0B2B5CF}">
+													<Language>SFX</Language>
+													<AudioFile>PLYR_Breath_Oneoff_Stop_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="198953322"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="PLYR_Breath_Oneoff_Stop_03" ID="{64314114-2DF4-4806-888B-F550C0B2B5CF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLYR_Breath_Oneoff_Stop_06" ID="{7E3EC03E-EC7D-44B2-95ED-9B9B46665D07}" ShortID="365991228">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLYR_Breath_Oneoff_Stop_06" ID="{A3175678-F0B7-4606-95C7-C796AE4FEC39}">
+													<Language>SFX</Language>
+													<AudioFile>PLYR_Breath_Oneoff_Stop_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="954682014"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="PLYR_Breath_Oneoff_Stop_06" ID="{A3175678-F0B7-4606-95C7-C796AE4FEC39}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLYR_Breath_Oneoff_Stop_01" ID="{5B469D49-51C3-4442-B400-CD0DEF814086}" ShortID="439374303">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLYR_Breath_Oneoff_Stop_01" ID="{75C2A9A4-7A3D-4A35-AD06-CA8B6BD443D1}">
+													<Language>SFX</Language>
+													<AudioFile>PLYR_Breath_Oneoff_Stop_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="614077428"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="PLYR_Breath_Oneoff_Stop_01" ID="{75C2A9A4-7A3D-4A35-AD06-CA8B6BD443D1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLYR_Breath_Oneoff_Stop_02" ID="{7DBE5100-7CF5-4259-AD58-E87D8738780E}" ShortID="841054267">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLYR_Breath_Oneoff_Stop_02" ID="{B8B8FF0F-5E17-44D2-B383-F72A7CD62A3A}">
+													<Language>SFX</Language>
+													<AudioFile>PLYR_Breath_Oneoff_Stop_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="323480168"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="PLYR_Breath_Oneoff_Stop_02" ID="{B8B8FF0F-5E17-44D2-B383-F72A7CD62A3A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLYR_Breath_Oneoff_Stop_07" ID="{A9F6DF3B-B0B4-4DBF-876F-9EC980E38F48}" ShortID="871279577">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLYR_Breath_Oneoff_Stop_07" ID="{7887B75F-DCFC-4D9E-ACE6-8E9A9476F792}">
+													<Language>SFX</Language>
+													<AudioFile>PLYR_Breath_Oneoff_Stop_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="178219868"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="PLYR_Breath_Oneoff_Stop_07" ID="{7887B75F-DCFC-4D9E-ACE6-8E9A9476F792}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="PLYR_Breath_Oneoff_Stop_Fear" ID="{EAC206E4-A4D2-4A18-B55F-4AC3F08F7A1D}" ShortID="261185739">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="PLYR_Breath_Oneoff_Stop_Fear_09" ID="{F9F3F516-4811-4336-B65B-D376534ADD78}" ShortID="683107216">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLYR_Breath_Oneoff_Stop_Fear_09" ID="{271C6E52-36CB-437D-BD96-290370A23384}">
+													<Language>SFX</Language>
+													<AudioFile>PLYR_Breath_Oneoff_Stop_Fear_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="487552850"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="PLYR_Breath_Oneoff_Stop_Fear_09" ID="{271C6E52-36CB-437D-BD96-290370A23384}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLYR_Breath_Oneoff_Stop_Fear_08" ID="{E62CB46A-B9D8-4EA9-B784-A2C87745670E}" ShortID="980705234">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLYR_Breath_Oneoff_Stop_Fear_08" ID="{9393BB88-2F04-479A-989B-60F64C007AFC}">
+													<Language>SFX</Language>
+													<AudioFile>PLYR_Breath_Oneoff_Stop_Fear_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="889604810"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="PLYR_Breath_Oneoff_Stop_Fear_08" ID="{9393BB88-2F04-479A-989B-60F64C007AFC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PLYR_Breath_Oneoff_Stop_Fear_10" ID="{23CC92FF-DE32-4B3F-9425-C503D09F1066}" ShortID="803021756">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PLYR_Breath_Oneoff_Stop_Fear_10" ID="{F47968EB-2748-48FB-A6C7-4E1BF87FB824}">
+													<Language>SFX</Language>
+													<AudioFile>PLYR_Breath_Oneoff_Stop_Fear_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="345126499"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="PLYR_Breath_Oneoff_Stop_Fear_10" ID="{F47968EB-2748-48FB-A6C7-4E1BF87FB824}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<BlendTrackList>
+								<BlendTrack Name="RTPC_PLYR_Fear" ID="{A7848449-A36D-4364-935C-10549885B034}" ShortID="943761693">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="RTPC_PLYR_Fear" ID="{3505892A-73FB-4A8B-A7DA-5C14D45DC3CC}" WorkUnitID="{D9CF4E69-953A-4F0D-8BC0-4F7A4FD526F7}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="PLYR_Breath_Oneoff_Stop" ID="{39059C71-D0E3-4C6E-835E-CCB7F2CE0383}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>60.0189765917603</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="PLYR_Breath_Oneoff_Stop_Fear" ID="{EAC206E4-A4D2-4A18-B55F-4AC3F08F7A1D}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>39.7378277153558</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<RandomSequenceContainer Name="PLYR_Breath_Run" ID="{7B634352-B1EA-48B6-A367-74533DF4D2F0}" ShortID="323218719">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="PLYR_Breath_Run" ID="{1BEBB91E-26C5-4C99-90C2-45974A73608B}" ShortID="885078538">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -286,28 +608,575 @@
 											</ReferenceList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="PLYR_Breath_Run" ID="{4614CA87-B813-4F73-8DD5-9C0109F618BF}" ShortID="1037405881">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PLYR_Breath_Run_01" ID="{E8E9D172-EA20-4F5E-A5C4-A5DABFA3431C}" ShortID="701680016">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_01" ID="{CD1F4110-5733-4ADD-9E2A-DB9BE93B105E}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="92669397"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_01" ID="{CD1F4110-5733-4ADD-9E2A-DB9BE93B105E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_02" ID="{604DA8B8-3447-45B6-95C2-130DA37A9660}" ShortID="674573234">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_02" ID="{E777811B-6DE9-4299-A4F6-F67CC7ECA6DA}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="735505700"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_02" ID="{E777811B-6DE9-4299-A4F6-F67CC7ECA6DA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_03" ID="{2BB7E804-7F15-4C9A-A0FA-3C0DC2EA8BF9}" ShortID="167104784">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_03" ID="{8A1EB3EF-321C-4B7C-AE6A-B1D874515F0B}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="215940025"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_03" ID="{8A1EB3EF-321C-4B7C-AE6A-B1D874515F0B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_05" ID="{5792EEA5-0AE3-4909-BAAE-7E5BADE83E4E}" ShortID="178303096">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_05" ID="{6A89F1CF-6643-458C-A599-E12DE4C00643}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="165750038"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_05" ID="{6A89F1CF-6643-458C-A599-E12DE4C00643}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_04" ID="{066FBFBB-78BF-40E3-A444-8E114EA3D5DB}" ShortID="541906637">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_04" ID="{141BA58B-856E-41B8-86C3-D607C512449E}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="541391618"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_04" ID="{141BA58B-856E-41B8-86C3-D607C512449E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="PLYR_Breath_Run_Exhaust" ID="{F6846E5E-EC09-40B4-BEAC-31AA9E6C0AF5}" ShortID="287618489">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PLYR_Breath_Run_Exhaust_09" ID="{9A198A86-F055-4F9F-8B5F-08E56D0B49A3}" ShortID="637663856">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_09" ID="{9935C276-B3CF-48B7-BD2A-32D775FE645A}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_09.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="275148262"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_09" ID="{9935C276-B3CF-48B7-BD2A-32D775FE645A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_07" ID="{28F7AE9B-BF56-43DC-AAF2-71BA4C659B3E}" ShortID="216018749">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_07" ID="{99EBF473-8AB3-4D86-9588-81676D554EE1}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="841562488"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_07" ID="{99EBF473-8AB3-4D86-9588-81676D554EE1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_06" ID="{B593495D-3BAF-4B05-AF4B-ECBA64D9B624}" ShortID="122017260">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_06" ID="{0B42CC65-B69A-43FB-91EE-0C767F421DAD}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="770241698"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_06" ID="{0B42CC65-B69A-43FB-91EE-0C767F421DAD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_12" ID="{8B1A1AA2-5AEC-4E80-AB17-FE00F9393C18}" ShortID="340758342">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_12" ID="{3F2CD411-2AEB-4959-9DD2-2D2880C83A00}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_12.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="500630788"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_12" ID="{3F2CD411-2AEB-4959-9DD2-2D2880C83A00}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_14" ID="{D058CDE6-B027-481F-8266-8725256502CD}" ShortID="154685446">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_14" ID="{4A55A350-A14F-41E0-B4FC-5D328D2A3434}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_14.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="844525585"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_14" ID="{4A55A350-A14F-41E0-B4FC-5D328D2A3434}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_11" ID="{B701C8F3-73B7-4DAE-BE9A-3BB0D197FF4E}" ShortID="80714369">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_11" ID="{65D2DBE4-1526-4E75-BA67-15CA1BD3A4A9}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_11.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="141158885"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_11" ID="{65D2DBE4-1526-4E75-BA67-15CA1BD3A4A9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_13" ID="{7EB41B8E-E310-419F-81F5-9EF552D3DB0F}" ShortID="357060847">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_13" ID="{256B35C3-1513-45CB-A988-8E687A89A44D}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_13.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1073685588"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_13" ID="{256B35C3-1513-45CB-A988-8E687A89A44D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_08" ID="{CA7B39F6-2D45-4F6C-AF63-91BE87DCEB9B}" ShortID="836680181">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_08" ID="{0B29FCF0-E2ED-4FF3-87D9-6126EFB0FABB}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="313682024"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_08" ID="{0B29FCF0-E2ED-4FF3-87D9-6126EFB0FABB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_10" ID="{C9C5F2BB-B76F-491D-8B45-EE23066924CC}" ShortID="659870094">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_10" ID="{0A2BBDB0-C683-481F-80D9-6CC12BF238A2}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="941301198"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_10" ID="{0A2BBDB0-C683-481F-80D9-6CC12BF238A2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="PLYR_Breath_Run_Exhaust_Extreme" ID="{EC511A08-A605-4B3F-9345-75140A076D90}" ShortID="345182623">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_15" ID="{87D6E2AE-B297-4090-84D2-52A5A5D4FD9E}" ShortID="565348198">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_15" ID="{7A3A06BD-65C0-4B22-9EF1-2BDCD69AE541}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_15.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="684425409"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_15" ID="{7A3A06BD-65C0-4B22-9EF1-2BDCD69AE541}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_21" ID="{F6743966-0225-4548-B9FA-A3CB662065FC}" ShortID="636375947">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_21" ID="{DCD1F1C0-8D36-4C9B-A837-599091D79DFF}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_21.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="629281556"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_21" ID="{DCD1F1C0-8D36-4C9B-A837-599091D79DFF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_19" ID="{2F6BE7BE-6618-407B-A480-D1EFDEBBE429}" ShortID="320587795">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_19" ID="{F3FB7E1D-01D9-46F0-9C98-4474CF66860F}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_19.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="236008944"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_19" ID="{F3FB7E1D-01D9-46F0-9C98-4474CF66860F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_20" ID="{28952039-AB94-4EAE-AC73-B6563693375E}" ShortID="538719331">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_20" ID="{1CB89124-131C-4674-90F0-C0E63F313C06}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_20.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="873501584"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_20" ID="{1CB89124-131C-4674-90F0-C0E63F313C06}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_16" ID="{595F761F-62D9-4467-8469-003DB82FFCC7}" ShortID="775030051">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_16" ID="{CFA0442D-4572-4A94-9FFE-D9B1E17F0747}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_16.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="502563069"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_16" ID="{CFA0442D-4572-4A94-9FFE-D9B1E17F0747}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_17" ID="{67A1B2BF-8E8B-4B20-A1C2-905DAD40465B}" ShortID="184380">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_17" ID="{5EE5EE44-0B73-49F9-AF99-9D3E774E43B9}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_17.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="652351590"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_17" ID="{5EE5EE44-0B73-49F9-AF99-9D3E774E43B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_18" ID="{E43334BF-7F97-4DD1-A5B2-39A89577D1AE}" ShortID="453128162">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_18" ID="{0D1A9503-814D-436C-BB27-E73F328BF3D8}">
+															<Language>SFX</Language>
+															<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_18.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="274334517"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_18" ID="{0D1A9503-814D-436C-BB27-E73F328BF3D8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<ObjectLists/>
+									<BlendTrackList>
+										<BlendTrack Name="RTPC_PLYR_Exhaust" ID="{BC71CF7C-5274-4C8A-8231-68EAE9C538B9}" ShortID="703568089">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="RTPC_PLYR_Exhaust" ID="{4969E5D6-A894-4562-91BD-1DC1DB1EF212}" WorkUnitID="{D9CF4E69-953A-4F0D-8BC0-4F7A4FD526F7}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="PLYR_Breath_Run" ID="{4614CA87-B813-4F73-8DD5-9C0109F618BF}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>41.9478155430712</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="PLYR_Breath_Run_Exhaust" ID="{F6846E5E-EC09-40B4-BEAC-31AA9E6C0AF5}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>29.4197256554307</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>81.7230964419476</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="PLYR_Breath_Run_Exhaust_Extreme" ID="{EC511A08-A605-4B3F-9345-75140A076D90}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>74.0074906367042</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>100</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
 								</BlendContainer>
 							</ChildrenList>
 							<ObjectLists/>
-							<GroupingInfo>
-								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="PLYR_Breath_Run" ID="{1BEBB91E-26C5-4C99-90C2-45974A73608B}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="PLYR_Breath_Idle" ID="{CFB5D440-4B28-4DAD-B5F0-70C8D40E384B}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="PLYR_Breath_Oneoff_Move" ID="{67F41357-3414-45D9-BB3B-A5E9B8D497B5}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="PLYR_Breath_Oneoff_Stop" ID="{D6F4B670-FBDC-44F6-B45D-09139824705B}"/>
-									</GroupingBehavior>
-								</GroupingBehaviorList>
-							</GroupingInfo>
-						</SwitchContainer>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
@@ -329,6 +1198,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="PLYR_FS" ID="{908C63E0-4032-402A-A3B9-10074B4C6D36}" ShortID="866870366">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
