@@ -18,6 +18,13 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3545700988	Reverbs			\Default Work Unit\Master Audio Bus\Reverbs	
 	4063189299	Corridor			\Default Work Unit\Master Audio Bus\Reverbs\Corridor	
 
+<<<<<<< Updated upstream
+=======
+Effect plug-ins	ID	Name	Type				Notes
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
+
+>>>>>>> Stashed changes
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			
