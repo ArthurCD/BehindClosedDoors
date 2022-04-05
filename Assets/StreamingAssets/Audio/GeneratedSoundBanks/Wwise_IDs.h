@@ -13,6 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_PLYR_BREATH_IDLE = 1874744501U;
+        static const AkUniqueID PLAY_PLYR_BREATH_ONEOFF_STOP = 9500703U;
+        static const AkUniqueID PLAY_PLYR_BREATH_RUN = 3866605154U;
         static const AkUniqueID PLAY_PLYR_FS_ROTATE = 363322671U;
         static const AkUniqueID PLAY_PLYR_FS_RUN = 913920749U;
         static const AkUniqueID PLAY_PLYR_FS_SNEAK = 1884485130U;
@@ -55,6 +58,8 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID RTPC_PLYR_EXHAUST = 1288385545U;
+        static const AkUniqueID RTPC_PLYR_FEAR = 3723109863U;
         static const AkUniqueID RTPC_PLYR_WETFEET = 2149904807U;
     } // namespace GAME_PARAMETERS
 

@@ -360,7 +360,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8e9d7f6496ac724b99dc1425213e2a9b
     GuidInternal: 
-    m_lastTime: -8585524434495549446
+    m_lastTime: -8585524071134677461
     List:
     - name: SB_PLYR
       guid: c3e7bc363d477c46bcfe85a72d3fa280
@@ -402,7 +402,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6ad9ab488a6f7546b07d0009f6d14c73
     GuidInternal: 
-    m_lastTime: -8585524434500514640
+    m_lastTime: -8585524071134875740
     List:
     - name: Play_Test
       guid: 57782522cb59054f9348e4d389756961
@@ -432,8 +432,84 @@ MonoBehaviour:
     ParentPath: Events\PLYR
     guid: ede3344aaabac04989951999f935a582
     GuidInternal: 
-    m_lastTime: -8585524434500504720
+    m_lastTime: -8585524080284072188
     List: []
+  - PhysicalPath: Events\PLYR_Breath.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: PLYR
+      ObjectType: 12
+      guid: ede3344aaabac04989951999f935a582
+    - ElementName: PLYR_Breath
+      ObjectType: 12
+      guid: b41f7c46d1ca63459b8f1b529fef4cf0
+    ParentPath: Events\PLYR\PLYR_Breath
+    guid: b41f7c46d1ca63459b8f1b529fef4cf0
+    GuidInternal: 
+    m_lastTime: -8585524063382736927
+    List:
+    - name: Play_PLYR_Breath_Idle
+      guid: 4646a83e0436ae4db4b41be5c33935b8
+      id: 1874744501
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: ede3344aaabac04989951999f935a582
+      - ElementName: PLYR_Breath
+        ObjectType: 12
+        guid: b41f7c46d1ca63459b8f1b529fef4cf0
+      - ElementName: Play_PLYR_Breath_Idle
+        ObjectType: 3
+        guid: 4646a83e0436ae4db4b41be5c33935b8
+      Path: Events\PLYR\PLYR_Breath\Play_PLYR_Breath_Idle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_PLYR_Breath_Oneoff_Stop
+      guid: b0f3d65daccc0a49be72df67be1e714b
+      id: 9500703
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: ede3344aaabac04989951999f935a582
+      - ElementName: PLYR_Breath
+        ObjectType: 12
+        guid: b41f7c46d1ca63459b8f1b529fef4cf0
+      - ElementName: Play_PLYR_Breath_Oneoff_Stop
+        ObjectType: 3
+        guid: b0f3d65daccc0a49be72df67be1e714b
+      Path: Events\PLYR\PLYR_Breath\Play_PLYR_Breath_Oneoff_Stop
+      maxAttenuation: 0
+      maxDuration: 5.229823
+      minDuration: 2.418396
+    - name: Play_PLYR_Breath_Run
+      guid: 5abdb00bc2032246bfd3e676bb32db3b
+      id: 3866605154
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: ede3344aaabac04989951999f935a582
+      - ElementName: PLYR_Breath
+        ObjectType: 12
+        guid: b41f7c46d1ca63459b8f1b529fef4cf0
+      - ElementName: Play_PLYR_Breath_Run
+        ObjectType: 3
+        guid: 5abdb00bc2032246bfd3e676bb32db3b
+      Path: Events\PLYR\PLYR_Breath\Play_PLYR_Breath_Run
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\PLYR_FS.wwu
     PathAndIcons:
     - ElementName: Events
@@ -589,8 +665,36 @@ MonoBehaviour:
     ParentPath: Game Parameters\PLYR
     guid: 694ecfd93a950d4f8bc04f7a4fd526f7
     GuidInternal: 
-    m_lastTime: -8585524434500479918
-    List: []
+    m_lastTime: -8585524071134573170
+    List:
+    - name: RTPC_PLYR_Exhaust
+      guid: d6e5694994a8624591bd1dc1db1ef212
+      id: 1288385545
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: 694ecfd93a950d4f8bc04f7a4fd526f7
+      - ElementName: RTPC_PLYR_Exhaust
+        ObjectType: 13
+        guid: d6e5694994a8624591bd1dc1db1ef212
+      Path: Game Parameters\PLYR\RTPC_PLYR_Exhaust
+    - name: RTPC_PLYR_Fear
+      guid: 2a890535fb738b4aa7da5c14d45dc3cc
+      id: 3723109863
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: 694ecfd93a950d4f8bc04f7a4fd526f7
+      - ElementName: RTPC_PLYR_Fear
+        ObjectType: 13
+        guid: 2a890535fb738b4aa7da5c14d45dc3cc
+      Path: Game Parameters\PLYR\RTPC_PLYR_Fear
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -843,7 +947,7 @@ MonoBehaviour:
     m_lastTime: -8585534443739634959
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 02000000030000000400000026000000
+  ExpandedWaapiItemIds: 02000000030000000400000005000000080000000900000026000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

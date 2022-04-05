@@ -21395,6 +21395,18 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 411c11586a5ca7649bfcf32f869e1d9a, type: 2}
+  PLYR_Breath_Idle:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3c2018ecfa26c0a4f815f34bc45ab360, type: 2}
+  PLYR_Breath_Run:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: edc6769fab3db5946adba677c246cc80, type: 2}
+  PLYR_Breath_Stop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a545dc496ea47594a81d8ea8da67c7e6, type: 2}
   Switch_PLYR_Movement_Walk:
     idInternal: 0
     valueGuidInternal: 
