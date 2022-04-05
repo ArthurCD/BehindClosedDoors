@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/2F_Bedroom.unity
+    guid: e4a9e9734b0859a4b94e8fc223fb1b75
+  - enabled: 1
     path: Assets/Scenes/1F_Library.unity
     guid: 69ae2cd58b8acbc43b675cd26157c471
   - enabled: 1
@@ -14,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GF_EntranceHall.unity
     guid: c50c31a1c9a9a9d42ae5144152789961
+  - enabled: 1
+    path: Assets/Scenes/GF_BBStudy.unity
+    guid: 69436e9f99a008641b8684a72fc2a1ff
+  - enabled: 1
+    path: Assets/Scenes/GF_Tunnel.unity
+    guid: 99dcfe9cabbe259439f6bf4a08fa217a
   m_configObjects: {}
