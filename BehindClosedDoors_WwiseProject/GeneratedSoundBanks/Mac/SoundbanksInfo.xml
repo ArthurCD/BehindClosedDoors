@@ -37,9 +37,13 @@
 			</IncludedAuxBusses>
 		</SoundBank>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		<SoundBank Id="3748169348" Language="SFX" Hash="1450674069">
 =======
 		<SoundBank Id="3748169348" Language="SFX" Hash="3380157777">
+>>>>>>> Stashed changes
+=======
+		<SoundBank Id="3748169348" Language="SFX" Hash="3707095531">
 >>>>>>> Stashed changes
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PLYR</ObjectPath>
 			<ShortName>SB_PLYR</ShortName>
@@ -53,20 +57,26 @@
 						</File>
 					</IncludedMemoryFiles>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 					<AuxBusSends>
 						<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
 					</AuxBusSends>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				</Event>
 				<Event Id="363322671" Name="Play_PLYR_FS_Rotate" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Rotate" DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<DefaultSwitchValue>{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}</DefaultSwitchValue>
 					<SwitchContainers/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 					<AuxBusSends>
 						<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
 					</AuxBusSends>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				</Event>
 				<Event Id="913920749" Name="Play_PLYR_FS_Run" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Run" DurationType="OneShot" DurationMin="0." DurationMax="0.81347">
@@ -181,20 +191,26 @@
 						</SwitchContainer>
 					</SwitchContainers>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 					<AuxBusSends>
 						<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
 					</AuxBusSends>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				</Event>
 				<Event Id="1884485130" Name="Play_PLYR_FS_Sneak" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Sneak" DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<DefaultSwitchValue>{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}</DefaultSwitchValue>
 					<SwitchContainers/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 					<AuxBusSends>
 						<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
 					</AuxBusSends>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				</Event>
 				<Event Id="965817426" Name="Play_PLYR_FS_Stop" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Stop" DurationType="OneShot" DurationMin="0." DurationMax="1.022333">
@@ -285,10 +301,13 @@
 						</SwitchContainer>
 					</SwitchContainers>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 					<AuxBusSends>
 						<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
 					</AuxBusSends>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				</Event>
 				<Event Id="2246640637" Name="Play_PLYR_FS_Walk" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Walk" DurationType="OneShot" DurationMin="0." DurationMax="0.74187">
@@ -403,10 +422,13 @@
 						</SwitchContainer>
 					</SwitchContainers>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 					<AuxBusSends>
 						<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
 					</AuxBusSends>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				</Event>
 			</IncludedEvents>
