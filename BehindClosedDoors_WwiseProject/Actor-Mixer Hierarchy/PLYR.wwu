@@ -2866,36 +2866,6 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
-						<Sound Name="ACD_FireOrganic_Breath&amp;Rage_01" ID="{40E0856D-13E4-4B68-A0F7-912D8560E69F}" ShortID="535975917">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-11</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="ACD_FireOrganic_Breath&amp;Rage_01" ID="{92C6B980-2E5E-471F-A9B8-2BE683E317AF}">
-									<Language>SFX</Language>
-									<AudioFile>ACD_FireOrganic_Breath&amp;Rage_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="537191668"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="ACD_FireOrganic_Breath&amp;Rage_01" ID="{92C6B980-2E5E-471F-A9B8-2BE683E317AF}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

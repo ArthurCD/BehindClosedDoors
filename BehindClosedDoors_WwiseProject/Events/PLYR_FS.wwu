@@ -58,17 +58,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_ACD_FireOrganic_Breath_Rage_01" ID="{E1EA4E34-6655-42A8-AC45-3343096C5066}">
-					<ChildrenList>
-						<Action Name="" ID="{D9256F39-1BA1-4216-A5A5-552B44453C26}" ShortID="723269177">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ACD_FireOrganic_Breath&amp;Rage_01" ID="{40E0856D-13E4-4B68-A0F7-912D8560E69F}" WorkUnitID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
