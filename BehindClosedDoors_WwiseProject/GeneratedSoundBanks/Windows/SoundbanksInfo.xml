@@ -38,9 +38,13 @@
 		</SoundBank>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		<SoundBank Id="3748169348" Language="SFX" Hash="1450674069">
 =======
 		<SoundBank Id="3748169348" Language="SFX" Hash="3380157777">
+>>>>>>> Stashed changes
+=======
+		<SoundBank Id="3748169348" Language="SFX" Hash="3707095531">
 >>>>>>> Stashed changes
 =======
 		<SoundBank Id="3748169348" Language="SFX" Hash="3707095531">
@@ -58,10 +62,13 @@
 					</IncludedMemoryFiles>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 					<AuxBusSends>
 						<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
 					</AuxBusSends>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -71,10 +78,13 @@
 					<SwitchContainers/>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 					<AuxBusSends>
 						<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
 					</AuxBusSends>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -192,10 +202,13 @@
 					</SwitchContainers>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 					<AuxBusSends>
 						<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
 					</AuxBusSends>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -205,10 +218,13 @@
 					<SwitchContainers/>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 					<AuxBusSends>
 						<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
 					</AuxBusSends>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -302,10 +318,13 @@
 					</SwitchContainers>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 					<AuxBusSends>
 						<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
 					</AuxBusSends>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -423,10 +442,13 @@
 					</SwitchContainers>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 					<AuxBusSends>
 						<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
 					</AuxBusSends>
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
