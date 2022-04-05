@@ -6,7 +6,15 @@
 				<SoundBank Name="SB_Test" ID="{115E45E7-5AC6-40EE-971A-D899EDA18DD2}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Default Work Unit" ID="{48ABD96A-6F8A-4675-B07D-0009F6D14C73}" WorkUnitID="{48ABD96A-6F8A-4675-B07D-0009F6D14C73}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{17B501CD-BE4B-4B01-8D1B-39D462B99030}" WorkUnitID="{17B501CD-BE4B-4B01-8D1B-39D462B99030}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_PLYR" ID="{36BCE7C3-473D-467C-BCFE-85A72D3FA280}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PLYR_FS" ID="{644B00B7-F694-49DC-9034-E6B9807C7898}" WorkUnitID="{644B00B7-F694-49DC-9034-E6B9807C7898}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{7A532D84-7473-4C74-B5D9-930A2406E154}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

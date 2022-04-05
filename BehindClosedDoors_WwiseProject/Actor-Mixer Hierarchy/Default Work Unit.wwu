@@ -3,11 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{17B501CD-BE4B-4B01-8D1B-39D462B99030}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="Test" ID="{00972C6F-BB8C-4E4D-A7F7-F7262DCC22C8}" ShortID="835234145">
-					<PropertyList>
-						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-					</PropertyList>
+				<Sound Name="PLYR_FS_Wood_Run_02" ID="{0594098A-E2FC-4E80-8E6B-2A7B3D7C4F91}" ShortID="950728114">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
@@ -17,124 +13,1123 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Snow_BareFoot_run-01" ID="{C41BD0CF-DFB3-4457-B646-A90960C85A52}" ShortID="884600674">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Snow_BareFoot_run-01" ID="{33CCD0B4-2250-4B04-BA3B-39B77EE8CA94}">
-									<Language>SFX</Language>
-									<AudioFile>Snow_BareFoot_run-01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="512566219"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Snow_BareFoot_run-01" ID="{33CCD0B4-2250-4B04-BA3B-39B77EE8CA94}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Snow_BareFoot_run-02" ID="{9D66ECCF-C84B-4893-8637-071C10EAE0C0}" ShortID="351475510">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Snow_BareFoot_run-02" ID="{9EF81193-06E4-46B7-B5EA-46B473B45112}">
-									<Language>SFX</Language>
-									<AudioFile>Snow_BareFoot_run-02.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="691951630"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Snow_BareFoot_run-02" ID="{9EF81193-06E4-46B7-B5EA-46B473B45112}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Snow_BareFoot_run-03" ID="{8F27C5EC-C53C-4462-80DF-DC4FB3B5FB83}" ShortID="584032914">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Snow_BareFoot_run-03" ID="{14EC944E-8F75-4028-AD11-2B6BE9D70D60}">
-									<Language>SFX</Language>
-									<AudioFile>Snow_BareFoot_run-03.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="616512323"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Snow_BareFoot_run-03" ID="{14EC944E-8F75-4028-AD11-2B6BE9D70D60}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Snow_BareFoot_run-04" ID="{C00419E2-7C56-4401-AA0E-E60873FC5507}" ShortID="937535015">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Snow_BareFoot_run-04" ID="{DF5DB553-F367-483D-B041-97C48D221C9F}">
-									<Language>SFX</Language>
-									<AudioFile>Snow_BareFoot_run-04.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="833692850"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Snow_BareFoot_run-04" ID="{DF5DB553-F367-483D-B041-97C48D221C9F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Snow_BareFoot_run-05" ID="{D4524078-4D6C-4036-BD65-552034CF14BD}" ShortID="1024411803">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Snow_BareFoot_run-05" ID="{CB7F26C7-49AC-4DE6-B515-8F90F65C0B0C}">
-									<Language>SFX</Language>
-									<AudioFile>Snow_BareFoot_run-05.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="167288481"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Snow_BareFoot_run-05" ID="{CB7F26C7-49AC-4DE6-B515-8F90F65C0B0C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						<AudioFileSource Name="PLYR_FS_Wood_Run_02" ID="{3D927EE3-3166-463E-A4DF-DD157216529F}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Run_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="460705998"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
-				</RandomSequenceContainer>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Run_02" ID="{3D927EE3-3166-463E-A4DF-DD157216529F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Run_03" ID="{168F6503-72DE-47C4-86EB-51D9E8F4E4C8}" ShortID="187537974">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Run_03" ID="{8D434ADD-F82B-476F-B792-D8096FE81085}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Run_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="753650674"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Run_03" ID="{8D434ADD-F82B-476F-B792-D8096FE81085}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Run_04" ID="{46DBCCBE-0884-4709-A39C-C8A90B14DC46}" ShortID="461427151">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Run_04" ID="{D4D50F94-D18D-4621-99B5-2CEE301A0CD4}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Run_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="394251339"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Run_04" ID="{D4D50F94-D18D-4621-99B5-2CEE301A0CD4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Run_05" ID="{0F8A78A0-3F86-4DAC-87E2-DB9D9ECA1B7E}" ShortID="449999791">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Run_05" ID="{234997E7-3DDC-4C65-B168-17452406CC9A}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Run_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="696611772"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Run_05" ID="{234997E7-3DDC-4C65-B168-17452406CC9A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Stop_01" ID="{D5AC58C7-E8E7-4747-A7D7-ED1FC62C940A}" ShortID="392628800">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Stop_01" ID="{5F78E151-736E-4CEF-AC37-783E7DBD330D}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Stop_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1029014956"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Stop_01" ID="{5F78E151-736E-4CEF-AC37-783E7DBD330D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Stop_02" ID="{E4156E3C-D245-4780-BE68-58000D9A1726}" ShortID="583704064">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Stop_02" ID="{C43B5920-8FF0-4EB2-9FEC-DBEC51AC01B4}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Stop_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="858635656"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Stop_02" ID="{C43B5920-8FF0-4EB2-9FEC-DBEC51AC01B4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Stop_03" ID="{D6DC6E85-F286-448E-8098-48182BB06734}" ShortID="172361327">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Stop_03" ID="{874CA498-C473-474F-93B9-21474DC4CF9A}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Stop_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="653503990"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Stop_03" ID="{874CA498-C473-474F-93B9-21474DC4CF9A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Walk_01" ID="{44A0BAC4-3B60-4624-B2CE-1327E8395C2C}" ShortID="256711063">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Walk_01" ID="{F0323ACC-DF75-4A29-A504-083C7A9F93F0}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Walk_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="144047649"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Walk_01" ID="{F0323ACC-DF75-4A29-A504-083C7A9F93F0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Walk_02" ID="{169E40D3-1E4E-47C2-9FE6-6CD408E56DE2}" ShortID="819619863">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Walk_02" ID="{F8618A02-C646-4031-BEF9-21F19E215908}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Walk_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="340435101"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Walk_02" ID="{F8618A02-C646-4031-BEF9-21F19E215908}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Walk_03" ID="{D2E0CAB6-439A-48CF-AE68-0756906983F5}" ShortID="886997148">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Walk_03" ID="{E8B7D133-6CE9-41C5-8ADD-F98BEFB3BFC3}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Walk_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="675622091"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Walk_03" ID="{E8B7D133-6CE9-41C5-8ADD-F98BEFB3BFC3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Walk_04" ID="{B5FCAEE1-E208-471A-B556-0ACC049B1265}" ShortID="295866493">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Walk_04" ID="{AFB129EC-0C6C-4047-8773-7EA3CD83D757}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Walk_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1013897705"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Walk_04" ID="{AFB129EC-0C6C-4047-8773-7EA3CD83D757}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Walk_05" ID="{1FEF8D15-B0A1-42DA-B113-9AE1AE388DA0}" ShortID="159341022">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Walk_05" ID="{8242994E-3E6E-4A01-B2B4-586C3FE4B383}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Walk_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="449716198"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Walk_05" ID="{8242994E-3E6E-4A01-B2B4-586C3FE4B383}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Run_01" ID="{99148190-EA09-4BB2-AEA2-CDE509F93BB0}" ShortID="770784827">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Run_01" ID="{43BEF658-81E0-42CE-BF03-B218F0DC1028}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Run_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="781937004"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Run_01" ID="{43BEF658-81E0-42CE-BF03-B218F0DC1028}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Run_02" ID="{54F51F21-71EE-46D3-86DA-FFC1C69F67B9}" ShortID="404951089">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Run_02" ID="{E83F363B-A286-4704-8412-B1AA47F18E48}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Run_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="208366561"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Run_02" ID="{E83F363B-A286-4704-8412-B1AA47F18E48}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Run_03" ID="{F323B866-3D0C-41E7-A7CB-BBC6AA52A0F4}" ShortID="583247098">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Run_03" ID="{C7818D11-23EE-4CF1-BFEE-C32F35F6213D}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Run_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="277923748"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Run_03" ID="{C7818D11-23EE-4CF1-BFEE-C32F35F6213D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Run_04" ID="{C5751D74-1E3F-45A5-9103-543594C7E681}" ShortID="1069238264">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Run_04" ID="{9C45B1CF-8134-40F0-9BDB-BC0B09C99E46}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Run_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="459480607"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Run_04" ID="{9C45B1CF-8134-40F0-9BDB-BC0B09C99E46}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Run_05" ID="{99311E0B-626B-47F4-ACB4-533A368430AA}" ShortID="176437653">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Run_05" ID="{2E919E61-1A47-4C4B-87E9-2DA1DE580F10}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Run_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="3420148"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Run_05" ID="{2E919E61-1A47-4C4B-87E9-2DA1DE580F10}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Stop_01" ID="{101C2B69-CF18-476E-8894-E53699FDB38E}" ShortID="516255525">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Stop_01" ID="{9323BA17-1185-4E47-B935-F0E1F0DB4BE0}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Stop_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="41289258"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Stop_01" ID="{9323BA17-1185-4E47-B935-F0E1F0DB4BE0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Stop_02" ID="{88FCC14A-B787-478C-AE6A-B3B0B4822D3E}" ShortID="584915984">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Stop_02" ID="{78BD0447-5DC5-4D0D-9182-7BC0EECFBEC1}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Stop_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="534355044"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Stop_02" ID="{78BD0447-5DC5-4D0D-9182-7BC0EECFBEC1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Stop_03" ID="{20C4344E-5F57-49E5-AF10-4DE0E8E835EB}" ShortID="613048206">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Stop_03" ID="{194F5881-DE65-4656-A02C-D2817C05A5FC}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Stop_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="977123911"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Stop_03" ID="{194F5881-DE65-4656-A02C-D2817C05A5FC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Stop_04" ID="{62BC99C5-09C4-4F3E-BAD5-397C0E94AD7A}" ShortID="218988954">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Stop_04" ID="{663CEB91-98B7-49AE-A5C0-42D1C857E2BB}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Stop_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="300016291"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Stop_04" ID="{663CEB91-98B7-49AE-A5C0-42D1C857E2BB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Stop_05" ID="{C089650F-9C98-43E2-A041-F88A4C917F4A}" ShortID="267550771">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Stop_05" ID="{0F3BA272-7C2F-4D6B-A0A3-42D78EF35BF6}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Stop_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1059868682"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Stop_05" ID="{0F3BA272-7C2F-4D6B-A0A3-42D78EF35BF6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Walk_01" ID="{29F30D60-CF7B-4734-A28D-D3AA93687946}" ShortID="9165936">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Walk_01" ID="{994BABFD-3472-4EF0-8630-9C5D0A979FCE}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Walk_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="777079243"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Walk_01" ID="{994BABFD-3472-4EF0-8630-9C5D0A979FCE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Walk_02" ID="{FCBB99C0-893A-45A0-AFBE-EF8CDEA9FEF1}" ShortID="498033988">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Walk_02" ID="{7208E5C5-5610-4A23-B328-FD028C31FCCF}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Walk_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="621792717"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Walk_02" ID="{7208E5C5-5610-4A23-B328-FD028C31FCCF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Walk_03" ID="{4FEA0C06-AB67-462D-AA8C-3AFD708F9C1C}" ShortID="473271111">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Walk_03" ID="{091C361A-C567-4436-8BFC-C049A5AAF583}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Walk_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="354059031"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Walk_03" ID="{091C361A-C567-4436-8BFC-C049A5AAF583}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Walk_04" ID="{03C825C1-7814-476C-AE00-07746F0087B5}" ShortID="134305824">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Walk_04" ID="{D4A9BFF2-B939-45E5-9B17-5C7C5A9F2F93}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Walk_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="772439065"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Walk_04" ID="{D4A9BFF2-B939-45E5-9B17-5C7C5A9F2F93}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Walk_05" ID="{A22730BF-19C9-48D4-8671-8D23A135E17E}" ShortID="310462002">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Walk_05" ID="{413CDE21-FA8E-46C6-9525-4C3D478CA9C5}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Walk_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="16860481"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Walk_05" ID="{413CDE21-FA8E-46C6-9525-4C3D478CA9C5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Run_01" ID="{F935AB4A-C299-44C6-BBD6-8A2F13048E16}" ShortID="790422676">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Run_01" ID="{405EC141-E15B-4478-8500-D53FB6EAD0A7}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Run_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="461385852"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Run_01" ID="{405EC141-E15B-4478-8500-D53FB6EAD0A7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Run_02" ID="{E75EB01F-6779-4AD8-8B21-53B648F47F62}" ShortID="590981091">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Run_02" ID="{9C8B580D-F542-4A60-B1AE-0C613DD40424}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Run_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="651762795"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Run_02" ID="{9C8B580D-F542-4A60-B1AE-0C613DD40424}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Run_03" ID="{7DCE4367-E9F8-409D-A8DA-763D8C8F4EDD}" ShortID="286442539">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Run_03" ID="{4E5CF84C-C5C9-41EC-BD83-3CCEAA85EC60}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Run_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1038944621"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Run_03" ID="{4E5CF84C-C5C9-41EC-BD83-3CCEAA85EC60}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Run_04" ID="{3CF78077-4B74-47A8-A1FA-015C7A274234}" ShortID="1005131118">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Run_04" ID="{AFEE6683-E0E5-45CA-8EC6-D91167198CB1}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Run_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="735496419"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Run_04" ID="{AFEE6683-E0E5-45CA-8EC6-D91167198CB1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Run_05" ID="{FB8AED36-E9E1-4A49-884D-C60CA75D0EE1}" ShortID="5212130">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Run_05" ID="{28C85863-1399-4A8E-B144-7D23D0970F66}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Run_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="651114871"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Run_05" ID="{28C85863-1399-4A8E-B144-7D23D0970F66}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Stop_01" ID="{A8D3A90D-EC82-4765-963C-CFDEB23A9317}" ShortID="350891892">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Stop_01" ID="{0C9A9C7C-0684-4E16-9A46-86B836E8DA61}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Stop_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="345383289"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Stop_01" ID="{0C9A9C7C-0684-4E16-9A46-86B836E8DA61}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Stop_02" ID="{6DDC6B63-10BF-4962-9EEF-8EC4ADBD7685}" ShortID="465156370">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Stop_02" ID="{DE45CDE4-17D6-4602-BB86-C7E50E9FD9D8}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Stop_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="472384301"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Stop_02" ID="{DE45CDE4-17D6-4602-BB86-C7E50E9FD9D8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Stop_03" ID="{3FA06FAF-9107-4BB6-AAA6-EFF6E6F8C536}" ShortID="830405152">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Stop_03" ID="{8CC4FEBF-9272-4B56-8B12-CCF00C05C429}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Stop_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="745863359"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Stop_03" ID="{8CC4FEBF-9272-4B56-8B12-CCF00C05C429}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Walk_01" ID="{93F7DD49-E412-4BC3-9202-AD6D480B1D92}" ShortID="970580526">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Walk_01" ID="{144E40FC-414C-4DEA-9BF8-74FF5C03E382}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Walk_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="901189569"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Walk_01" ID="{144E40FC-414C-4DEA-9BF8-74FF5C03E382}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Walk_02" ID="{3733697A-A0EB-42EC-AF82-B98B1866592D}" ShortID="5870508">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Walk_02" ID="{B71D798D-83B2-4D95-BC3B-CE60A978401D}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Walk_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="621949173"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Walk_02" ID="{B71D798D-83B2-4D95-BC3B-CE60A978401D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Walk_03" ID="{3C651C52-BCBD-4508-A7B4-3AE8FC56309D}" ShortID="493056125">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Walk_03" ID="{945548D8-4D49-4AFD-A8F7-826BED785693}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Walk_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="463420156"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Walk_03" ID="{945548D8-4D49-4AFD-A8F7-826BED785693}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Walk_04" ID="{E9180F9C-4759-49C6-912E-DD8E3A93B0C0}" ShortID="830863282">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Walk_04" ID="{F43703CC-6939-496C-96EE-39E03C8BBD33}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Walk_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="697521044"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Walk_04" ID="{F43703CC-6939-496C-96EE-39E03C8BBD33}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Walk_05" ID="{C9BD8A1F-5193-4BCE-B9DC-496A0525CC89}" ShortID="227693304">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Walk_05" ID="{BE309A39-DCA4-449F-B12C-2947C61240AE}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Walk_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="816516669"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Walk_05" ID="{BE309A39-DCA4-449F-B12C-2947C61240AE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Run_01" ID="{64EF1BB8-898B-49FB-8C6F-168F2311EE02}" ShortID="202926344">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Run_01" ID="{3DE37D0B-2D24-46B1-9B1E-A80A223BAA49}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Run_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="708748435"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Run_01" ID="{3DE37D0B-2D24-46B1-9B1E-A80A223BAA49}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_Breath_Idle_06" ID="{95726CF2-1CB7-4715-8656-408D3A697931}" ShortID="590861272">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_Breath_Idle_06" ID="{6F66AF33-B9F8-4DDE-ADAF-81A83F96C637}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_Breath_Idle_06.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="832832787"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_Breath_Idle_06" ID="{6F66AF33-B9F8-4DDE-ADAF-81A83F96C637}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_Breath_Idle_08" ID="{35DE793B-D97E-413D-8CFD-B664046BED3F}" ShortID="495186743">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_Breath_Idle_08" ID="{25C6FE9B-D324-4F78-AEC8-720ECC5BBFA2}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_Breath_Idle_08.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="374918903"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_Breath_Idle_08" ID="{25C6FE9B-D324-4F78-AEC8-720ECC5BBFA2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_Breath_Idle_04" ID="{5E9EA02A-C31B-48BA-9E51-608E5C2F5A95}" ShortID="260191662">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_Breath_Idle_04" ID="{6A4388F2-922E-4424-9DE3-66CDDD8DEBCF}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_Breath_Idle_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="232280034"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_Breath_Idle_04" ID="{6A4388F2-922E-4424-9DE3-66CDDD8DEBCF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_Breath_Idle_02" ID="{30598865-E5DB-4058-82A5-03DF0F612153}" ShortID="517524644">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_Breath_Idle_02" ID="{7F9C893D-13C7-4087-A7ED-6BA9DFCFF049}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_Breath_Idle_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="48952422"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_Breath_Idle_02" ID="{7F9C893D-13C7-4087-A7ED-6BA9DFCFF049}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_Breath_Idle_07" ID="{011F0399-35AE-4050-82B1-A4A4BA6BEAC6}" ShortID="302193802">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_Breath_Idle_07" ID="{3C916CBF-9642-477D-9521-486A4F17080C}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_Breath_Idle_07.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="36064865"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_Breath_Idle_07" ID="{3C916CBF-9642-477D-9521-486A4F17080C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_Breath_Idle_03" ID="{FD9300E6-46F9-483C-B1C9-92F3FFEB0F12}" ShortID="522072863">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_Breath_Idle_03" ID="{A5BA247D-AF24-4703-86AB-CD90B5098454}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_Breath_Idle_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="91173053"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_Breath_Idle_03" ID="{A5BA247D-AF24-4703-86AB-CD90B5098454}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_Breath_Idle_01" ID="{ACF4162C-FFB5-444C-B8F5-7E821AE3F4E2}" ShortID="96318026">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_Breath_Idle_01" ID="{EC317918-C7A3-4E22-81F3-0FFE055828B7}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_Breath_Idle_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="375617061"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_Breath_Idle_01" ID="{EC317918-C7A3-4E22-81F3-0FFE055828B7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_Breath_Idle_05" ID="{B41EFD0C-EF20-4948-BF76-3EB452883C14}" ShortID="118493612">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_Breath_Idle_05" ID="{16B07782-9566-4513-B2BB-E2C14A1315F8}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_Breath_Idle_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="550925798"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_Breath_Idle_05" ID="{16B07782-9566-4513-B2BB-E2C14A1315F8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

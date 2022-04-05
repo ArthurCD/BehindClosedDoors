@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cedc230fa36ab864bbca209a664c34c2, type: 3}
+  m_Name: 4DE7B166-A6A9-4071-A3E4-807E500E590D
+  m_EditorClassIdentifier: 
+  objectName: Switch_PLYR_Movement
+  id: 4043495927
+  guid: 4DE7B166-A6A9-4071-A3E4-807E500E590D
