@@ -29,11 +29,19 @@
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors_WwiseIntegrationTemp\BehindClosedDoors_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1648160813" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
+<<<<<<< Updated upstream
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Switches\PLYR.wwu" DateLow="1649085587" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1649085587" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\States\Default Work Unit.wwu" DateLow="1649121169" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1649121169" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1649117526" DateHigh="0"/>
+=======
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Switches\PLYR.wwu" DateLow="1649127640" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1649085587" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\States\Default Work Unit.wwu" DateLow="1649121169" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1649127640" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1649127640" DateHigh="0"/>
+>>>>>>> Stashed changes
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Queries\Factory Queries.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1648162511" DateHigh="0"/>
@@ -41,6 +49,7 @@
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
+<<<<<<< Updated upstream
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649086228" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Game Parameters\PLYR.wwu" DateLow="1649085578" DateHigh="0"/>
@@ -50,14 +59,33 @@
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Events\Default Work Unit.wwu" DateLow="1649096701" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Effects\Factory Effects.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1649121169" DateHigh="0"/>
+=======
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649131105" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Game Parameters\PLYR.wwu" DateLow="1649127640" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1649127640" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Events\PLYR_FS.wwu" DateLow="1649127640" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Events\PLYR.wwu" DateLow="1649127640" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Events\Default Work Unit.wwu" DateLow="1649127640" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Effects\Factory Effects.wwu" DateLow="1648162511" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1649127640" DateHigh="0"/>
+>>>>>>> Stashed changes
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\BehindClosedDoors_WwiseProject.wproj" DateLow="1648162511" DateHigh="0"/>
+<<<<<<< Updated upstream
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\BehindClosedDoors_WwiseProject.arthu.wsettings" DateLow="1649036598" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Actor-Mixer Hierarchy\PLYR.wwu" DateLow="1649121169" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649086228" DateHigh="0"/>
+=======
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\BehindClosedDoors_WwiseProject.arthu.wsettings" DateLow="1649128359" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1648162511" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Actor-Mixer Hierarchy\PLYR.wwu" DateLow="1649131105" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1649127640" DateHigh="0"/>
+>>>>>>> Stashed changes
 </ValidationCache>

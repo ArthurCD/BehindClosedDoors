@@ -15,4 +15,8 @@ MonoBehaviour:
   objectName: Wood
   id: 2058049674
   guid: CBED6EF4-13BD-470F-8E25-34143630256D
+<<<<<<< Updated upstream
   WwiseSwitchGroupReference: {fileID: 11400000, guid: 5dd9d84df95fc294bb017e3b691bc092, type: 2}
+=======
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 732414e1483231d4892a9ab2d0f870a1, type: 2}
+>>>>>>> Stashed changes

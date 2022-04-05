@@ -15,4 +15,8 @@ MonoBehaviour:
   objectName: Carpet
   id: 2412606308
   guid: 810349D0-5A19-4AF6-9BAD-DF10A4486BA8
+<<<<<<< Updated upstream
   WwiseSwitchGroupReference: {fileID: 11400000, guid: 5dd9d84df95fc294bb017e3b691bc092, type: 2}
+=======
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 732414e1483231d4892a9ab2d0f870a1, type: 2}
+>>>>>>> Stashed changes

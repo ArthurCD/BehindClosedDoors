@@ -39,6 +39,13 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3545700988	Reverbs			\Default Work Unit\Master Audio Bus\Reverbs	
 	4063189299	Corridor			\Default Work Unit\Master Audio Bus\Reverbs\Corridor	
 
+<<<<<<< Updated upstream
+=======
+Effect plug-ins	ID	Name	Type				Notes
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
+
+>>>>>>> Stashed changes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3420148	PLYR_FS_Carpet_Run_05	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Mac\SFX\PLYR_FS_Carpet_Run_05_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Run\PLYR_FS_Run_Material\Carpet\PLYR_FS_Carpet_Run_05		67488
 	21458953	PLYR_FS_Carpet_Walk_04	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Mac\SFX\PLYR_FS_Carpet_Walk_04_372DCD0D.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Walk\PLYR_FS_Walk_Material\Carpet\PLYR_FS_Carpet_Walk_04		70848

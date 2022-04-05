@@ -11,8 +11,21 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="PlayerMaster" ID="{51C513F2-C40D-4E61-9079-B88D9075FB79}">
+<<<<<<< Updated upstream
 							<ChildrenList>
 								<Bus Name="PlayerMovement" ID="{C27825E2-EBFF-4942-8151-D6107BFD5D74}">
+=======
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverbs" ID="{A0E2AF19-6BD6-431E-BE9D-999EDA2C4A36}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="PlayerMovement" ID="{C27825E2-EBFF-4942-8151-D6107BFD5D74}">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+>>>>>>> Stashed changes
 									<ChildrenList>
 										<Bus Name="PlayerFootsteps" ID="{BAE2F335-3332-4218-B774-1AAFE768A236}">
 											<ObjectLists/>
@@ -46,9 +59,25 @@
 						<AuxBus Name="Reverbs" ID="{A0E2AF19-6BD6-431E-BE9D-999EDA2C4A36}">
 							<ChildrenList>
 								<AuxBus Name="LargeRoom" ID="{BAFC6803-077F-4B56-9BE4-2CEB442E9D1E}">
+<<<<<<< Updated upstream
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="Corridor" ID="{326D569B-0B0F-4ABA-B24F-91113E8E8BB0}">
+=======
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Corridor" ID="{326D569B-0B0F-4ABA-B24F-91113E8E8BB0}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Medium_Tiled" ID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+>>>>>>> Stashed changes
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="CorridorEnd" ID="{C6DADAC9-DA9F-4668-AE89-4AFF4460E880}">
