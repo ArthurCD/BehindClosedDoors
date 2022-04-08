@@ -32,7 +32,7 @@
 				<AuxBus Id="4063189299" Name="Corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Corridor"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3748169348" Language="SFX" Hash="3733757443">
+		<SoundBank Id="3748169348" Language="SFX" Hash="3003881904">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PLYR</ObjectPath>
 			<ShortName>SB_PLYR</ShortName>
 			<Path>SB_PLYR.bnk</Path>

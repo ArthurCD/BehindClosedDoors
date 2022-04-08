@@ -360,7 +360,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8e9d7f6496ac724b99dc1425213e2a9b
     GuidInternal: 
-    m_lastTime: -8585524071134677461
+    m_lastTime: -8585523638750658800
     List:
     - name: SB_PLYR
       guid: c3e7bc363d477c46bcfe85a72d3fa280
@@ -432,7 +432,7 @@ MonoBehaviour:
     ParentPath: Events\PLYR
     guid: ede3344aaabac04989951999f935a582
     GuidInternal: 
-    m_lastTime: -8585524080284072188
+    m_lastTime: -8585523638754532561
     List: []
   - PhysicalPath: Events\PLYR_Breath.wwu
     PathAndIcons:
@@ -448,7 +448,7 @@ MonoBehaviour:
     ParentPath: Events\PLYR\PLYR_Breath
     guid: b41f7c46d1ca63459b8f1b529fef4cf0
     GuidInternal: 
-    m_lastTime: -8585524063382736927
+    m_lastTime: -8585523638754527602
     List:
     - name: Play_PLYR_Breath_Idle
       guid: 4646a83e0436ae4db4b41be5c33935b8
@@ -524,7 +524,7 @@ MonoBehaviour:
     ParentPath: Events\PLYR\PLYR_FS
     guid: b7004b6494f6dc499034e6b9807c7898
     GuidInternal: 
-    m_lastTime: -8585524360302667786
+    m_lastTime: -8585523638754522641
     List:
     - name: Play_PLYR_FS_Rotate
       guid: f4b4122fa8d52b4abf4e110e13bf8c96
@@ -626,6 +626,70 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.74187
       minDuration: 0
+  - PhysicalPath: Events\TestEvents.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: TestEvents
+      ObjectType: 12
+      guid: 7126919343b260459029a6ee7e87bdc4
+    ParentPath: Events\TestEvents
+    guid: 7126919343b260459029a6ee7e87bdc4
+    GuidInternal: 
+    m_lastTime: -8585523238264020583
+    List:
+    - name: Play_TestBeep
+      guid: 7789dac0a62b2149877e69056df1f864
+      id: 1955951874
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TestEvents
+        ObjectType: 12
+        guid: 7126919343b260459029a6ee7e87bdc4
+      - ElementName: Play_TestBeep
+        ObjectType: 3
+        guid: 7789dac0a62b2149877e69056df1f864
+      Path: Events\TestEvents\Play_TestBeep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TestBeep_3D
+      guid: 35216d69f19ba84695fc0af7f5e433ba
+      id: 1681067324
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TestEvents
+        ObjectType: 12
+        guid: 7126919343b260459029a6ee7e87bdc4
+      - ElementName: Play_TestBeep_3D
+        ObjectType: 3
+        guid: 35216d69f19ba84695fc0af7f5e433ba
+      Path: Events\TestEvents\Play_TestBeep_3D
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_TestBeep_lp
+      guid: 0317dcf7cd2ff147a19b4047a6e984cb
+      id: 858964037
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TestEvents
+        ObjectType: 12
+        guid: 7126919343b260459029a6ee7e87bdc4
+      - ElementName: Play_TestBeep_lp
+        ObjectType: 3
+        guid: 0317dcf7cd2ff147a19b4047a6e984cb
+      Path: Events\TestEvents\Play_TestBeep_lp
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -665,7 +729,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\PLYR
     guid: 694ecfd93a950d4f8bc04f7a4fd526f7
     GuidInternal: 
-    m_lastTime: -8585524071134573170
+    m_lastTime: -8585523638754517683
     List:
     - name: RTPC_PLYR_Exhaust
       guid: d6e5694994a8624591bd1dc1db1ef212

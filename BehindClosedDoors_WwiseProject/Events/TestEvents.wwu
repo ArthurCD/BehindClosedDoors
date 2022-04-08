@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{93912671-B243-4560-9029-A6EE7E87BDC4}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="TestEvents" ID="{93912671-B243-4560-9029-A6EE7E87BDC4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_TestBeep" ID="{C0DA8977-2BA6-4921-877E-69056DF1F864}"/>
+				<Event Name="Play_TestBeep_3D" ID="{696D2135-9BF1-46A8-95FC-0AF7F5E433BA}"/>
+				<Event Name="Play_TestBeep_lp" ID="{F7DC1703-2FCD-47F1-A19B-4047A6E984CB}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
