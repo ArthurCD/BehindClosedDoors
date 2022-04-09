@@ -20,6 +20,7 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         foreach(GameObject spawner in spawners)
         {
             id = spawner.GetComponent<SpawnID>().spawnid;
