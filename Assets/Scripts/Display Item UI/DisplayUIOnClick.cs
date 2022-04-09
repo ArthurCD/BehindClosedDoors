@@ -7,6 +7,8 @@ public class DisplayUIOnClick : MonoBehaviour
 {
     public GameObject itemUIDisplay;
     public GameObject icon_clickUISprite;
+
+   
     //[SerializeField]
     //bool canInspect = false;
 
@@ -36,22 +38,32 @@ public class DisplayUIOnClick : MonoBehaviour
     {
 		//display UI screen
         itemUIDisplay.SetActive(true);  
+        
   
     }
 
-    private void OnMouseOver() {
+    private void OnMouseOver() 
+    {
+
         icon_clickUISprite.SetActive(true);
+        CustomCursor.instance.SetCursorInteract();
+    
+        
+
     }
     void OnMouseExit()
     {
         icon_clickUISprite.SetActive(false);
+        CustomCursor.instance.SetCursorDefault();
+         
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             itemUIDisplay.SetActive(false);
+           
         }
     }
 }
