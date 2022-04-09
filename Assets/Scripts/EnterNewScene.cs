@@ -34,6 +34,8 @@ public class EnterNewScene : MonoBehaviour
         {
             canEnter = true;
         }
+
+        CustomCursor.instance.SetCursorInteract();
     }
 
     // deactivate enter ability if player leaves collider
@@ -43,5 +45,7 @@ public class EnterNewScene : MonoBehaviour
         {
             canEnter = false;
         }
+
+        CustomCursor.instance.SetCursorDefault();
     }
 }
