@@ -9,6 +9,12 @@
 						<Property Name="WindowSize" Type="int32" Value="256"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="PLYR_Breath_Run_Exhaust_Extreme" ID="{35FBB25C-1937-4A90-B3FB-A22C12B467D9}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="691"/>
+						<Property Name="GainBand1" Type="Real32" Value="12"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

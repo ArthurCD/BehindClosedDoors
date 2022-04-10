@@ -42,11 +42,14 @@ public class FirtPersonSound : MonoBehaviour
     private Rigidbody rb;
 
     float timer = 0.0f;
+    float m_RTPC_PLYR_Exhaust = .0f;
 
-   
+
+
     private float FootstepSpeed = 1.0f;
-    public float FootstepSpeedWalk = 1.8f;
-    public float FootstepSpeedRun = 0.5f;
+    public float FootstepSpeedSneak = .6f;
+    public float FootstepSpeedWalk = .5f;
+    public float FootstepSpeedRun = .35f;
 
 
     [SerializeField] private bool m_IsRunning;
@@ -73,7 +76,7 @@ public class FirtPersonSound : MonoBehaviour
 
 
 
-
+    public AK.Wwise.Switch Switch_PLYR_Movement_Sneak;
     public AK.Wwise.Switch Switch_PLYR_Movement_Walk;
     public AK.Wwise.Switch Switch_PLYR_Movement_Run;
 
@@ -85,6 +88,10 @@ public class FirtPersonSound : MonoBehaviour
 
 
 
+    public AK.Wwise.RTPC RTPC_PLYR_Exhaust;
+
+
+
 
     private float m_StepCycle;
     private float m_NextStep;
@@ -92,12 +99,13 @@ public class FirtPersonSound : MonoBehaviour
 
 
 
-
+    //Get Player Character Rigidbody to track it's movements (velocity) 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
     }
-    // Use this for initialization
+
+    //Start Breathing
     private void Start()
     {
         //FS_Run.Post(gameObject);
@@ -105,12 +113,12 @@ public class FirtPersonSound : MonoBehaviour
     }
 
 
-    //Update is called once per frame
+    // Track Player movement
     private void Update()
     {
         CheckTerrain();
 
-
+        //Debug.Log(rb.velocity.magnitude);
 
         //ILDE
         if (rb.velocity.magnitude < .1f)
@@ -124,8 +132,21 @@ public class FirtPersonSound : MonoBehaviour
         }
         else
         {
+
+            //SNEAK
+            if (rb.velocity.magnitude < 2.0f)
+            {
+                if (m_IsPostedBreathRun == true)
+                {
+                    PLYR_Breath_Stop.Post(gameObject);
+                    m_IsPostedBreathRun = false;
+                }
+                m_IsRunning = false;
+                FootstepSpeed = FootstepSpeedSneak;
+            }
+
             //RUN
-            if (Input.GetKey(KeyCode.LeftShift))
+            else if (Input.GetKey(KeyCode.LeftShift))
             {
                 if (m_IsPostedBreathRun==false)
                 {
@@ -134,6 +155,12 @@ public class FirtPersonSound : MonoBehaviour
                 }
                 m_IsRunning = true;
                 FootstepSpeed = FootstepSpeedRun;
+
+                if (m_RTPC_PLYR_Exhaust < 100)
+                {
+                    m_RTPC_PLYR_Exhaust = m_RTPC_PLYR_Exhaust + 0.1f;
+                    RTPC_PLYR_Exhaust.SetGlobalValue(m_RTPC_PLYR_Exhaust);
+                }
             }
 
             //WALK
@@ -150,21 +177,36 @@ public class FirtPersonSound : MonoBehaviour
             }
 
             //Debug.Log(FootstepSpeedWalk);
-            Debug.Log(FootstepSpeed);
-            Debug.Log(timer);
+            //Debug.Log(FootstepSpeed);
+            //Debug.Log(timer);
 
+
+            //Time beetween footsteps
             if (timer > FootstepSpeed)
             {
                 PlayFootStepAudio();
                 timer = 0.0f;
             }
 
+       
+
+        }
+
+
+        //Exhaust decrease
+        if (!m_IsRunning && m_RTPC_PLYR_Exhaust > 0)
+        {
+            m_RTPC_PLYR_Exhaust = m_RTPC_PLYR_Exhaust - 0.1f;
+            RTPC_PLYR_Exhaust.SetGlobalValue(m_RTPC_PLYR_Exhaust);
         }
 
         timer += Time.deltaTime;
+        Debug.Log(m_RTPC_PLYR_Exhaust);
+     
     }
 
 
+    // Switch Walking Material
     //Ray slightly under character to check if a registered "Layer" is set to the walked game object
     private void CheckTerrain()
     {
@@ -208,6 +250,8 @@ public class FirtPersonSound : MonoBehaviour
     }
 
 
+
+    //Post Footsteps Audio Event
     private void PlayFootStepAudio()
     {
 
@@ -217,6 +261,14 @@ public class FirtPersonSound : MonoBehaviour
             FS_Run.Post(gameObject);
             Debug.Log("Run");
         }
+
+        else if (rb.velocity.magnitude < 2.0f)
+        {
+            Switch_PLYR_Movement_Sneak.SetValue(gameObject);
+            FS_Sneak.Post(gameObject);
+            Debug.Log("Sneak");
+        }
+
         else
         {
             Switch_PLYR_Movement_Walk.SetValue(gameObject);

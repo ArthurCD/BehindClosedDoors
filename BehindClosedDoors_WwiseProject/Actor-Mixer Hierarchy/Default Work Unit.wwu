@@ -1878,6 +1878,374 @@
 						<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_21" ID="{55B4C0A8-27AA-4F71-95AE-C2CE45AAC1E4}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Sneak_01" ID="{06B1D8A3-F2D1-4679-BCF1-28758BA61407}" ShortID="409921308">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Sneak_01" ID="{C0F97256-B10A-46D4-8A05-F83FC6063B36}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Sneak_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="457083960"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Sneak_01" ID="{C0F97256-B10A-46D4-8A05-F83FC6063B36}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Sneak_02" ID="{9D38A7F5-DA33-46BD-80DF-F741B74FB191}" ShortID="302661573">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Sneak_02" ID="{08C8BC4F-DE6A-4E12-AA32-98579608D69F}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Sneak_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="365135064"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Sneak_02" ID="{08C8BC4F-DE6A-4E12-AA32-98579608D69F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Sneak_03" ID="{B3B308DB-F8C3-47BC-8132-5860234A641D}" ShortID="503523099">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Sneak_03" ID="{D3A6C56D-19A4-44C0-B13D-C964E4635E4C}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Sneak_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="8165519"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Sneak_03" ID="{D3A6C56D-19A4-44C0-B13D-C964E4635E4C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Sneak_04" ID="{247302DE-6D9C-473B-8B5B-0EEAF0214A10}" ShortID="867659396">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Sneak_04" ID="{5F1FE9DC-58C9-4C9B-AE86-2EA3385C797D}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Sneak_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="326749392"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Sneak_04" ID="{5F1FE9DC-58C9-4C9B-AE86-2EA3385C797D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Carpet_Sneak_05" ID="{AD5F0FEA-A720-4A37-AA6A-892940577605}" ShortID="607576222">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Carpet_Sneak_05" ID="{1A1359E0-5F05-4F3B-99B8-7B551A4341CC}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Carpet_Sneak_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="94490481"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Carpet_Sneak_05" ID="{1A1359E0-5F05-4F3B-99B8-7B551A4341CC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Sneak_01" ID="{B9156AB2-79C8-4A93-B08E-75412CFAFDEB}" ShortID="975277163">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Sneak_01" ID="{EE13F681-A760-4138-9606-0F20FCB2B0F0}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Sneak_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="146456245"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Sneak_01" ID="{EE13F681-A760-4138-9606-0F20FCB2B0F0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Sneak_02" ID="{1EAEBB12-ACF1-4811-A86C-DD4B4BF570F2}" ShortID="683093891">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Sneak_02" ID="{B9EA313D-0BC3-425B-A651-AF87CA388CFB}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Sneak_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="651762624"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Sneak_02" ID="{B9EA313D-0BC3-425B-A651-AF87CA388CFB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Sneak_03" ID="{759E0432-8158-4D02-A0B4-0B98B3991520}" ShortID="338685748">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Sneak_03" ID="{D2DB17C1-D234-49F0-A7FF-0465FA4C2F34}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Sneak_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="871553529"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Sneak_03" ID="{D2DB17C1-D234-49F0-A7FF-0465FA4C2F34}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Sneak_04" ID="{10EB2A4D-EFE8-459D-8DB5-B24501EFD23D}" ShortID="710671531">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Sneak_04" ID="{6F8A8E48-6E8D-47E8-85C5-9B34DB6D09E2}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Sneak_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="503860079"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Sneak_04" ID="{6F8A8E48-6E8D-47E8-85C5-9B34DB6D09E2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Sneak_05" ID="{A99B0476-28E9-41BB-8D2F-DC7CDCB1C77D}" ShortID="994895815">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Sneak_05" ID="{BDD64400-18F4-4991-A187-853D7FBAEAE1}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Sneak_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="68129637"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Sneak_05" ID="{BDD64400-18F4-4991-A187-853D7FBAEAE1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Stone_Sneak_06" ID="{0A7A74FA-9B6D-41B7-AC25-7901D0023312}" ShortID="118328607">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Stone_Sneak_06" ID="{54470FB5-4E8E-446D-88C3-1AB25500F280}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Stone_Sneak_06.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="586353175"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Stone_Sneak_06" ID="{54470FB5-4E8E-446D-88C3-1AB25500F280}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Sneak_01" ID="{51CAEA22-EFF4-4653-BC8D-5318AE544D0F}" ShortID="77394722">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Sneak_01" ID="{D71387E1-6B69-434E-AA89-DA893EF3957A}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Sneak_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1057938293"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Sneak_01" ID="{D71387E1-6B69-434E-AA89-DA893EF3957A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Sneak_02" ID="{07AE5030-DDAB-469F-83E4-6E79FA1B85B1}" ShortID="9094621">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Sneak_02" ID="{4033A06F-7B91-48B4-8E39-EB3ABDC34E00}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Sneak_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="639614607"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Sneak_02" ID="{4033A06F-7B91-48B4-8E39-EB3ABDC34E00}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Sneak_03" ID="{7E455818-F690-4DD0-A36B-622ACBD82CB8}" ShortID="116077809">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Sneak_03" ID="{4B385A35-C4F9-4FCA-BC3C-474506A2220B}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Sneak_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="6939327"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Sneak_03" ID="{4B385A35-C4F9-4FCA-BC3C-474506A2220B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Sneak_04" ID="{74B87152-B6AC-4384-9002-C3FFB165F181}" ShortID="980197432">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Sneak_04" ID="{657DEF09-E89F-450A-85C6-3A012F4AB9FE}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Sneak_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="798622716"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Sneak_04" ID="{657DEF09-E89F-450A-85C6-3A012F4AB9FE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLYR_FS_Wood_Sneak_05" ID="{E5B87D11-F497-4673-AB89-527E20B3D50D}" ShortID="1031273270">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLYR_FS_Wood_Sneak_05" ID="{D6600598-92AE-49CC-B8FB-B7FB6582DDEF}">
+							<Language>SFX</Language>
+							<AudioFile>PLYR_FS_Wood_Sneak_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="564442101"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PLYR_FS_Wood_Sneak_05" ID="{D6600598-92AE-49CC-B8FB-B7FB6582DDEF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
