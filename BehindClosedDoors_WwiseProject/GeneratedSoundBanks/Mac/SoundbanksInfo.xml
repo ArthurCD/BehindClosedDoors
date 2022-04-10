@@ -19,7 +19,7 @@
 				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4044585971">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1060059145">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -32,7 +32,7 @@
 				<AuxBus Id="4063189299" Name="Corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Corridor"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3748169348" Language="SFX" Hash="3733757443">
+		<SoundBank Id="3748169348" Language="SFX" Hash="2059972381">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PLYR</ObjectPath>
 			<ShortName>SB_PLYR</ShortName>
 			<Path>SB_PLYR.bnk</Path>
@@ -324,9 +324,123 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1884485130" Name="Play_PLYR_FS_Sneak" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Sneak" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+				<Event Id="1884485130" Name="Play_PLYR_FS_Sneak" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Sneak" DurationType="OneShot" DurationMin="0." DurationMax="1.15625">
+					<IncludedMemoryFiles>
+						<File Id="6939327" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Sneak_03.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Sneak_03_10C4C929.wem</Path>
+						</File>
+						<File Id="8165519" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Sneak_03.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Sneak_03_10C4C929.wem</Path>
+						</File>
+						<File Id="68129637" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Sneak_05.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Sneak_05_10C4C929.wem</Path>
+						</File>
+						<File Id="94490481" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Sneak_05.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Sneak_05_10C4C929.wem</Path>
+						</File>
+						<File Id="146456245" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Sneak_01.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Sneak_01_10C4C929.wem</Path>
+						</File>
+						<File Id="326749392" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Sneak_04.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Sneak_04_10C4C929.wem</Path>
+						</File>
+						<File Id="365135064" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Sneak_02.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Sneak_02_10C4C929.wem</Path>
+						</File>
+						<File Id="457083960" Language="SFX">
+							<ShortName>PLYR_FS_Carpet_Sneak_01.wav</ShortName>
+							<Path>SFX\PLYR_FS_Carpet_Sneak_01_10C4C929.wem</Path>
+						</File>
+						<File Id="503860079" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Sneak_04.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Sneak_04_10C4C929.wem</Path>
+						</File>
+						<File Id="564442101" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Sneak_05.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Sneak_05_10C4C929.wem</Path>
+						</File>
+						<File Id="586353175" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Sneak_06.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Sneak_06_10C4C929.wem</Path>
+						</File>
+						<File Id="639614607" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Sneak_02.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Sneak_02_10C4C929.wem</Path>
+						</File>
+						<File Id="651762624" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Sneak_02.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Sneak_02_10C4C929.wem</Path>
+						</File>
+						<File Id="798622716" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Sneak_04.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Sneak_04_10C4C929.wem</Path>
+						</File>
+						<File Id="871553529" Language="SFX">
+							<ShortName>PLYR_FS_Stone_Sneak_03.wav</ShortName>
+							<Path>SFX\PLYR_FS_Stone_Sneak_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1057938293" Language="SFX">
+							<ShortName>PLYR_FS_Wood_Sneak_01.wav</ShortName>
+							<Path>SFX\PLYR_FS_Wood_Sneak_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}</DefaultSwitchValue>
-					<SwitchContainers/>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8FA7927B-AD4F-4E63-9406-3F2C89B29275}">
+							<Media>
+								<File Id="68129637"/>
+								<File Id="146456245"/>
+								<File Id="503860079"/>
+								<File Id="586353175"/>
+								<File Id="651762624"/>
+								<File Id="871553529"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9C632D9B-619E-4AC3-BF20-0745AAD5FBAA}">
+							<Media>
+								<File Id="68129637"/>
+								<File Id="146456245"/>
+								<File Id="503860079"/>
+								<File Id="586353175"/>
+								<File Id="651762624"/>
+								<File Id="871553529"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B44064C8-DE4F-4C95-B78D-36D48557F3E0}">
+							<Media>
+								<File Id="6939327"/>
+								<File Id="564442101"/>
+								<File Id="639614607"/>
+								<File Id="798622716"/>
+								<File Id="1057938293"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}">
+							<Media>
+								<File Id="8165519"/>
+								<File Id="94490481"/>
+								<File Id="326749392"/>
+								<File Id="365135064"/>
+								<File Id="457083960"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CBED6EF4-13BD-470F-8E25-34143630256D}">
+							<Media>
+								<File Id="6939327"/>
+								<File Id="564442101"/>
+								<File Id="639614607"/>
+								<File Id="798622716"/>
+								<File Id="1057938293"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="965817426" Name="Play_PLYR_FS_Stop" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Stop" DurationType="OneShot" DurationMin="0." DurationMax="1.022333">
 					<IncludedMemoryFiles>
