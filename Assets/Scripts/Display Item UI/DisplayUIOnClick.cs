@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class DisplayUIOnClick : MonoBehaviour
 {
-    public GameObject itemUIDisplay;
-    public GameObject icon_clickUISprite;
+    public GameObject itemUIDisplay, icon_clickUISprite;
 
+    bool multipleImagesExist = false;
+    UIFlipImage flipScript;
    
     //[SerializeField]
     //bool canInspect = false;
@@ -33,7 +34,36 @@ public class DisplayUIOnClick : MonoBehaviour
         }
     }*/
 
-    //NEED COLLIDER on object
+    private void Start()
+    {
+        flipScript = itemUIDisplay.GetComponent<UIFlipImage>();
+        if(flipScript != null)
+        {
+            multipleImagesExist = true;
+        }
+        else
+        {
+            multipleImagesExist = false;
+        }
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            closeUI();
+        }
+
+        if(Input.GetKeyDown(KeyCode.F) && itemUIDisplay.activeSelf && multipleImagesExist)
+        {
+            flipScript.FlipImage();
+        }
+
+
+    }
+
+
+     //NEED COLLIDER on object
     private void OnMouseUp()
     {
 		//display UI screen
@@ -48,7 +78,6 @@ public class DisplayUIOnClick : MonoBehaviour
         icon_clickUISprite.SetActive(true);
         CustomCursor.instance.SetCursorInteract();
     
-        
 
     }
     void OnMouseExit()
@@ -58,12 +87,10 @@ public class DisplayUIOnClick : MonoBehaviour
          
     }
 
-    void Update()
+    private void closeUI()
     {
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            itemUIDisplay.SetActive(false);
+       itemUIDisplay.SetActive(false);
            
-        }
     }
+
 }
