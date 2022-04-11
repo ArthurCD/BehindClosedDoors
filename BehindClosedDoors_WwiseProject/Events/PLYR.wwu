@@ -5,6 +5,16 @@
 			<ChildrenList>
 				<WorkUnit Name="PLYR_FS" ID="{644B00B7-F694-49DC-9034-E6B9807C7898}" PersistMode="Reference"/>
 				<WorkUnit Name="PLYR_Breath" ID="{467C1FB4-CAD1-4563-9B8F-1B529FEF4CF0}" PersistMode="Reference"/>
+				<Event Name="StopAll" ID="{B27244A1-5D85-4D21-A43A-0BA85F05B985}">
+					<ChildrenList>
+						<Action Name="" ID="{388DD5EC-09D5-47A4-AC16-B90F9CD57C69}" ShortID="1012525239">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

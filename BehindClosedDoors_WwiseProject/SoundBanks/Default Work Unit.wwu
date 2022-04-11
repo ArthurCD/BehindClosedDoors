@@ -13,8 +13,7 @@
 				<SoundBank Name="SB_PLYR" ID="{36BCE7C3-473D-467C-BCFE-85A72D3FA280}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PLYR_Breath" ID="{467C1FB4-CAD1-4563-9B8F-1B529FEF4CF0}" WorkUnitID="{467C1FB4-CAD1-4563-9B8F-1B529FEF4CF0}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PLYR_FS" ID="{644B00B7-F694-49DC-9034-E6B9807C7898}" WorkUnitID="{644B00B7-F694-49DC-9034-E6B9807C7898}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PLYR" ID="{4A34E3ED-BAAA-49C0-8995-1999F935A582}" WorkUnitID="{4A34E3ED-BAAA-49C0-8995-1999F935A582}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{7A532D84-7473-4C74-B5D9-930A2406E154}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

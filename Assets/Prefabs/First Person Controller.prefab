@@ -265,6 +265,8 @@ GameObject:
   - component: {fileID: 3239428321685134021}
   - component: {fileID: 3241020892669878077}
   - component: {fileID: 3241214150786941719}
+  - component: {fileID: 1856935611615370334}
+  - component: {fileID: 8055255275217297155}
   m_Layer: 0
   m_Name: First Person Controller
   m_TagString: Player
@@ -368,6 +370,135 @@ MonoBehaviour:
   headToLower: {fileID: 3270563021141493521}
   crouchYHeadPosition: 0.3
   colliderToLower: {fileID: 3209629052794975563}
+--- !u!114 &1856935611615370334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3272675989249522521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e02d37cb26789464eac7ecc0d8293cde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RTPC_PLYR_SelfConscious: 0
+  m_RTPC_PLYR_Fear: 0
+  RTPC_PLYR_SelfConscious:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 318369f5c6fbc504bad5beaab331a7c7, type: 2}
+  RTPC_PLYR_Fear:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 961cc9af50422684897ae8cd92e2755c, type: 2}
+--- !u!114 &8055255275217297155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3272675989249522521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656ac0e557f54c049aac22d65f91823b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FootstepSpeedSneak: 0.65
+  FootstepSpeedWalk: 0.45
+  FootstepSpeedRun: 0.35
+  m_IsRunning: 0
+  m_WalkSpeed: 0
+  m_RunSpeed: 0
+  m_StepInterval: 0
+  StopAll:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6ffdecf41d6f9604bbaf61475573d153, type: 2}
+  FS_Sneak:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ea4ea9680868e8e4d8702a1c1ea3c37c, type: 2}
+  FS_Walk:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fd9d4d224d4c8f24aa10bd21fa115c66, type: 2}
+  FS_Run:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 14071c1f0ad106149b6ca99051b6f29d, type: 2}
+  FS_Stop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d6bc6aa330109484aa2036663e3b8f17, type: 2}
+  FS_Rotate:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 411c11586a5ca7649bfcf32f869e1d9a, type: 2}
+  PLYR_Breath_Idle:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3c2018ecfa26c0a4f815f34bc45ab360, type: 2}
+  PLYR_Breath_Run:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: edc6769fab3db5946adba677c246cc80, type: 2}
+  PLYR_Breath_Stop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a545dc496ea47594a81d8ea8da67c7e6, type: 2}
+  Switch_PLYR_Movement_Sneak:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cbaeaac5b0598d345bb4d5e5108c9113, type: 2}
+  Switch_PLYR_Movement_Walk:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 833107b8494652f479984560bc8685da, type: 2}
+  Switch_PLYR_Movement_Run:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5002b2635a16c01408ac97c2826ac647, type: 2}
+  Switch_PLYR_Material_Carpet:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e75586b45712e3f4eb3c6c46aafa0f43, type: 2}
+  Switch_PLYR_Material_Stone:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 848aa05f48557784f89d50c97952aa6f, type: 2}
+  Switch_PLYR_Material_Stone_Stairs:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 680cce3bdd116dd42aef8da058198917, type: 2}
+  Switch_PLYR_Material_Wood:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 552100c79617f014c875a606bcb3e602, type: 2}
+  Switch_PLYR_Material_Wood_Stairs:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d591498eff49d4849aad637dbdd723a7, type: 2}
+  RTPC_PLYR_Exhaust:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 05cfba8bc3f840b48ab006d26da1a4e2, type: 2}
 --- !u!1 &3273180560349135257
 GameObject:
   m_ObjectHideFlags: 0
