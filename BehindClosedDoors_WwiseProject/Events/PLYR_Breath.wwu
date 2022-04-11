@@ -26,13 +26,6 @@
 				</Event>
 				<Event Name="Play_PLYR_Breath_Idle" ID="{3EA84646-3604-4DAE-B4B4-1BE5C33935B8}">
 					<ChildrenList>
-						<Action Name="" ID="{783A1BE7-39CB-4111-B3D7-AF8DE0B4BC37}" ShortID="369402059">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PLYR_Breath_Idle" ID="{CFB5D440-4B28-4DAD-B5F0-70C8D40E384B}" WorkUnitID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{1E468962-50FB-4B55-A735-7493C66B2B0E}" ShortID="119175716">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
@@ -40,6 +33,23 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="PLYR_Breath_Run" ID="{7B634352-B1EA-48B6-A367-74533DF4D2F0}" WorkUnitID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E72C14AE-387A-4022-9122-D199FE3843B5}" ShortID="199083313">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLYR_Breath_Idle" ID="{CFB5D440-4B28-4DAD-B5F0-70C8D40E384B}" WorkUnitID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{783A1BE7-39CB-4111-B3D7-AF8DE0B4BC37}" ShortID="369402059">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLYR_Breath_Idle" ID="{CFB5D440-4B28-4DAD-B5F0-70C8D40E384B}" WorkUnitID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

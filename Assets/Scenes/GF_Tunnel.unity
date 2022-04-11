@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.5516626, g: 0.5006726, b: 0.46252924, a: 1}
+  m_IndirectSpecularColor: {r: 0.55167574, g: 0.50068706, b: 0.46254355, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -199,7 +199,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &166060239
 PrefabInstance:
@@ -271,6 +271,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
       propertyPath: m_Name
       value: Tunnel_turn (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
@@ -493,6 +497,14 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8055255275217297155, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
+      propertyPath: PLYR_Breath_Idle.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 3c2018ecfa26c0a4f815f34bc45ab360, type: 2}
+    - target: {fileID: 8055255275217297155, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
+      propertyPath: PLYR_Breath_Stop.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: a545dc496ea47594a81d8ea8da67c7e6, type: 2}
     m_RemovedComponents:
     - {fileID: 3192472654378874851, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
@@ -657,7 +669,7 @@ Transform:
   m_LocalScale: {x: 1, y: 5.5292, z: 3.1544137}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &421608947 stripped
 GameObject:
@@ -778,6 +790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_turn (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
 --- !u!1 &530581293
@@ -818,7 +834,7 @@ Transform:
   - {fileID: 1202181357}
   - {fileID: 302344413}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &541542883
 PrefabInstance:
@@ -960,6 +976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_turn
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
 --- !u!1001 &582120719
@@ -1059,6 +1079,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
   m_PrefabInstance: {fileID: 1803559333}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &622060537
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 361173157105040858, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_Name
+      value: _Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.949994
+      objectReference: {fileID: 0}
+    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.359997
+      objectReference: {fileID: 0}
+    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071077
+      objectReference: {fileID: 0}
+    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071059
+      objectReference: {fileID: 0}
+    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
 --- !u!1 &682258692 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9321305dcbe943a41b00d9f1ed0f204d, type: 3}
@@ -1304,7 +1381,7 @@ Transform:
   m_LocalScale: {x: 1.1882, y: 1.4368904, z: 1.1882}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: -151.054}
 --- !u!1 &706209020 stripped
 GameObject:
@@ -1666,6 +1743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_turn (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
 --- !u!1 &863984697 stripped
@@ -1776,6 +1857,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
       propertyPath: m_Name
       value: Tunnel_straight (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
@@ -2068,7 +2153,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1127859928
 GameObject:
@@ -2101,7 +2186,7 @@ Transform:
   - {fileID: 906664356}
   - {fileID: 930842577}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1148817397
 GameObject:
@@ -2115,7 +2200,7 @@ GameObject:
   - component: {fileID: 1148817401}
   - component: {fileID: 1148817400}
   - component: {fileID: 1148817399}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_Entrance (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2226,7 +2311,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1183462888 stripped
 GameObject:
@@ -2329,7 +2414,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1296480968
 GameObject:
@@ -2370,7 +2455,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5e87b03cda47d9241935a2d68cfa3bd8, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5e87b03cda47d9241935a2d68cfa3bd8, type: 3}
       propertyPath: m_LocalScale.x
@@ -2505,7 +2590,7 @@ Transform:
   m_Children:
   - {fileID: 935622761}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1477083966
 MonoBehaviour:
@@ -2714,6 +2799,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_straight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
 --- !u!1001 &1521241786
@@ -2787,6 +2876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_turn (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
 --- !u!1 &1530528553
@@ -2830,7 +2923,7 @@ Transform:
   - {fileID: 1405353553}
   - {fileID: 760121661}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1591388712 stripped
 GameObject:
@@ -2882,7 +2975,7 @@ GameObject:
   - component: {fileID: 1592799109}
   - component: {fileID: 1592799108}
   - component: {fileID: 1592799107}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_study
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3130,6 +3223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_turn (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
 --- !u!1001 &1811345082
@@ -3202,6 +3299,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
       propertyPath: m_Name
       value: Tunnel_straight (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
@@ -3411,7 +3512,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1878198746
 PrefabInstance:
@@ -3738,6 +3839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
 --- !u!1 &2077048618
@@ -3814,7 +3919,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2078188859
 PrefabInstance:
@@ -3886,6 +3991,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
       propertyPath: m_Name
       value: Tunnel_straight (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bf41cb16efe37e48951d6bd9991e734, type: 3}
@@ -3960,6 +4069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_turn (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4bb648f196b4784cb0431cd823f4f29, type: 3}
 --- !u!1001 &2138570186
@@ -4029,6 +4142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel_End
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9321305dcbe943a41b00d9f1ed0f204d, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9321305dcbe943a41b00d9f1ed0f204d, type: 3}
 --- !u!4 &6091773560988266167
@@ -4043,7 +4160,7 @@ Transform:
   m_LocalScale: {x: 1.7323021, y: 1.7206173, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &6899940602518057997
 GameObject:

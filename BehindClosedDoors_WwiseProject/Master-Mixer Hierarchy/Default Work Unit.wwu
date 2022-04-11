@@ -14,6 +14,62 @@
 							<ChildrenList>
 								<Bus Name="PlayerMovement" ID="{C27825E2-EBFF-4942-8151-D6107BFD5D74}">
 									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{33045E1B-61CD-4981-8542-B3ABBF57320D}" ShortID="320771329">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_PLYR_SelfConscious" ID="{66C4BC02-DD9A-4AD3-AA50-C687202F3E47}" WorkUnitID="{D9CF4E69-953A-4F0D-8BC0-4F7A4FD526F7}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{64994550-0EDA-44E0-AE9B-EE58DA2C4D2E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-4.41981</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Highpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{DF95A24D-AB5D-48AA-8904-0A0B2AC694B3}" ShortID="531474227">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_PLYR_SelfConscious" ID="{66C4BC02-DD9A-4AD3-AA50-C687202F3E47}" WorkUnitID="{D9CF4E69-953A-4F0D-8BC0-4F7A4FD526F7}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{D6F13E3E-59B3-4144-9BD6-0369A5EC4C1B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>29</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
