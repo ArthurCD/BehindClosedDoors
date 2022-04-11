@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.55167574, g: 0.50068706, b: 0.46254355, a: 1}
+  m_IndirectSpecularColor: {r: 0.5516626, g: 0.5006726, b: 0.46252924, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1195,7 +1195,7 @@ GameObject:
   - component: {fileID: 431062080}
   - component: {fileID: 431062079}
   - component: {fileID: 431062078}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Floor_Entrance (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2325,7 +2325,7 @@ GameObject:
   - component: {fileID: 575079282}
   - component: {fileID: 575079281}
   - component: {fileID: 575079280}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Floor_Entrance (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4603,7 +4603,7 @@ GameObject:
   - component: {fileID: 1148817401}
   - component: {fileID: 1148817400}
   - component: {fileID: 1148817399}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Floor_Entrance (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5620,10 +5620,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arch_Stairs_Spiral
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: fca7879304603dd448db7b251e601f5b, type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fca7879304603dd448db7b251e601f5b, type: 3}
 --- !u!1 &1353953769 stripped
@@ -6002,7 +5998,7 @@ GameObject:
   - component: {fileID: 1499958487}
   - component: {fileID: 1499958486}
   - component: {fileID: 1499958485}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Floor_study
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6415,7 +6411,7 @@ GameObject:
   - component: {fileID: 1592799109}
   - component: {fileID: 1592799108}
   - component: {fileID: 1592799107}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Floor_study
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6647,7 +6643,7 @@ GameObject:
   - component: {fileID: 1616820364}
   - component: {fileID: 1616820363}
   - component: {fileID: 1616820362}
-  m_Layer: 14
+  m_Layer: 0
   m_Name: Carpet_study
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6916,7 +6912,7 @@ GameObject:
   - component: {fileID: 1640161259}
   - component: {fileID: 1640161258}
   - component: {fileID: 1640161257}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Floor_Entrance (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6999,63 +6995,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640161255}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1674731960
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 361173157105040858, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
-      propertyPath: m_Name
-      value: _Audio
-      objectReference: {fileID: 0}
-    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -11.949994
-      objectReference: {fileID: 0}
-    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 19.359997
-      objectReference: {fileID: 0}
-    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071077
-      objectReference: {fileID: 0}
-    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071059
-      objectReference: {fileID: 0}
-    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 361173157105040859, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
 --- !u!1001 &1709551409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7241,7 +7180,7 @@ GameObject:
   - component: {fileID: 1768228680}
   - component: {fileID: 1768228679}
   - component: {fileID: 1768228678}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Floor_study
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8087,7 +8026,7 @@ GameObject:
   - component: {fileID: 2074748368}
   - component: {fileID: 2074748367}
   - component: {fileID: 2074748366}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Floor_Entrance (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8327,7 +8266,7 @@ GameObject:
   - component: {fileID: 2115558854}
   - component: {fileID: 2115558853}
   - component: {fileID: 2115558852}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Floor_study
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8525,14 +8464,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 8055255275217297155, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
-      propertyPath: PLYR_Breath_Idle.WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: 3c2018ecfa26c0a4f815f34bc45ab360, type: 2}
-    - target: {fileID: 8055255275217297155, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
-      propertyPath: PLYR_Breath_Stop.WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: a545dc496ea47594a81d8ea8da67c7e6, type: 2}
     m_RemovedComponents:
     - {fileID: 3192472654378874851, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}

@@ -6,7 +6,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1874744501	Play_PLYR_Breath_Idle			\PLYR\PLYR_Breath\Play_PLYR_Breath_Idle	
 	1884485130	Play_PLYR_FS_Sneak			\PLYR\PLYR_FS\Play_PLYR_FS_Sneak	
 	2246640637	Play_PLYR_FS_Walk			\PLYR\PLYR_FS\Play_PLYR_FS_Walk	
-	3086540886	StopAll			\PLYR\StopAll	
 	3866605154	Play_PLYR_Breath_Run			\PLYR\PLYR_Breath\Play_PLYR_Breath_Run	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -20,7 +19,6 @@ Switch	ID	Name	Switch Group			Notes
 	4044498913	Stone_Stairs	Switch_PLYR_Material			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	704064995	RTPC_PLYR_SelfConscious			\PLYR\RTPC_PLYR_SelfConscious	
 	1288385545	RTPC_PLYR_Exhaust			\PLYR\RTPC_PLYR_Exhaust	
 	2149904807	RTPC_PLYR_WetFeet			\Default Work Unit\RTPC_PLYR_WetFeet	
 	3723109863	RTPC_PLYR_Fear			\PLYR\RTPC_PLYR_Fear	
