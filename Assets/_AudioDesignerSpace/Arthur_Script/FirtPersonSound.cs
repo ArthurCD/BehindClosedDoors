@@ -8,7 +8,7 @@ using Random = UnityEngine.Random;
 /// Arthur
 /// 
 
-public class Player_Sound : MonoBehaviour
+public class FirtPersonSound : MonoBehaviour
 {
     /// <summary>
     /// Footsteps Type based on velocity and shift key down
@@ -58,9 +58,6 @@ public class Player_Sound : MonoBehaviour
     [SerializeField] private float m_WalkSpeed;
     [SerializeField] private float m_RunSpeed;
     [SerializeField] private float m_StepInterval;
-
-
-    public AK.Wwise.Event StopAll;
 
 
     public AK.Wwise.Event FS_Sneak;
@@ -189,7 +186,10 @@ public class Player_Sound : MonoBehaviour
             {
                 PlayFootStepAudio();
                 timer = 0.0f;
-            }   
+            }
+
+       
+
         }
 
 
@@ -201,7 +201,7 @@ public class Player_Sound : MonoBehaviour
         }
 
         timer += Time.deltaTime;
-        //Debug.Log(m_RTPC_PLYR_Exhaust);
+        Debug.Log(m_RTPC_PLYR_Exhaust);
      
     }
 
@@ -259,29 +259,24 @@ public class Player_Sound : MonoBehaviour
         {
             Switch_PLYR_Movement_Run.SetValue(gameObject);
             FS_Run.Post(gameObject);
-            //Debug.Log("Run");
+            Debug.Log("Run");
         }
 
         else if (rb.velocity.magnitude < 2.0f)
         {
             Switch_PLYR_Movement_Sneak.SetValue(gameObject);
             FS_Sneak.Post(gameObject);
-            //Debug.Log("Sneak");
+            Debug.Log("Sneak");
         }
 
         else
         {
             Switch_PLYR_Movement_Walk.SetValue(gameObject);
             FS_Walk.Post(gameObject);
-            //Debug.Log("Walk");
+            Debug.Log("Walk");
         }
     }
 
-
-    private void OnDestroy()
-    {
-        StopAll.Post(gameObject);
-    }
 
 }
 

@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 842d537a7374744cb5d9930a2406e154
     GuidInternal: 
-    m_lastTime: -8585520138526301911
+    m_lastTime: -8585521037329466528
     List:
     - name: Abient
       guid: 216d9e083016204295860ea90d99faa7
@@ -360,7 +360,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8e9d7f6496ac724b99dc1425213e2a9b
     GuidInternal: 
-    m_lastTime: -8585519574308117495
+    m_lastTime: -8585521037327765240
     List:
     - name: SB_PLYR
       guid: c3e7bc363d477c46bcfe85a72d3fa280
@@ -391,19 +391,6 @@ MonoBehaviour:
         guid: e7455e11c65aee40971ad899eda18dd2
       Path: SoundBanks\Default Work Unit\SB_Test
   EventWwu:
-  - PhysicalPath: Events\AMB.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: AMB
-      ObjectType: 12
-      guid: eaf5961f39b4d642a42fd05543aeaf94
-    ParentPath: Events\AMB
-    guid: eaf5961f39b4d642a42fd05543aeaf94
-    GuidInternal: 
-    m_lastTime: -8585519553910840154
-    List: []
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -434,19 +421,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-  - PhysicalPath: Events\Interactible.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: Interactible
-      ObjectType: 12
-      guid: 8861ce175acb624eb2a9e10b1e17ff89
-    ParentPath: Events\Interactible
-    guid: 8861ce175acb624eb2a9e10b1e17ff89
-    GuidInternal: 
-    m_lastTime: -8585519553436797719
-    List: []
   - PhysicalPath: Events\PLYR.wwu
     PathAndIcons:
     - ElementName: Events
@@ -458,25 +432,8 @@ MonoBehaviour:
     ParentPath: Events\PLYR
     guid: ede3344aaabac04989951999f935a582
     GuidInternal: 
-    m_lastTime: -8585519576627101778
-    List:
-    - name: StopAll
-      guid: a14472b2855d214da43a0ba85f05b985
-      id: 3086540886
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: PLYR
-        ObjectType: 12
-        guid: ede3344aaabac04989951999f935a582
-      - ElementName: StopAll
-        ObjectType: 3
-        guid: a14472b2855d214da43a0ba85f05b985
-      Path: Events\PLYR\StopAll
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+    m_lastTime: -8585521037331192607
+    List: []
   - PhysicalPath: Events\PLYR_Breath.wwu
     PathAndIcons:
     - ElementName: Events
@@ -491,7 +448,7 @@ MonoBehaviour:
     ParentPath: Events\PLYR\PLYR_Breath
     guid: b41f7c46d1ca63459b8f1b529fef4cf0
     GuidInternal: 
-    m_lastTime: -8585519531541518948
+    m_lastTime: -8585523638754527602
     List:
     - name: Play_PLYR_Breath_Idle
       guid: 4646a83e0436ae4db4b41be5c33935b8
@@ -708,7 +665,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\PLYR
     guid: 694ecfd93a950d4f8bc04f7a4fd526f7
     GuidInternal: 
-    m_lastTime: -8585520144912181296
+    m_lastTime: -8585521037331177733
     List:
     - name: RTPC_PLYR_Exhaust
       guid: d6e5694994a8624591bd1dc1db1ef212
@@ -738,20 +695,6 @@ MonoBehaviour:
         ObjectType: 13
         guid: 2a890535fb738b4aa7da5c14d45dc3cc
       Path: Game Parameters\PLYR\RTPC_PLYR_Fear
-    - name: RTPC_PLYR_SelfConscious
-      guid: 02bcc4669addd34aaa50c687202f3e47
-      id: 704064995
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: PLYR
-        ObjectType: 12
-        guid: 694ecfd93a950d4f8bc04f7a4fd526f7
-      - ElementName: RTPC_PLYR_SelfConscious
-        ObjectType: 13
-        guid: 02bcc4669addd34aaa50c687202f3e47
-      Path: Game Parameters\PLYR\RTPC_PLYR_SelfConscious
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -1004,7 +947,7 @@ MonoBehaviour:
     m_lastTime: -8585534443739634959
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000300000004000000050000000600000008000000090000000b0000000e0000000f00000010000000180000001b0000007e010000
+  ExpandedWaapiItemIds: 0500000006000000080000000a000000120000001400000016000000180000001b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
