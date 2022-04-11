@@ -22,7 +22,6 @@ namespace AK
         static const AkUniqueID PLAY_PLYR_FS_STOP = 965817426U;
         static const AkUniqueID PLAY_PLYR_FS_WALK = 2246640637U;
         static const AkUniqueID PLAY_TEST = 3187507146U;
-        static const AkUniqueID STOPALL = 3086540886U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -61,7 +60,6 @@ namespace AK
     {
         static const AkUniqueID RTPC_PLYR_EXHAUST = 1288385545U;
         static const AkUniqueID RTPC_PLYR_FEAR = 3723109863U;
-        static const AkUniqueID RTPC_PLYR_SELFCONSCIOUS = 704064995U;
         static const AkUniqueID RTPC_PLYR_WETFEET = 2149904807U;
     } // namespace GAME_PARAMETERS
 

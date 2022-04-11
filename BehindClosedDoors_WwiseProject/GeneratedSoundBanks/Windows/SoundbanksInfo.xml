@@ -19,7 +19,7 @@
 				<Event Id="3187507146" Name="Play_Test" ObjectPath="\Events\Default Work Unit\Play_Test" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2008156778">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3871775127">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -31,11 +31,8 @@
 				<AuxBus Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs"/>
 				<AuxBus Id="4063189299" Name="Corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Corridor"/>
 			</IncludedAuxBusses>
-			<GameParameters>
-				<GameParameter Id="704064995" Name="RTPC_PLYR_SelfConscious" ObjectPath="\Game Parameters\PLYR\RTPC_PLYR_SelfConscious"/>
-			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3748169348" Language="SFX" Hash="635147881">
+		<SoundBank Id="3748169348" Language="SFX" Hash="2059972381">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PLYR</ObjectPath>
 			<ShortName>SB_PLYR</ShortName>
 			<Path>SB_PLYR.bnk</Path>
@@ -645,7 +642,6 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3086540886" Name="StopAll" ObjectPath="\Events\PLYR\StopAll" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<IncludedAuxBusses>
 				<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom"/>
@@ -656,7 +652,6 @@
 				<AuxBus Id="4063189299" Name="Corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Corridor"/>
 			</IncludedAuxBusses>
 			<GameParameters>
-				<GameParameter Id="704064995" Name="RTPC_PLYR_SelfConscious" ObjectPath="\Game Parameters\PLYR\RTPC_PLYR_SelfConscious"/>
 				<GameParameter Id="1288385545" Name="RTPC_PLYR_Exhaust" ObjectPath="\Game Parameters\PLYR\RTPC_PLYR_Exhaust"/>
 				<GameParameter Id="2149904807" Name="RTPC_PLYR_WetFeet" ObjectPath="\Game Parameters\Default Work Unit\RTPC_PLYR_WetFeet"/>
 				<GameParameter Id="3723109863" Name="RTPC_PLYR_Fear" ObjectPath="\Game Parameters\PLYR\RTPC_PLYR_Fear"/>
