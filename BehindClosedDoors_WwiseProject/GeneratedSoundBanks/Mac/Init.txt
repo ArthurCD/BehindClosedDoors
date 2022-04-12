@@ -1,3 +1,6 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	704064995	RTPC_PLYR_SelfConscious			\PLYR\RTPC_PLYR_SelfConscious	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1153836899	PlayerHolding			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerHolding	
 	1350496757	PlayerMovement			\Default Work Unit\Master Audio Bus\PlayerMaster\PlayerMovement	

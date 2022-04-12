@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.5516626, g: 0.5006726, b: 0.46252924, a: 1}
+  m_IndirectSpecularColor: {r: 0.55167574, g: 0.50068706, b: 0.46254355, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1195,7 +1195,7 @@ GameObject:
   - component: {fileID: 431062080}
   - component: {fileID: 431062079}
   - component: {fileID: 431062078}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_Entrance (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2325,7 +2325,7 @@ GameObject:
   - component: {fileID: 575079282}
   - component: {fileID: 575079281}
   - component: {fileID: 575079280}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_Entrance (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4603,7 +4603,7 @@ GameObject:
   - component: {fileID: 1148817401}
   - component: {fileID: 1148817400}
   - component: {fileID: 1148817399}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_Entrance (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5620,6 +5620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arch_Stairs_Spiral
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fca7879304603dd448db7b251e601f5b, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fca7879304603dd448db7b251e601f5b, type: 3}
 --- !u!1 &1353953769 stripped
@@ -5998,7 +6002,7 @@ GameObject:
   - component: {fileID: 1499958487}
   - component: {fileID: 1499958486}
   - component: {fileID: 1499958485}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_study
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6411,7 +6415,7 @@ GameObject:
   - component: {fileID: 1592799109}
   - component: {fileID: 1592799108}
   - component: {fileID: 1592799107}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_study
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6643,7 +6647,7 @@ GameObject:
   - component: {fileID: 1616820364}
   - component: {fileID: 1616820363}
   - component: {fileID: 1616820362}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Carpet_study
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6912,7 +6916,7 @@ GameObject:
   - component: {fileID: 1640161259}
   - component: {fileID: 1640161258}
   - component: {fileID: 1640161257}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_Entrance (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7180,7 +7184,7 @@ GameObject:
   - component: {fileID: 1768228680}
   - component: {fileID: 1768228679}
   - component: {fileID: 1768228678}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_study
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8026,7 +8030,7 @@ GameObject:
   - component: {fileID: 2074748368}
   - component: {fileID: 2074748367}
   - component: {fileID: 2074748366}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_Entrance (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8266,7 +8270,7 @@ GameObject:
   - component: {fileID: 2115558854}
   - component: {fileID: 2115558853}
   - component: {fileID: 2115558852}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_study
   m_TagString: Untagged
   m_Icon: {fileID: 0}

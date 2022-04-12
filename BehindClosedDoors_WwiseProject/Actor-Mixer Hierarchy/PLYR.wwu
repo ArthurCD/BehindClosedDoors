@@ -5,6 +5,12 @@
 			<ChildrenList>
 				<ActorMixer Name="PLYR_Breath" ID="{9E28C1CC-1283-4232-A8EC-710F01F8C9A5}" ShortID="658434762">
 					<PropertyList>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-18</Value>
@@ -541,14 +547,14 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>60.0189765917603</RightEdgePos>
+												<RightEdgePos>53.0602137051624</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="PLYR_Breath_Oneoff_Stop_Fear" ID="{EAC206E4-A4D2-4A18-B55F-4AC3F08F7A1D}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>39.7378277153558</LeftEdgePos>
+												<LeftEdgePos>46.9543225607166</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>100</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
