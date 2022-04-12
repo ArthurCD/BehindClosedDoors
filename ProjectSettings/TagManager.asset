@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Light
   - SpawnPoint
+  - GameKey
   layers:
   - Default
   - TransparentFX

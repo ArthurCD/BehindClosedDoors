@@ -9,6 +9,7 @@ public class DisplayUIOnClick : MonoBehaviour
 
     bool multipleImagesExist = false;
     UIFlipImage flipScript;
+    
    
     //[SerializeField]
     //bool canInspect = false;
@@ -45,6 +46,8 @@ public class DisplayUIOnClick : MonoBehaviour
         {
             multipleImagesExist = false;
         }
+
+
     }
 
     void Update()
@@ -54,9 +57,17 @@ public class DisplayUIOnClick : MonoBehaviour
             closeUI();
         }
 
-        if(Input.GetKeyDown(KeyCode.F) && itemUIDisplay.activeSelf && multipleImagesExist)
+        if(Input.GetKeyDown(KeyCode.F) && itemUIDisplay.activeSelf)
         {
-            flipScript.FlipImage();
+            if(multipleImagesExist)
+                flipScript.FlipImage();
+
+            if (gameObject.tag == "GameKey")
+            {
+                gameObject.SetActive(false);
+                GameLogicManager.CollectKey();
+                itemUIDisplay.SetActive(false);
+            }    
         }
 
 
