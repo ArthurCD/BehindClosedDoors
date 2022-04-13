@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.34352735, g: 0.31818342, b: 0.28935775, a: 1}
+  m_IndirectSpecularColor: {r: 0.34356856, g: 0.31821492, b: 0.28937933, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3260,7 +3260,7 @@ GameObject:
   - component: {fileID: 778273639}
   - component: {fileID: 778273638}
   - component: {fileID: 778273637}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_Entrance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4662,7 +4662,7 @@ GameObject:
   - component: {fileID: 1254654644}
   - component: {fileID: 1254654643}
   - component: {fileID: 1254654642}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor_Entrance (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
