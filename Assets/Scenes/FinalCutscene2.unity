@@ -9616,6 +9616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2f_balconyFLOOR
       objectReference: {fileID: 0}
+    - target: {fileID: 3510251840424263535, guid: 940cc72188614714b9b5d4c000b41498, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3510251840424263524, guid: 940cc72188614714b9b5d4c000b41498, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 940cc72188614714b9b5d4c000b41498, type: 3}

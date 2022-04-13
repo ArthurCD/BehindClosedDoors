@@ -53,7 +53,7 @@ public class Player_Sound : MonoBehaviour
 
 
     [SerializeField] private bool m_IsRunning;
-    private bool m_IsPostedBreathRun;
+    private bool m_IsPostedBreathRun=false;
     private bool m_IsPostedBreathStop;
     [SerializeField] private float m_WalkSpeed;
     [SerializeField] private float m_RunSpeed;
@@ -122,6 +122,7 @@ public class Player_Sound : MonoBehaviour
         CheckTerrain();
 
         //Debug.Log(rb.velocity.magnitude);
+        //Debug.Log(m_IsPostedBreathRun);
 
         //ILDE
         if (rb.velocity.magnitude < .1f)
@@ -154,7 +155,9 @@ public class Player_Sound : MonoBehaviour
                 if (m_IsPostedBreathRun==false)
                 {
                     m_IsPostedBreathRun = true;
+                    
                     PLYR_Breath_Run.Post(gameObject);
+                    Debug.Log("RUNBREATH");
                 }
                 m_IsRunning = true;
                 FootstepSpeed = FootstepSpeedRun;
@@ -212,13 +215,15 @@ public class Player_Sound : MonoBehaviour
     {
         RaycastHit[] hit;
 
-        hit = Physics.RaycastAll(transform.position, Vector3.down, 0.05f);
+        hit = Physics.RaycastAll(transform.position, Vector3.down, 0.02f);
 
         foreach (RaycastHit rayhit in hit)
         {
             if (rayhit.transform.gameObject.layer == LayerMask.NameToLayer("Wood"))
             {
                 Switch_PLYR_Material_Wood.SetValue(gameObject);
+                //Debug.Log("Wood");
+
 
                 //currentTerrain = CURRENT_TERRAIN.WOOD;
             }
@@ -231,12 +236,14 @@ public class Player_Sound : MonoBehaviour
             else if (rayhit.transform.gameObject.layer == LayerMask.NameToLayer("Stone"))
             {
                 Switch_PLYR_Material_Stone.SetValue(gameObject);
+                //Debug.Log("Stone");
 
                 //currentTerrain = CURRENT_TERRAIN.STONE;
             }
             else if (rayhit.transform.gameObject.layer == LayerMask.NameToLayer("Stone_Stairs"))
             {
                 Switch_PLYR_Material_Stone_Stairs.SetValue(gameObject);
+            
 
                 //currentTerrain = CURRENT_TERRAIN.STONE_STAIRS;
             }
@@ -245,6 +252,8 @@ public class Player_Sound : MonoBehaviour
                 Switch_PLYR_Material_Carpet.SetValue(gameObject);
 
                 //currentTerrain = CURRENT_TERRAIN.CARPET;
+                //Debug.Log("Carpet");
+
             }
         }
     }

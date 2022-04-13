@@ -35,7 +35,7 @@
 				<GameParameter Id="704064995" Name="RTPC_PLYR_SelfConscious" ObjectPath="\Game Parameters\PLYR\RTPC_PLYR_SelfConscious"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3748169348" Language="SFX" Hash="635147881">
+		<SoundBank Id="3748169348" Language="SFX" Hash="190505584">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_PLYR</ObjectPath>
 			<ShortName>SB_PLYR</ShortName>
 			<Path>SB_PLYR.bnk</Path>
@@ -215,7 +215,7 @@
 					<DefaultSwitchValue>{810349D0-5A19-4AF6-9BAD-DF10A4486BA8}</DefaultSwitchValue>
 					<SwitchContainers/>
 				</Event>
-				<Event Id="913920749" Name="Play_PLYR_FS_Run" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Run" DurationType="OneShot" DurationMin="0." DurationMax="0.81347">
+				<Event Id="913920749" Name="Play_PLYR_FS_Run" ObjectPath="\Events\PLYR\PLYR_FS\Play_PLYR_FS_Run" DurationType="OneShot" DurationMin="0." DurationMax="0.822923">
 					<IncludedMemoryFiles>
 						<File Id="3420148" Language="SFX">
 							<ShortName>PLYR_FS_Carpet_Run_05.wav</ShortName>
