@@ -8,7 +8,7 @@ public class GameLogicManager : MonoBehaviour
     public static GameLogicManager instance;
 
     [SerializeField]
-    public static bool hasKey = false, hasLight=false;
+    public static bool hasKey = false;
     public GameObject UI_keyCollected;
 
 
@@ -48,11 +48,7 @@ public class GameLogicManager : MonoBehaviour
 
     }
 
-    public static void CollectLight()
-    {
-        hasLight = true;
-         Debug.Log("Light Collected!");
-    }
+   
 
     
 

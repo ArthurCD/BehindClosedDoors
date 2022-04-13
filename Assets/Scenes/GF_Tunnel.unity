@@ -4696,7 +4696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  canRun: 1
+  canRun: 0
   runSpeed: 4
   runningKey: 304
 --- !u!114 &1369144055
@@ -4711,9 +4711,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97fca36bd81de7c4cafce7bbf02ca611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  canRun: 1
-  runSpeed: 6
+  speed: 3
+  canRun: 0
+  runSpeed: 3
   runningKey: 304
 --- !u!1001 &1372672084
 PrefabInstance:
@@ -7144,6 +7144,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: light_pickup
       objectReference: {fileID: 0}
+    - target: {fileID: 1231457432553527786, guid: da79870fc8de1e2459eb1eff8aa10611, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1899626987671929680, guid: da79870fc8de1e2459eb1eff8aa10611, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7202,7 +7206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4024747715945219889, guid: da79870fc8de1e2459eb1eff8aa10611, type: 3}
       propertyPath: m_Range
-      value: 10.81
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4024747715945219889, guid: da79870fc8de1e2459eb1eff8aa10611, type: 3}
       propertyPath: m_Color.b
@@ -7218,7 +7222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4024747715945219889, guid: da79870fc8de1e2459eb1eff8aa10611, type: 3}
       propertyPath: m_Intensity
-      value: 1.91
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4024747715945219889, guid: da79870fc8de1e2459eb1eff8aa10611, type: 3}
       propertyPath: m_Lightmapping

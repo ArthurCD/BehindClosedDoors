@@ -46,6 +46,7 @@ public class PickUp : MonoBehaviour
           GetComponent<Collider>().enabled = false;
             this.transform.position = pickUpDest.position;
             this.transform.parent = GameObject.Find("PickupEmpty").transform;
+             icon_clickUISprite.SetActive(false);
         }
     }
 }

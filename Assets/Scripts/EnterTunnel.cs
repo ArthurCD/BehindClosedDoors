@@ -11,7 +11,7 @@ public class EnterTunnel : MonoBehaviour
     [SerializeField]
      public bool canEnter = false;
     
-    public GameObject UISprite_Usekey;
+    public GameObject UISprite_Usekey, UI_thought_needsKey;
 
 
 
@@ -33,11 +33,19 @@ public class EnterTunnel : MonoBehaviour
      // active enter function if player enters collider
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && GameLogicManager.hasKey)
+        if (other.CompareTag("Player"))
         {
-            canEnter = true;
-            Debug.Log("can Enter");
-            UISprite_Usekey.SetActive(true);
+            
+            if(GameLogicManager.hasKey)
+            {
+                canEnter = true;
+                 Debug.Log("can Enter");
+                UISprite_Usekey.SetActive(true);
+            }
+            else
+            {
+                UI_thought_needsKey.SetActive(true);
+            }
 
         }
 
@@ -51,6 +59,8 @@ public class EnterTunnel : MonoBehaviour
         {
             canEnter = false;
             UISprite_Usekey.SetActive(false);
+            UI_thought_needsKey.SetActive(false);
+            
         }
 
         
