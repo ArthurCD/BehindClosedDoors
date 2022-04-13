@@ -11,6 +11,8 @@ public class EnterNewScene : MonoBehaviour
     private bool canEnter=false;
     public int gotoSpawnerID;
 
+    public GameObject clickIcon;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,9 +35,9 @@ public class EnterNewScene : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             canEnter = true;
+            clickIcon.SetActive(true);
         }
 
-        CustomCursor.instance.SetCursorInteract();
     }
 
     // deactivate enter ability if player leaves collider
@@ -44,8 +46,9 @@ public class EnterNewScene : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             canEnter = false;
+            clickIcon.SetActive(false);
         }
 
-        CustomCursor.instance.SetCursorDefault();
+        
     }
 }

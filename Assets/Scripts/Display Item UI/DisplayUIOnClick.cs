@@ -9,6 +9,9 @@ public class DisplayUIOnClick : MonoBehaviour
 
     bool multipleImagesExist = false;
     UIFlipImage flipScript;
+
+    public Animator SceneFade;
+    
    
     //[SerializeField]
     //bool canInspect = false;
@@ -45,6 +48,8 @@ public class DisplayUIOnClick : MonoBehaviour
         {
             multipleImagesExist = false;
         }
+
+
     }
 
     void Update()
@@ -54,9 +59,27 @@ public class DisplayUIOnClick : MonoBehaviour
             closeUI();
         }
 
-        if(Input.GetKeyDown(KeyCode.F) && itemUIDisplay.activeSelf && multipleImagesExist)
+        if(Input.GetKeyDown(KeyCode.F) && itemUIDisplay.activeSelf)
         {
-            flipScript.FlipImage();
+            if(multipleImagesExist)
+                flipScript.FlipImage();
+
+            if (gameObject.tag == "GameKey")
+            {
+                gameObject.SetActive(false);
+                GameLogicManager.CollectKey();
+                itemUIDisplay.SetActive(false);
+                icon_clickUISprite.SetActive(false);
+            }  
+
+            if (gameObject.tag == "EndKey")
+            {
+                SceneFade.SetTrigger("FadeOut");
+                StartCoroutine(EndGameQuit());
+
+            }      
+
+
         }
 
 
@@ -76,14 +99,14 @@ public class DisplayUIOnClick : MonoBehaviour
     {
 
         icon_clickUISprite.SetActive(true);
-        CustomCursor.instance.SetCursorInteract();
+        
     
 
     }
     void OnMouseExit()
     {
         icon_clickUISprite.SetActive(false);
-        CustomCursor.instance.SetCursorDefault();
+       
          
     }
 
@@ -91,6 +114,12 @@ public class DisplayUIOnClick : MonoBehaviour
     {
        itemUIDisplay.SetActive(false);
            
+    }
+
+    IEnumerator EndGameQuit()
+    {
+        yield return new WaitForSeconds(3);
+        Application.Quit();
     }
 
 }

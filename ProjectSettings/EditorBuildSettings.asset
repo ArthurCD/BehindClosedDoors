@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GF_Tunnel.unity
     guid: 99dcfe9cabbe259439f6bf4a08fa217a
+  - enabled: 1
+    path: Assets/Scenes/GF_ReturnTunnel.unity
+    guid: 2f7728db9a58a324b940e7a8abfe20b0
+  - enabled: 1
+    path: Assets/Scenes/Cutscene_end1_Study.unity
+    guid: 36bf2caaaa40006499cc19fc3e61f19a
+  - enabled: 1
+    path: Assets/Scenes/FinalCutscene2.unity
+    guid: 31748c1386a8dc340b7542095dc4b471
   m_configObjects: {}
