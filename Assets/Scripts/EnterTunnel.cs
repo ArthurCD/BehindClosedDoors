@@ -9,7 +9,9 @@ public class EnterTunnel : MonoBehaviour
     [SerializeField]
      public string sceneName = "GF_Tunnel";
     [SerializeField]
-     bool canEnter = false;
+     public bool canEnter = false;
+    
+    public GameObject UISprite_Usekey;
 
 
 
@@ -31,12 +33,15 @@ public class EnterTunnel : MonoBehaviour
      // active enter function if player enters collider
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && GameLogicManager.hasKey)
         {
             canEnter = true;
+            Debug.Log("can Enter");
+            UISprite_Usekey.SetActive(true);
+
         }
 
-        CustomCursor.instance.SetCursorInteract();
+       
     }
 
     // deactivate enter ability if player leaves collider
@@ -45,8 +50,9 @@ public class EnterTunnel : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             canEnter = false;
+            UISprite_Usekey.SetActive(false);
         }
 
-        CustomCursor.instance.SetCursorDefault();
+        
     }
 }

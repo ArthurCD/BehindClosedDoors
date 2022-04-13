@@ -7,14 +7,29 @@ public class PickUp : MonoBehaviour
 
     public Transform pickUpDest;
     bool canPickup = false;
+     public GameObject icon_clickUISprite;
 
     private void OnTriggerEnter(Collider other) 
     {
         if (other.CompareTag("Player"))
         {
             canPickup = true;
+             icon_clickUISprite.SetActive(true);
+        
         }
     }
+
+    private void OnTriggerExit(Collider other) 
+    {
+        if (other.CompareTag("Player"))
+        {
+            canPickup = false;
+             icon_clickUISprite.SetActive(false);
+        
+        }
+    }
+
+
 
 
     // Start is called before the first frame update

@@ -4,9 +4,31 @@ using UnityEngine;
 
 public class GameLogicManager : MonoBehaviour
 {
+
+    public static GameLogicManager instance;
+
     [SerializeField]
-    public static bool hasKey = false;
+    public static bool hasKey = false, hasLight=false;
+    public GameObject UI_keyCollected;
+
+
     // Start is called before the first frame update
+    
+    
+    private void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+    }
+
     void Start()
     {
         
@@ -21,9 +43,18 @@ public class GameLogicManager : MonoBehaviour
     public static void CollectKey()
     {
         hasKey = true;
-         Debug.Log("Key Collected!");
+        Debug.Log("Key Collected!");
+        instance.UI_keyCollected.SetActive(true);
 
     }
+
+    public static void CollectLight()
+    {
+        hasLight = true;
+         Debug.Log("Light Collected!");
+    }
+
+    
 
 
 }

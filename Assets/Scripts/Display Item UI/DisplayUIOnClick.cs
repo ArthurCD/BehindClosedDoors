@@ -9,6 +9,8 @@ public class DisplayUIOnClick : MonoBehaviour
 
     bool multipleImagesExist = false;
     UIFlipImage flipScript;
+
+    public Animator SceneFade;
     
    
     //[SerializeField]
@@ -67,7 +69,17 @@ public class DisplayUIOnClick : MonoBehaviour
                 gameObject.SetActive(false);
                 GameLogicManager.CollectKey();
                 itemUIDisplay.SetActive(false);
-            }    
+                icon_clickUISprite.SetActive(false);
+            }  
+
+            if (gameObject.tag == "EndKey")
+            {
+                SceneFade.SetTrigger("FadeOut");
+                StartCoroutine(EndGameQuit());
+
+            }      
+
+
         }
 
 
@@ -87,14 +99,14 @@ public class DisplayUIOnClick : MonoBehaviour
     {
 
         icon_clickUISprite.SetActive(true);
-        CustomCursor.instance.SetCursorInteract();
+        
     
 
     }
     void OnMouseExit()
     {
         icon_clickUISprite.SetActive(false);
-        CustomCursor.instance.SetCursorDefault();
+       
          
     }
 
@@ -102,6 +114,12 @@ public class DisplayUIOnClick : MonoBehaviour
     {
        itemUIDisplay.SetActive(false);
            
+    }
+
+    IEnumerator EndGameQuit()
+    {
+        yield return new WaitForSeconds(3);
+        Application.Quit();
     }
 
 }
