@@ -1327,13 +1327,6 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="PLYR_FS" ID="{908C63E0-4032-402A-A3B9-10074B4C6D36}" ShortID="866870366">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
@@ -2057,7 +2050,7 @@
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Max" Type="Real64" Value="70"/>
-																	<Property Name="Min" Type="Real64" Value="-50"/>
+																	<Property Name="Min" Type="Real64" Value="-70"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -2680,7 +2673,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>2</Value>
+												<Value>5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3379,6 +3372,13 @@
 									<ObjectLists/>
 								</BlendContainer>
 								<BlendContainer Name="PLYR_FS_Stop" ID="{7A8CAA19-2B4B-4968-B288-77B393E09513}" ShortID="776789980">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
