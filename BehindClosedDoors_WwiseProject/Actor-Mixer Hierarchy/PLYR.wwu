@@ -1313,10 +1313,241 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="PLYR_Breath_Oneoff_Distressing" ID="{D74A8CCF-3F2D-4188-86C7-58EEB1D54F99}" ShortID="756697435">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="PLYR_Breath_Run_Exhaust_Extreme" ID="{35FBB25C-1937-4A90-B3FB-A22C12B467D9}" WorkUnitID="{6B04CF6B-E14B-4DF9-AA12-13C333303766}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+									<ObjectRef Name="Breath_Longer" ID="{07F420F0-2420-4DF1-97BA-0AF7999DD961}" WorkUnitID="{6B04CF6B-E14B-4DF9-AA12-13C333303766}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_15" ID="{DA4A0322-8E77-465A-B7F1-22D35946F119}" ShortID="206624367">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_15" ID="{4163B6C4-C5C1-4954-A502-955E192F8E05}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="0.736325438861986"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_15.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="684425409"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_15" ID="{4163B6C4-C5C1-4954-A502-955E192F8E05}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_21" ID="{1C933452-CF52-475C-8D4F-526C6D118CFF}" ShortID="870704035">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_21" ID="{199960C8-88CD-4CC6-9BCC-BC80AEA8CF58}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="1.00876418734867"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="629281556"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_21" ID="{199960C8-88CD-4CC6-9BCC-BC80AEA8CF58}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_19" ID="{0E081BBA-29DD-49CC-83F3-4F4D24CC519D}" ShortID="192960509">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_19" ID="{A7E27F32-9E4E-429F-93B6-4FEA5DF8D20C}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="0.934034377522195"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_19.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="236008944"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_19" ID="{A7E27F32-9E4E-429F-93B6-4FEA5DF8D20C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_20" ID="{4B20EA3D-902A-4C90-B78D-90B278928EDA}" ShortID="468864573">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_20" ID="{125A9EBA-3338-446A-B8DE-4E14614B2626}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="0.996337394067797"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_20.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="873501584"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_20" ID="{125A9EBA-3338-446A-B8DE-4E14614B2626}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_16" ID="{9E2B8756-E9A0-490C-B675-6175A9C02CAE}" ShortID="513317606">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_16" ID="{426A67BA-7455-466E-97FD-99E3AE03442E}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="0.804896589991929"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_16.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="502563069"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_16" ID="{426A67BA-7455-466E-97FD-99E3AE03442E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_17" ID="{DCFB134C-05A4-41A8-80DD-EA08B742A0B9}" ShortID="663543789">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_17" ID="{10B84601-99CE-4655-B8CB-30F4842827B3}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="0.702792549435028"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_17.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="652351590"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_17" ID="{10B84601-99CE-4655-B8CB-30F4842827B3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PLYR_Breath_Run_Exhaust_Extreme_18" ID="{2D28EF77-A03B-46EA-8FE2-1822AF697529}" ShortID="849447897">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}" WorkUnitID="{7A532D84-7473-4C74-B5D9-930A2406E154}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PLYR_Breath_Run_Exhaust_Extreme_18" ID="{A8F01124-D443-46A0-A6F9-BD8405625550}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="0.748405909503632"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PLYR_Breath_Run_Exhaust_Extreme_18.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="274334517"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="PLYR_Breath_Run_Exhaust_Extreme_18" ID="{A8F01124-D443-46A0-A6F9-BD8405625550}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="PLYR_Movement" ID="{0FDB1E91-F053-4414-B2B2-495ACCEB2850}" ShortID="1017327688">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F8A79D-C62E-4197-9598-98F912A67696}"/>

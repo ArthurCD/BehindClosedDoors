@@ -16,6 +16,9 @@ public class Audio_PersistantVariables : MonoBehaviour
     public AK.Wwise.RTPC RTPC_PLYR_SelfConscious;
     public AK.Wwise.RTPC RTPC_PLYR_Fear;
 
+
+    public bool m_DistressingItem = false;
+
     private void Awake()
     {
         Instance = this;
@@ -30,8 +33,22 @@ public class Audio_PersistantVariables : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        m_RTPC_PLYR_SelfConscious = m_RTPC_PLYR_SelfConscious + 0.01f;
-        RTPC_PLYR_SelfConscious.SetGlobalValue(m_RTPC_PLYR_SelfConscious);
+
+        if (m_DistressingItem == true)
+        {
+            m_RTPC_PLYR_SelfConscious = 100;
+            RTPC_PLYR_SelfConscious.SetGlobalValue(m_RTPC_PLYR_SelfConscious);
+            m_DistressingItem = false;
+        }
+        else
+        {
+            if(m_RTPC_PLYR_SelfConscious > 0.0f)
+            {
+                m_RTPC_PLYR_SelfConscious = m_RTPC_PLYR_SelfConscious - 0.03f;
+                RTPC_PLYR_SelfConscious.SetGlobalValue(m_RTPC_PLYR_SelfConscious);
+            }
+        }
+  
 
         //Debug.Log(TeamColor.ToString());
     }

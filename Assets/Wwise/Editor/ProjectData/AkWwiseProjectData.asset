@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 9cbabe21a44e7541bc05c9d5a7dc3ace
     GuidInternal: 
-    m_lastTime: -8585533761368178262
+    m_lastTime: -8585534443739610140
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 842d537a7374744cb5d9930a2406e154
     GuidInternal: 
-    m_lastTime: -8585517974820971331
+    m_lastTime: -8585517101031641241
     List:
     - name: Abient
       guid: 216d9e083016204295860ea90d99faa7
@@ -77,6 +77,26 @@ MonoBehaviour:
         ObjectType: 2
         guid: bab90ed80ad74344a56b1fb8be1cd978
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AmbientMaster
+    - name: Claustrophobic_Closet
+      guid: 3c1b33d1c49a674084ca68cbaab1b2c6
+      id: 1580878840
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: 19afe2a0d66b1e43be9d999eda2c4a36
+      - ElementName: Claustrophobic_Closet
+        ObjectType: 1
+        guid: 3c1b33d1c49a674084ca68cbaab1b2c6
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Claustrophobic_Closet
     - name: Corridor
       guid: 9b566d320f0bba4ab24f91113e8e8bb0
       id: 4063189299
@@ -117,6 +137,46 @@ MonoBehaviour:
         ObjectType: 1
         guid: c9dadac69fda6846ae894aff4460e880
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\CorridorEnd
+    - name: CorridorEnd_return
+      guid: dfc783beb4764840a33293a29777b8dc
+      id: 720188475
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: 19afe2a0d66b1e43be9d999eda2c4a36
+      - ElementName: CorridorEnd_return
+        ObjectType: 1
+        guid: dfc783beb4764840a33293a29777b8dc
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\CorridorEnd_return
+    - name: Hall
+      guid: 1644c880731949419d7ce49ecdb4dfd9
+      id: 3633416828
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: 19afe2a0d66b1e43be9d999eda2c4a36
+      - ElementName: Hall
+        ObjectType: 1
+        guid: 1644c880731949419d7ce49ecdb4dfd9
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Hall
     - name: LargeRoom
       guid: 0368fcba7f07564b9be42ceb442e9d1e
       id: 187046019
@@ -137,6 +197,46 @@ MonoBehaviour:
         ObjectType: 1
         guid: 0368fcba7f07564b9be42ceb442e9d1e
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom
+    - name: Library_Main
+      guid: c801f00979a14a40b65c561b3b8511bf
+      id: 361970562
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: 19afe2a0d66b1e43be9d999eda2c4a36
+      - ElementName: Library_Main
+        ObjectType: 1
+        guid: c801f00979a14a40b65c561b3b8511bf
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Library_Main
+    - name: Library_Puzzle
+      guid: 69328d6440ff114898d53c07ef38a7c2
+      id: 1416327029
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 842d537a7374744cb5d9930a2406e154
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverbs
+        ObjectType: 1
+        guid: 19afe2a0d66b1e43be9d999eda2c4a36
+      - ElementName: Library_Puzzle
+        ObjectType: 1
+        guid: 69328d6440ff114898d53c07ef38a7c2
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Library_Puzzle
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -360,7 +460,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 8e9d7f6496ac724b99dc1425213e2a9b
     GuidInternal: 
-    m_lastTime: -8585517974819721042
+    m_lastTime: -8585517290594426469
     List:
     - name: SB_PLYR
       guid: c3e7bc363d477c46bcfe85a72d3fa280
@@ -402,7 +502,7 @@ MonoBehaviour:
     ParentPath: Events\AMB
     guid: eaf5961f39b4d642a42fd05543aeaf94
     GuidInternal: 
-    m_lastTime: -8585517974822681743
+    m_lastTime: -8585517377564852183
     List: []
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -415,7 +515,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6ad9ab488a6f7546b07d0009f6d14c73
     GuidInternal: 
-    m_lastTime: -8585524414706928051
+    m_lastTime: -8585517195416498088
     List:
     - name: Play_Test
       guid: 57782522cb59054f9348e4d389756961
@@ -445,7 +545,7 @@ MonoBehaviour:
     ParentPath: Events\Interactible
     guid: 8861ce175acb624eb2a9e10b1e17ff89
     GuidInternal: 
-    m_lastTime: -8585517974822681743
+    m_lastTime: -8585517377564847225
     List: []
   - PhysicalPath: Events\PLYR.wwu
     PathAndIcons:
@@ -458,7 +558,7 @@ MonoBehaviour:
     ParentPath: Events\PLYR
     guid: ede3344aaabac04989951999f935a582
     GuidInternal: 
-    m_lastTime: -8585517974822671746
+    m_lastTime: -8585517377564842265
     List:
     - name: StopAll
       guid: a14472b2855d214da43a0ba85f05b985
@@ -491,7 +591,7 @@ MonoBehaviour:
     ParentPath: Events\PLYR\PLYR_Breath
     guid: b41f7c46d1ca63459b8f1b529fef4cf0
     GuidInternal: 
-    m_lastTime: -8585517974822661739
+    m_lastTime: -8585517195416413767
     List:
     - name: Play_PLYR_Breath_Idle
       guid: 4646a83e0436ae4db4b41be5c33935b8
@@ -513,6 +613,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_PLYR_Breath_Oneoff_Distressing
+      guid: 0ec34f74211d7745b087d7d6e2008954
+      id: 3573047562
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PLYR
+        ObjectType: 12
+        guid: ede3344aaabac04989951999f935a582
+      - ElementName: PLYR_Breath
+        ObjectType: 12
+        guid: b41f7c46d1ca63459b8f1b529fef4cf0
+      - ElementName: Play_PLYR_Breath_Oneoff_Distressing
+        ObjectType: 3
+        guid: 0ec34f74211d7745b087d7d6e2008954
+      Path: Events\PLYR\PLYR_Breath\Play_PLYR_Breath_Oneoff_Distressing
+      maxAttenuation: 0
+      maxDuration: 1.351354
+      minDuration: 0.979396
     - name: Play_PLYR_Breath_Oneoff_Stop
       guid: b0f3d65daccc0a49be72df67be1e714b
       id: 9500703
@@ -567,7 +687,7 @@ MonoBehaviour:
     ParentPath: Events\PLYR\PLYR_FS
     guid: b7004b6494f6dc499034e6b9807c7898
     GuidInternal: 
-    m_lastTime: -8585521807088030410
+    m_lastTime: -8585521037331187651
     List:
     - name: Play_PLYR_FS_Rotate
       guid: f4b4122fa8d52b4abf4e110e13bf8c96
@@ -681,7 +801,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 8c47cece733b9b4d98afe92930752407
     GuidInternal: 
-    m_lastTime: -8585524414706918047
+    m_lastTime: -8585521037331182691
     List:
     - name: RTPC_PLYR_WetFeet
       guid: f294b87b02859842ac8c0b7b5f40175c
@@ -708,7 +828,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\PLYR
     guid: 694ecfd93a950d4f8bc04f7a4fd526f7
     GuidInternal: 
-    m_lastTime: -8585517974822661739
+    m_lastTime: -8585517377564832345
     List:
     - name: RTPC_PLYR_Exhaust
       guid: d6e5694994a8624591bd1dc1db1ef212
@@ -764,7 +884,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: eecfbea7d09bb549bc17348f1c94e5a6
     GuidInternal: 
-    m_lastTime: -8585533761368238277
+    m_lastTime: -8585524857155380575
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -778,7 +898,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a0124bc36bfec7478fd19c60508ce9e4
     GuidInternal: 
-    m_lastTime: -8585533761368218272
+    m_lastTime: -8585525212984362801
     List: []
   - PhysicalPath: Switches\PLYR.wwu
     PathAndIcons:
@@ -791,7 +911,7 @@ MonoBehaviour:
     ParentPath: Switches\PLYR
     guid: 163a9432063538448e2ea19ffd8ea394
     GuidInternal: 
-    m_lastTime: -8585524414704775474
+    m_lastTime: -8585521037327760280
     List:
     - name: Switch_PLYR_Material
       guid: 95c62ca0447e864dba474512761cec6d
@@ -1001,10 +1121,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: c1642075b75b7b4b8d4719213fedad62
     GuidInternal: 
-    m_lastTime: -8585533761368198260
+    m_lastTime: -8585534443739634959
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000a0000000b0000000c0000000d000000270000002c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

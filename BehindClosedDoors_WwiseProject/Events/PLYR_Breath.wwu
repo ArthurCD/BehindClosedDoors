@@ -87,6 +87,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PLYR_Breath_Oneoff_Distressing" ID="{744FC30E-1D21-4577-B087-D7D6E2008954}">
+					<ChildrenList>
+						<Action Name="" ID="{4760F4DF-E7D6-48CC-A975-871FFD29050E}" ShortID="957781029">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLYR_Breath_Oneoff_Distressing" ID="{D74A8CCF-3F2D-4188-86C7-58EEB1D54F99}" WorkUnitID="{AABE136D-C21A-48A2-9362-8FC4717A45B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

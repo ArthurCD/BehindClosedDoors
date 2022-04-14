@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1884485130	Play_PLYR_FS_Sneak			\PLYR\PLYR_FS\Play_PLYR_FS_Sneak	
 	2246640637	Play_PLYR_FS_Walk			\PLYR\PLYR_FS\Play_PLYR_FS_Walk	
 	3086540886	StopAll			\PLYR\StopAll	
+	3573047562	Play_PLYR_Breath_Oneoff_Distressing			\PLYR\PLYR_Breath\Play_PLYR_Breath_Oneoff_Distressing	
 	3866605154	Play_PLYR_Breath_Run			\PLYR\PLYR_Breath\Play_PLYR_Breath_Run	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -39,13 +40,28 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	187046019	LargeRoom			\Default Work Unit\Master Audio Bus\Reverbs\LargeRoom	
+	361970562	Library_Main			\Default Work Unit\Master Audio Bus\Reverbs\Library_Main	
 	617071738	CorridorEnd			\Default Work Unit\Master Audio Bus\Reverbs\CorridorEnd	
+	720188475	CorridorEnd_return			\Default Work Unit\Master Audio Bus\Reverbs\CorridorEnd_return	
 	1245295233	MediumRoom			\Default Work Unit\Master Audio Bus\Reverbs\MediumRoom	
+	1416327029	Library_Puzzle			\Default Work Unit\Master Audio Bus\Reverbs\Library_Puzzle	
+	1580878840	Claustrophobic_Closet			\Default Work Unit\Master Audio Bus\Reverbs\Claustrophobic_Closet	
 	2933838247	SmallRoom			\Default Work Unit\Master Audio Bus\Reverbs\SmallRoom	
 	3545700988	Reverbs			\Default Work Unit\Master Audio Bus\Reverbs	
+	3633416828	Hall			\Default Work Unit\Master Audio Bus\Reverbs\Hall	
 	4063189299	Corridor			\Default Work Unit\Master Audio Bus\Reverbs\Corridor	
 
 Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
+	1990128658	Room_Medium	Wwise RoomVerb			
+	2945072214	My_Closet	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
+	3028219641	Breath_Longer	Wwise Time Stretch			
+	3036946058	Inside_Your_Head	Wwise RoomVerb			
+	3290519051	Aluminium_Tank	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
 	3781558961	PLYR_Breath_Run_Exhaust_Extreme	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -71,8 +87,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	208366561	PLYR_FS_Carpet_Run_02	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Carpet_Run_02_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Run\PLYR_FS_Run_Material\Carpet\PLYR_FS_Carpet_Run_02		75934
 	215940025	PLYR_Breath_Run_03	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_03_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run_03		88044
 	232280034	PLYR_Breath_Idle_04	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Idle_04_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Idle\PLYR_Breath_Idle_04		279380
-	236008944	PLYR_Breath_Run_Exhaust_Extreme_19	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_19_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run_Exhaust_Extreme\PLYR_Breath_Run_Exhaust_Extreme_19		118378
-	274334517	PLYR_Breath_Run_Exhaust_Extreme_18	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_18_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run_Exhaust_Extreme\PLYR_Breath_Run_Exhaust_Extreme_18		106992
+	236008944	PLYR_Breath_Run_Exhaust_Extreme_19	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_19_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Oneoff_Distressing\PLYR_Breath_Run_Exhaust_Extreme_19		118378
+	274334517	PLYR_Breath_Run_Exhaust_Extreme_18	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_18_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Oneoff_Distressing\PLYR_Breath_Run_Exhaust_Extreme_18		106992
 	275148262	PLYR_Breath_Run_Exhaust_09	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_09_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run_Exhaust\PLYR_Breath_Run_Exhaust_09		97390
 	277923748	PLYR_FS_Carpet_Run_03	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Carpet_Run_03_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Run\PLYR_FS_Run_Material\Carpet\PLYR_FS_Carpet_Run_03		71708
 	300016291	PLYR_FS_Carpet_Stop_04	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Carpet_Stop_04_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Stop\PLYR_FS_Stop_Material\Carpet\PLYR_FS_Carpet_Stop_04		63274
@@ -95,7 +111,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	472384301	PLYR_FS_Stone_Stop_02	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Stop_02_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Stop\PLYR_FS_Stop_Material\Stone\PLYR_FS_Stone_Stop_02		33250
 	487552850	PLYR_Breath_Oneoff_Stop_Fear_09	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Oneoff_Stop_Fear_09_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Oneoff_Stop\PLYR_Breath_Oneoff_Stop_Fear\PLYR_Breath_Oneoff_Stop_Fear_09		238340
 	500630788	PLYR_Breath_Run_Exhaust_12	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_12_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run_Exhaust\PLYR_Breath_Run_Exhaust_12		118728
-	502563069	PLYR_Breath_Run_Exhaust_Extreme_16	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_16_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run_Exhaust_Extreme\PLYR_Breath_Run_Exhaust_Extreme_16		105560
+	502563069	PLYR_Breath_Run_Exhaust_Extreme_16	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_16_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Oneoff_Distressing\PLYR_Breath_Run_Exhaust_Extreme_16		105560
 	503860079	PLYR_FS_Stone_Sneak_04	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Sneak_04_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Sneak\PLYR_FS_Sneak_Material\Stone\PLYR_FS_Stone_Sneak_04		82966
 	534355044	PLYR_FS_Carpet_Stop_02	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Carpet_Stop_02_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Stop\PLYR_FS_Stop_Material\Carpet\PLYR_FS_Carpet_Stop_02		58654
 	541391618	PLYR_Breath_Run_04	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_04_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run_04		88044
@@ -105,15 +121,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	601625554	PLYR_FS_Carpet_Walk_05	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Carpet_Walk_05_372DCD0D.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Walk\PLYR_FS_Walk_Material\Carpet\PLYR_FS_Carpet_Walk_05		69440
 	614077428	PLYR_Breath_Oneoff_Stop_01	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Oneoff_Stop_01_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Oneoff_Stop\PLYR_Breath_Oneoff_Stop\PLYR_Breath_Oneoff_Stop_01		180812
 	621949173	PLYR_FS_Stone_Walk_02	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Walk_02_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Walk\PLYR_FS_Walk_Material\Stone\PLYR_FS_Stone_Walk_02		46996
-	629281556	PLYR_Breath_Run_Exhaust_Extreme_21	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_21_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run_Exhaust_Extreme\PLYR_Breath_Run_Exhaust_Extreme_21		124080
+	629281556	PLYR_Breath_Run_Exhaust_Extreme_21	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_21_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Oneoff_Distressing\PLYR_Breath_Run_Exhaust_Extreme_21		124080
 	639614607	PLYR_FS_Wood_Sneak_02	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Wood_Sneak_02_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Sneak\PLYR_FS_Sneak_Material\Wood\PLYR_FS_Wood_Sneak_02		107180
 	651114871	PLYR_FS_Stone_Run_05	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Run_05_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Run\PLYR_FS_Run_Material\Stone\PLYR_FS_Stone_Run_05		28610
 	651762624	PLYR_FS_Stone_Sneak_02	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Sneak_02_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Sneak\PLYR_FS_Sneak_Material\Stone\PLYR_FS_Stone_Sneak_02		81296
 	651762795	PLYR_FS_Stone_Run_02	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Run_02_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Run\PLYR_FS_Run_Material\Stone\PLYR_FS_Stone_Run_02		28610
-	652351590	PLYR_Breath_Run_Exhaust_Extreme_17	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_17_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run_Exhaust_Extreme\PLYR_Breath_Run_Exhaust_Extreme_17		109122
+	652351590	PLYR_Breath_Run_Exhaust_Extreme_17	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_17_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Oneoff_Distressing\PLYR_Breath_Run_Exhaust_Extreme_17		109122
 	653503990	PLYR_FS_Wood_Stop_03	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Wood_Stop_03_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Stop\PLYR_FS_Stop_Material\Wood\PLYR_FS_Wood_Stop_03		95414
 	675622091	PLYR_FS_Wood_Walk_03	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Wood_Walk_03_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Walk\PLYR_FS_Walk_Material\Wood\PLYR_FS_Wood_Walk_03		41188
-	684425409	PLYR_Breath_Run_Exhaust_Extreme_15	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_15_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run_Exhaust_Extreme\PLYR_Breath_Run_Exhaust_Extreme_15		94086
+	684425409	PLYR_Breath_Run_Exhaust_Extreme_15	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_15_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Oneoff_Distressing\PLYR_Breath_Run_Exhaust_Extreme_15		94086
 	696611772	PLYR_FS_Wood_Run_05	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Wood_Run_05_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Run\PLYR_FS_Run_Material\Wood\PLYR_FS_Wood_Run_05		55662
 	697521044	PLYR_FS_Stone_Walk_04	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Walk_04_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Walk\PLYR_FS_Walk_Material\Stone\PLYR_FS_Stone_Walk_04		51128
 	708748435	PLYR_FS_Wood_Run_01	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Wood_Run_01_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Run\PLYR_FS_Run_Material\Wood\PLYR_FS_Wood_Run_01		54318
@@ -131,7 +147,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	844525585	PLYR_Breath_Run_Exhaust_14	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_14_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run_Exhaust\PLYR_Breath_Run_Exhaust_14		135658
 	858635656	PLYR_FS_Wood_Stop_02	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Wood_Stop_02_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Stop\PLYR_FS_Stop_Material\Wood\PLYR_FS_Wood_Stop_02		87424
 	871553529	PLYR_FS_Stone_Sneak_03	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Sneak_03_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Sneak\PLYR_FS_Sneak_Material\Stone\PLYR_FS_Stone_Sneak_03		75836
-	873501584	PLYR_Breath_Run_Exhaust_Extreme_20	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_20_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Run\PLYR_Breath_Run\PLYR_Breath_Run_Exhaust_Extreme\PLYR_Breath_Run_Exhaust_Extreme_20		129794
+	873501584	PLYR_Breath_Run_Exhaust_Extreme_20	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Run_Exhaust_Extreme_20_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Oneoff_Distressing\PLYR_Breath_Run_Exhaust_Extreme_20		129794
 	889604810	PLYR_Breath_Oneoff_Stop_Fear_08	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Oneoff_Stop_Fear_08_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Oneoff_Stop\PLYR_Breath_Oneoff_Stop_Fear\PLYR_Breath_Oneoff_Stop_Fear_08		312540
 	901189569	PLYR_FS_Stone_Walk_01	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_FS_Stone_Walk_01_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Movement\PLYR_FS\PLYR_FS_Walk\PLYR_FS_Walk_Material\Stone\PLYR_FS_Stone_Walk_01		46996
 	921036703	PLYR_Breath_Oneoff_Stop_04	C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors\BehindClosedDoors_WwiseProject\.cache\Windows\SFX\PLYR_Breath_Oneoff_Stop_04_10C4C929.wem		\Actor-Mixer Hierarchy\PLYR\PLYR_Breath\PLYR_Breath_Oneoff_Stop\PLYR_Breath_Oneoff_Stop\PLYR_Breath_Oneoff_Stop_04		502126

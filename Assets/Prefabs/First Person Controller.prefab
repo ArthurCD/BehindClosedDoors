@@ -442,11 +442,15 @@ MonoBehaviour:
   PLYR_Breath_Run:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 14071c1f0ad106149b6ca99051b6f29d, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: edc6769fab3db5946adba677c246cc80, type: 2}
   PLYR_Breath_Stop:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: d6bc6aa330109484aa2036663e3b8f17, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: a545dc496ea47594a81d8ea8da67c7e6, type: 2}
+  PLYR_Breath_Oneoff_Distressing:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f69c19fc00b1621469c1efb3eb859521, type: 2}
   Switch_PLYR_Movement_Sneak:
     idInternal: 0
     valueGuidInternal: 
@@ -499,6 +503,7 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 05cfba8bc3f840b48ab006d26da1a4e2, type: 2}
+  PersistantScript: {fileID: 0}
 --- !u!1 &3273180560349135257
 GameObject:
   m_ObjectHideFlags: 0

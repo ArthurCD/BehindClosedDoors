@@ -71,7 +71,13 @@
 											</RTPCList>
 										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
+									<ReferenceList/>
 									<ChildrenList>
 										<Bus Name="PlayerFootsteps" ID="{BAE2F335-3332-4218-B774-1AAFE768A236}">
 											<ObjectLists/>
@@ -83,6 +89,65 @@
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="PlayerBreath" ID="{A0BC96DB-FCA5-47C3-A36C-340F9BD9F01E}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{D837ECF9-4593-441B-9DF8-8E6876C06E1F}" ShortID="388292078">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_PLYR_SelfConscious" ID="{66C4BC02-DD9A-4AD3-AA50-C687202F3E47}" WorkUnitID="{D9CF4E69-953A-4F0D-8BC0-4F7A4FD526F7}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{08106810-FBAD-4B78-A86F-9A808F2D0AEB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Highpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{992581C6-9012-4AB2-8555-2F84C2A760C6}" ShortID="23639861">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="RTPC_PLYR_SelfConscious" ID="{66C4BC02-DD9A-4AD3-AA50-C687202F3E47}" WorkUnitID="{D9CF4E69-953A-4F0D-8BC0-4F7A4FD526F7}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{68074B5C-3957-4948-ABE8-76D85A874D57}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>30</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="PlayerHolding" ID="{ED544CAE-FA85-4972-B16B-452AEC63DB09}">
@@ -105,18 +170,148 @@
 						<AuxBus Name="Reverbs" ID="{A0E2AF19-6BD6-431E-BE9D-999EDA2C4A36}">
 							<ChildrenList>
 								<AuxBus Name="LargeRoom" ID="{BAFC6803-077F-4B56-9BE4-2CEB442E9D1E}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="Corridor" ID="{326D569B-0B0F-4ABA-B24F-91113E8E8BB0}">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Medium_Tiled" ID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="CorridorEnd" ID="{C6DADAC9-DA9F-4668-AE89-4AFF4460E880}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Aluminium_Tank" ID="{0D20C91A-F750-47E0-AE32-00E5F2AA1272}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="MediumRoom" ID="{C4BADF46-C7E3-4736-B4D9-9580E883739E}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
 								<AuxBus Name="SmallRoom" ID="{7B013A06-FAB4-4B7F-A578-2A1A5523965A}">
+									<PropertyList>
+										<Property Name="OutputBusHighpass" Type="int16">
+											<ValueList>
+												<Value>44</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<ValueList>
+												<Value>46</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Hall" ID="{80C84416-1973-4149-9D7C-E49ECDB4DFD9}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Library_Main" ID="{09F001C8-A179-404A-B65C-561B3B8511BF}">
+									<PropertyList>
+										<Property Name="OutputBusHighpass" Type="int16">
+											<ValueList>
+												<Value>44</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<ValueList>
+												<Value>46</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Library_Puzzle" ID="{648D3269-FF40-4811-98D5-3C07EF38A7C2}">
+									<PropertyList>
+										<Property Name="OutputBusHighpass" Type="int16">
+											<ValueList>
+												<Value>44</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<ValueList>
+												<Value>46</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="My_Closet" ID="{384A82A1-3C92-4AC5-AFC2-474F2080642C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="Claustrophobic_Closet" ID="{D1331B3C-9AC4-4067-84CA-68CBAAB1B2C6}">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Inside_Your_Head" ID="{AE2D0AE1-8963-400A-AA4A-52A7A6397F89}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+								<AuxBus Name="CorridorEnd_return" ID="{BE83C7DF-76B4-4048-A332-93A29777B8DC}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Machine_Gun_Hangar" ID="{B8FD966C-FC0F-4CD3-8236-B28DF27CDE7D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists/>
 								</AuxBus>
 							</ChildrenList>

@@ -2655,6 +2655,7 @@ MonoBehaviour:
   itemUIDisplay: {fileID: 0}
   icon_clickUISprite: {fileID: 21760336}
   SceneFade: {fileID: 0}
+  Script_Player_Sound: {fileID: 326148572}
 --- !u!65 &186174636
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4988,6 +4989,17 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3192472654378874851, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
+--- !u!114 &326148572 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6612651481185315793, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
+  m_PrefabInstance: {fileID: 326148571}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656ac0e557f54c049aac22d65f91823b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &338944965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15839,6 +15851,7 @@ MonoBehaviour:
   itemUIDisplay: {fileID: 0}
   icon_clickUISprite: {fileID: 1784311061}
   SceneFade: {fileID: 0}
+  Script_Player_Sound: {fileID: 326148572}
 --- !u!65 &1141710406
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23755,6 +23768,7 @@ MonoBehaviour:
   itemUIDisplay: {fileID: 758113679}
   icon_clickUISprite: {fileID: 816858688}
   SceneFade: {fileID: 1771334456}
+  Script_Player_Sound: {fileID: 0}
 --- !u!65 &1749734836
 BoxCollider:
   m_ObjectHideFlags: 0
