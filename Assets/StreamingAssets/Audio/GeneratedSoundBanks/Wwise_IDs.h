@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_PLYR_BREATH_IDLE = 1874744501U;
+        static const AkUniqueID PLAY_PLYR_BREATH_ONEOFF_DISTRESSING = 3573047562U;
         static const AkUniqueID PLAY_PLYR_BREATH_ONEOFF_STOP = 9500703U;
         static const AkUniqueID PLAY_PLYR_BREATH_RUN = 3866605154U;
         static const AkUniqueID PLAY_PLYR_FS_ROTATE = 363322671U;
@@ -88,9 +89,14 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID CLAUSTROPHOBIC_CLOSET = 1580878840U;
         static const AkUniqueID CORRIDOR = 4063189299U;
         static const AkUniqueID CORRIDOREND = 617071738U;
+        static const AkUniqueID CORRIDOREND_RETURN = 720188475U;
+        static const AkUniqueID HALL = 3633416828U;
         static const AkUniqueID LARGEROOM = 187046019U;
+        static const AkUniqueID LIBRARY_MAIN = 361970562U;
+        static const AkUniqueID LIBRARY_PUZZLE = 1416327029U;
         static const AkUniqueID MEDIUMROOM = 1245295233U;
         static const AkUniqueID REVERBS = 3545700988U;
         static const AkUniqueID SMALLROOM = 2933838247U;

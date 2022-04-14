@@ -12,7 +12,15 @@ public class DisplayUIOnClick : MonoBehaviour
 
     public Animator SceneFade;
     
-   
+
+
+    //Audio Designer
+    public Player_Sound Script_Player_Sound;
+
+
+
+
+
     //[SerializeField]
     //bool canInspect = false;
 
@@ -29,13 +37,13 @@ public class DisplayUIOnClick : MonoBehaviour
     }*/
 
     // deactivate inspect ability if player leaves collider
-   /* void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            canInspect = false;
-        }
-    }*/
+    /* void OnTriggerExit(Collider other)
+     {
+         if (other.CompareTag("Player"))
+         {
+             canInspect = false;
+         }
+     }*/
 
     private void Start()
     {
@@ -57,6 +65,14 @@ public class DisplayUIOnClick : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             closeUI();
+
+            // Audio Designer
+            if (itemUIDisplay.activeSelf==false)
+            {
+                Debug.Log("Bite");
+                Script_Player_Sound.Collectible_Distressing();
+            }
+
         }
 
         if(Input.GetKeyDown(KeyCode.F) && itemUIDisplay.activeSelf)

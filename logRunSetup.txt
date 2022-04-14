@@ -1,19 +1,19 @@
 [Licensing::Module] Channel doesn't exist: "LicenseClient-arthu"
-[Licensing::Module] Successfully launched the LicensingClient (PId: 20648)
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arthu" (connect: 1.84s, validation: 0.13s, handshake: 2.28s)
-[Licensing::Module] Connected to LicensingClient (PId: 20648, launch time: 0.01, total connection time: 4.26s)
+[Licensing::Module] Successfully launched the LicensingClient (PId: 27948)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arthu" (connect: 0.59s, validation: 0.05s, handshake: 0.81s)
+[Licensing::Module] Connected to LicensingClient (PId: 27948, launch time: 0.00, total connection time: 1.44s)
 Entitlement-based licensing initiated
 [LicensingClient] Licenses updated successfully
 
-LICENSE SYSTEM [2022331 0:56:36] Next license update check is after 2022-03-31T10:04:08
+LICENSE SYSTEM [2022413 21:13:10] Next license update check is after 2022-04-14T17:05:43
 
 
-LICENSE SYSTEM [2022331 0:56:36] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+LICENSE SYSTEM [2022413 21:13:10] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
 Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19044.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 15710 MB
+OS: 'Windows 10 Home; OS build 19044.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 32585 MB
 [Licensing::Module] Serial number assigned to: "F4-UJT4-5E9Y-54TF-EGVY-XXXX"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
-[Package Manager] Server::Start -- Port 54380 was selected
+[Package Manager] Server::Start -- Port 55578 was selected
 
 COMMAND LINE ARGUMENTS:
 B:\Game Engines\2020.3.21f1\Editor\Unity.exe
@@ -29,7 +29,7 @@ WwiseSetupWizard.RunModify
 Successfully changed project path to: C:\Users\arthu\Desktop\ISE 2\BehindClosedDoors_Git\BehindClosedDoors_WwiseIntegrationTemp
 C:/Users/arthu/Desktop/ISE 2/BehindClosedDoors_Git/BehindClosedDoors_WwiseIntegrationTemp
 Using Asset Import Pipeline V2.
-[Package Manager] Done resolving packages in 3.80s seconds
+[Package Manager] Done resolving packages in 0.75s seconds
 [Package Manager] Done checking package constraints in 0.00s seconds
 [Package Manager] 
 Registered 45 packages:
@@ -83,8 +83,8 @@ Registered 45 packages:
 
 [Subsystems] No new subsystems found in resolved package list.
 Package Manager log level set to [2]
-[Package Manager] Done registering packages in 0.21s seconds
-Refreshing native plugins compatible for Editor in 3192.48 ms, found 3 plugins.
+[Package Manager] Done registering packages in 0.09s seconds
+Refreshing native plugins compatible for Editor in 863.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path B:/Game Engines/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -99,263 +99,136 @@ Initialize mono
 Mono path[0] = 'B:/Game Engines/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'B:/Game Engines/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'B:/Game Engines/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: B:/Game Engines/2020.3.21f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: B:/Game Engines/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005336 seconds.
+Registered in 0.002083 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 159.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 40.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.756 seconds
+- Completed reload, in  0.814 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2757ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (815ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1578ms)
-			LoadAssemblies (153ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (410ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (534ms)
+			SetupTypeCache (140ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (648ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (162ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (160ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (333ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.028974 seconds.
+Validating Project structure ... 0.013670 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.263123 seconds.
+Upgrading shader files ...0.084634 seconds.
 Application.AssetDatabase Initial Script Refresh Start
-Start importing Assets/Models/BookSet2 using Guid(77d507cea54bddd4e9aa83ffdf3a4ebc) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '46a4817cf0845bf5ff3ac2ba96be6e60') in 0.014621 seconds 
-Start importing Assets/Wwise/API/Runtime/Generated/Mac/AkSoundEngine_Mac.cs using Guid(204af7b99c36e9b41b6384d550d0d984) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c4766489377fa9c6c227a11f239c0e56') in 0.025475 seconds 
-Start importing Assets/Wwise/API/Runtime/Generated/Mac/AkPlatformInitSettings_Mac.cs using Guid(400916d7cf0f5dc408128e50e2cd4b40) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8dc72a5c290b0de92fa31ca04e221118') in 0.020095 seconds 
-Start importing Assets/Wwise/API/Runtime/Handwritten/Mac/AkSoundEngine.cs using Guid(70c26a8d25dce0f4abf7c6bb381127d7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f6d02c301256d2be0f6a57cf3eb1ec58') in 0.020181 seconds 
-Start importing Assets/Wwise/API/Runtime/Generated/Mac/AkThreadProperties_Mac.cs using Guid(803a0e308e2cbe5429af87da5ccf4a56) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '9dc4c92609a1a91aed798b63fde0af8b') in 0.019141 seconds 
-Start importing Assets/Wwise/API/Runtime/Generated/Mac/AkCommunicationSettings_Mac.cs using Guid(51d1edfd3ca1c54419d9352ad86f65f9) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '036ab00774dc8beff6129e431d9a11b8') in 0.019201 seconds 
-Start importing Assets/Wwise/API/Runtime/Handwritten/Mac/AkMacBasePathGetter.cs using Guid(f3c205a071815bf449f5d0776ee14b39) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2ae6c6cefdeb5e4356e8bdaa170f3c66') in 0.014465 seconds 
-Start importing Assets/Wwise/API/Runtime/Generated/Mac/AkSoundEnginePINVOKE_Mac.cs using Guid(5450a923ddd8f4840a57296b57562d3d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1bdc8a2d7ae202ee707f8244d1e5fcc3') in 0.049608 seconds 
-Start importing Assets/Wwise/MonoBehaviour/Editor/EditorPlatformHelpers/Mac/AkMacPluginActivator.cs using Guid(a4f11cd126be17141b149134e0a8ad30) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '62a40dcd66b89a78b1ed29f82bf4d29a') in 0.014992 seconds 
-Start importing Assets/Wwise/API/Runtime/Handwritten/Mac/AkMacSettings.cs using Guid(15052f618855a99478591202a2ab0cd0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1b0f5c59bc9c834b29a32f248cb04dfa') in 0.015330 seconds 
-Start importing Assets/Wwise/API/Editor/WwiseMenu/Mac/AkWwiseMenu_Mac.cs using Guid(8610b623b7023f240a99ff2b6e72a87d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2e97e4cb99edec481a45f7b4acbbbf69') in 0.018603 seconds 
-Start importing Assets/Wwise/API/Runtime/Generated/Mac/AkUnityPlatformSpecificSettings_Mac.cs using Guid(1dcd89483b246ab4c965d826c1686a55) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'fd6fd6ddc5afe25e4ee3477a93cf30da') in 0.022810 seconds 
 Registering precompiled user dll's ...
-Registered in 2.914219 seconds.
-- Starting script compilation
-- Starting compile Library/ScriptAssemblies/AK.Wwise.Unity.API.dll
-Deleting stamp file at Library/ScriptAssemblies/BuiltinAssemblies.stamp
-- Finished compile Library/ScriptAssemblies/AK.Wwise.Unity.API.dll in 4.479768 seconds
-- Starting compile Library/ScriptAssemblies/AK.Wwise.Unity.API.WwiseTypes.dll
-- Finished compile Library/ScriptAssemblies/AK.Wwise.Unity.API.WwiseTypes.dll in 1.013501 seconds
-- Starting compile Library/ScriptAssemblies/AK.Wwise.Unity.MonoBehaviour.dll
-- Starting compile Library/ScriptAssemblies/AK.Wwise.Unity.Timeline.dll
-- Starting compile Library/ScriptAssemblies/Ak.Wwise.Api.WAAPI.dll
-- Finished compile Library/ScriptAssemblies/AK.Wwise.Unity.Timeline.dll in 2.132829 seconds
-- Finished compile Library/ScriptAssemblies/AK.Wwise.Unity.MonoBehaviour.dll in 2.516795 seconds
-- Finished compile Library/ScriptAssemblies/Ak.Wwise.Api.WAAPI.dll in 2.496029 seconds
-- Starting compile Library/ScriptAssemblies/AK.Wwise.Unity.API.Editor.dll
-- Finished compile Library/ScriptAssemblies/AK.Wwise.Unity.API.Editor.dll in 2.344728 seconds
-- Starting compile Library/ScriptAssemblies/AK.Wwise.Unity.MonoBehaviour.Editor.dll
-- Starting compile Library/ScriptAssemblies/AK.Wwise.Unity.Timeline.Editor.dll
-- Finished compile Library/ScriptAssemblies/AK.Wwise.Unity.Timeline.Editor.dll in 1.096869 seconds
-- Finished compile Library/ScriptAssemblies/AK.Wwise.Unity.MonoBehaviour.Editor.dll in 1.537033 seconds
-- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll in 3.461076 seconds
-- Finished script compilation in 16.199468 seconds
-Assets\Mini First Person Controller\Scripts\Components\Jump.cs(5,15): warning CS0108: 'Jump.rigidbody' hides inherited member 'Component.rigidbody'. Use the new keyword if hiding was intended.
-Assets\Mini First Person Controller\Scripts\FirstPersonMovement.cs(14,15): warning CS0108: 'FirstPersonMovement.rigidbody' hides inherited member 'Component.rigidbody'. Use the new keyword if hiding was intended.
-Assets\Mini First Person Controller\Scripts\Components\Zoom.cs(6,12): warning CS0108: 'Zoom.camera' hides inherited member 'Component.camera'. Use the new keyword if hiding was intended.
-AssetDatabase: script compilation time: 16.450227s
+Registered in 0.566346 seconds.
+AssetDatabase: script compilation time: 0.032662s
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-WwiseUnity: Unable to load asset at <C:/Users/arthu/Desktop/ISE 2/BehindClosedDoors_Git/BehindClosedDoors_WwiseIntegrationTemp/Assets\Wwise/Editor/ProjectData/AkWwiseProjectData.asset>.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/API/Editor/WwiseWindows/AkWwiseProjectInfo.cs:81)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/API/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:381)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/API/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:83)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/API/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:29)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/API/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 81)
-
-WwiseUnity : Created new AkWwiseProjectData asset
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-AkWwiseProjectInfo:CreateWwiseProjectData () (at Assets/Wwise/API/Editor/WwiseWindows/AkWwiseProjectInfo.cs:112)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/API/Editor/WwiseWindows/AkWwiseProjectInfo.cs:90)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/API/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:381)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/API/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:83)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/API/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:29)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/API/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 112)
-
-Start importing Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset using Guid(3380d88324c89f449bff11f519d47300) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '71eef21699fd7c95a16ee61166d39491') in 0.043336 seconds 
-DisplayProgressbar: Populating Wwise Picker
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.925 seconds
+- Completed reload, in  2.638 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5935ms)
-		BeginReloadAssembly (572ms)
+	ReloadAssembly (2639ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (5161ms)
-			LoadAssemblies (1185ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (2457ms)
+			LoadAssemblies (1529ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1095ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (120ms)
-			SetupLoadedEditorAssemblies (2461ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (537ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (257ms)
-				ProcessInitializeOnLoadAttributes (1955ms)
-				ProcessInitializeOnLoadMethodAttributes (225ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (401ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 54735.450ms
-	InvokeBeforeRefreshCallbacks: 1.758ms
-	ApplyChangesToAssetFolders: 0.109ms
-	Scan: 5090.240ms
-	OnSourceAssetsModified: 2.278ms
-	UnregisterDeletedAssets: 0.001ms
-	InitializeImportedAssetsSnapshot: 0.688ms
-	GetAllGuidsForCategorization: 6.574ms
-	CategorizeAssets: 119.310ms
-	ImportAndPostprocessOutOfDateAssets: 49499.950ms (32190.815ms without children)
-		ImportManagerImport: 341.895ms (32.283ms without children)
-			ImportInProcess: 309.473ms
-			UpdateCategorizedAssets: 0.140ms
-		CompileScripts: 16455.318ms
-		PostProcessAllAssets: 485.198ms
-		ReloadImportedAssets: 0.008ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 3.420ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.632ms
-		RestoreLoadedAssetsState: 0.104ms
-	UpdateImportedAssetsSnapshot: 22.555ms
-	ReloadSourceAssets: 2.424ms
-	UnloadImportedAssets: 0.017ms
-	Hotreload: 7.441ms
-	FixTempGuids: 0.011ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
-	UnloadStreamsBegin: 0.899ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.702ms
-	GetLoadedSourceAssetsSnapshot: 6.740ms
-	PersistCurrentRevisions: 1.662ms
-	UnloadStreamsEnd: 0.348ms
-	GenerateScriptTypeHashes: 0.423ms
-	Untracked: -5.706ms
+RefreshProfiler: Total: 12960.651ms
+	InvokeBeforeRefreshCallbacks: 0.801ms
+	ApplyChangesToAssetFolders: 0.052ms
+	Scan: 2142.263ms
+	OnSourceAssetsModified: 0.830ms
+	InitializeImportedAssetsSnapshot: 0.252ms
+	GetAllGuidsForCategorization: 0.241ms
+	CategorizeAssets: 38.152ms
+	ImportAndPostprocessOutOfDateAssets: 10766.105ms (10732.048ms without children)
+		CompileScripts: 33.547ms
+		PostProcessAllAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.230ms
+		InitializingProgressBar: 0.002ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.192ms
+		RestoreLoadedAssetsState: 0.086ms
+	ReloadSourceAssets: 0.530ms
+	UnloadImportedAssets: 0.006ms
+	Hotreload: 0.240ms
+	FixTempGuids: 0.002ms
+	UnloadStreamsBegin: 0.439ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.011ms
+	GetLoadedSourceAssetsSnapshot: 0.141ms
+	PersistCurrentRevisions: 0.504ms
+	UnloadStreamsEnd: 7.149ms
+	GenerateScriptTypeHashes: 0.101ms
+	Untracked: 2.933ms
 Application.AssetDatabase Initial Script Refresh End
 Application.AssetDatabase.Refresh Start
-Start importing Assets/Scenes/GF_Corridor.unity using Guid(c91319944f9333a41a4c8d2863b22c81) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ae154bbecd93bf3ef5cea54a80363b38') in 0.021097 seconds 
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Debug/AkSoundEngine.bundle.dSYM/Contents/Info.plist using Guid(94e843cec5a102c448f4c918b88eee74) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4451963aeff201f0f3603613ed2e665e') in 0.113464 seconds 
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkSoundEngine.bundle.dSYM/Contents/Info.plist using Guid(0cb1f584b080cc74290f619937b03500) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '13b338de9c670e85b3e1c0ffccb6aaf6') in 0.001747 seconds 
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Release/AkSoundEngine.bundle.dSYM/Contents/Info.plist using Guid(df04435a583e7ef4b827cd176a1422d9) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a9df0c10874b59a16e84cb6bae5ae201') in 0.005554 seconds 
-Start importing Assets/Textures/Props/tx_books_6.jpg using Guid(518eadfe933a24141b8e292010912831) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '68638573eb5cc57af28bd1cfd5fde668') in 0.147280 seconds 
-Start importing Assets/Textures/Props/tx_books_5.jpg using Guid(71e60143e3032314fafb4d4f4d3a1248) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '89f46f3b08299a00cee2bdca1a54aeaa') in 0.118411 seconds 
-Start importing Assets/Textures/Props/tx_books_3.jpg using Guid(82b566906b3804b48bd93fee2758c4a7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c0139542c1cc1ac8e7ab32388fe259e3') in 0.575199 seconds 
-Start importing Assets/Textures/Props/tx_books_2.jpg using Guid(b78142393430cef4eb1220c7d24a2678) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'efe80849e74d03c73bc07e78db2201ee') in 0.628224 seconds 
-Start importing Assets/Textures/Props/tx_books_1.jpg using Guid(68bbbf19027cc5642927b6a911858026) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4f8da9445640bd65901c9892fdfad0c6') in 0.102838 seconds 
-Start importing Assets/Textures/Props/tx_books_4.jpg using Guid(ebec84d5cee21af46bfd9ce0e74fd315) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8e9e5c1823cc51a439bd97b1f797519c') in 0.099150 seconds 
-Start importing Assets/Models/BookSet2/tx_books_2.mat using Guid(d09ba5153c1f8a34294ad741273e1ded) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '46707649c8d486ee4d8fb4b0d1f1160a') in 0.022949 seconds 
-Start importing Assets/Models/BookSet2/tx_books_1.mat using Guid(c25ad9f7818d82743be82f50df1cfb3e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd0b0bbcbac34127d1249d93ef7326c27') in 0.009118 seconds 
-Start importing Assets/Models/BookSet2/tx_books_5.mat using Guid(e343558b6b67a5a4aa5360b4ac91c07b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '414bc70ed9fa3b489ccaad9cef28d2b6') in 0.008825 seconds 
-Start importing Assets/Materials/Furniture/tx_books_3.mat using Guid(cd3ca9948bfd2114482860aba8920264) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b667707fe89cff628ee0a8db577d7fe2') in 0.008052 seconds 
-Start importing Assets/Models/Furniture/Props_BookSet_3.fbx using Guid(017eb9923667a8b4b906aa00e23a0111) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8d3f88b223b75901b72f26baa76daac9') in 0.263019 seconds 
-Start importing Assets/Models/Furniture/Props_BookSet_4.fbx using Guid(a59c6b92915fdc542a11a8f972002abf) Importer(-1,00000000000000000000000000000000) Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
- -> (artifact id: '994e50f8b17640c1b5af2393a51a5c6c') in 0.756075 seconds 
-Start importing Assets/Models/Furniture/Props_BookSet_2.fbx using Guid(8b9c6d9b080c378478266a77c9880e9a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'bcf50e0d04ca8dec719ccf455e0e6f1e') in 0.216507 seconds 
-Start importing Assets/Models/Furniture/Props_BookSet_1.fbx using Guid(1cc359da3405b5546b7edadfdd5e89b3) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c3361a19e7bf9aceb3b61819ca6c92a5') in 0.211385 seconds 
-Start importing Assets/Wwise/NewVersion.txt using Guid(4a2e66a5c0d91724e8e6a9f66d543e8c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '56bcc82e3649450f00b855c1c2d110e7') in 0.060148 seconds 
-Start importing Assets/WwiseSettings.xml using Guid(5a0efb3dd89cf9248992473523500f8f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7fb075fce5cdbabbbb6e6b4a0fab2ad4') in 0.021214 seconds 
-Refreshing native plugins compatible for Editor in 6.26 ms, found 3 plugins.
+Start importing Assets/WwiseSettings.xml using Guid(5a0efb3dd89cf9248992473523500f8f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7fb075fce5cdbabbbb6e6b4a0fab2ad4') in 0.007541 seconds 
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refresh completed in 3.793337 seconds.
+Refresh completed in 0.134447 seconds.
 RefreshInfo: RefreshV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 3793.311ms
-	InvokeBeforeRefreshCallbacks: 1.495ms
-	ApplyChangesToAssetFolders: 0.165ms
-	Scan: 10.854ms
-	OnSourceAssetsModified: 6.965ms
-	InitializeImportedAssetsSnapshot: 18.468ms
-	GetAllGuidsForCategorization: 0.408ms
-	CategorizeAssets: 203.864ms
-	ImportAndPostprocessOutOfDateAssets: 3529.456ms (11.528ms without children)
-		ImportManagerImport: 3430.843ms (2.742ms without children)
-			ImportInProcess: 3427.903ms
-			UpdateCategorizedAssets: 0.198ms
-		PostProcessAllAssets: 69.016ms
-		ReloadImportedAssets: 0.016ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.788ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.459ms
-		OnDemandSchedulerStart: 1.056ms
-		RestoreLoadedAssetsState: 7.605ms
-	UpdateImportedAssetsSnapshot: 8.142ms
-	ReloadSourceAssets: 0.779ms
-	UnloadImportedAssets: 0.169ms
-	Hotreload: 7.177ms
-	FixTempGuids: 0.011ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.289ms
-	UnloadStreamsBegin: 0.027ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.498ms
-	GetLoadedSourceAssetsSnapshot: 9.437ms
-	PersistCurrentRevisions: 0.669ms
-	UnloadStreamsEnd: 0.635ms
-	GenerateScriptTypeHashes: 1.772ms
-	Untracked: 0.944ms
+RefreshProfiler: Total: 134.432ms
 Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 13.399ms
-Refresh completed in 0.159287 seconds.
+RefreshProfiler: Total: 4.185ms
+Refresh completed in 0.043644 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 159.264ms
+RefreshProfiler: Total: 43.626ms
 Initializing Unity extensions:
-Unloading 97 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 159.5 MB.
-System memory in use after: 159.3 MB.
+Unloading 113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.7 MB.
+System memory in use after: 159.4 MB.
 
-Unloading 228 unused Assets to reduce memory usage. Loaded Objects now: 2313.
-Total: 13.976900 ms (FindLiveObjects: 0.288400 ms CreateObjectMapping: 0.120000 ms MarkObjects: 13.097300 ms  DeleteObjects: 0.468500 ms)
+Unloading 185 unused Assets to reduce memory usage. Loaded Objects now: 2329.
+Total: 3.702300 ms (FindLiveObjects: 0.095700 ms CreateObjectMapping: 0.049800 ms MarkObjects: 3.392700 ms  DeleteObjects: 0.163100 ms)
 
 ProgressiveSceneManager::Cancel()
 WwiseUnity: Running modify setup...
@@ -363,1044 +236,351 @@ UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-WwiseSetupWizard:RunModify () (at Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs:8)
+WwiseSetupWizard:RunModify () (at C:/Users/arthu/Desktop/ISE 2/BehindClosedDoors_Git/BehindClosedDoors/Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs:8)
 
-(Filename: Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 8)
+(Filename: C:/Users/arthu/Desktop/ISE 2/BehindClosedDoors_Git/BehindClosedDoors/Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 8)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 158.2 MB.
-System memory in use after: 158.1 MB.
+System memory in use after: 158.2 MB.
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 2319.
-Total: 11.645400 ms (FindLiveObjects: 0.280100 ms CreateObjectMapping: 0.114400 ms MarkObjects: 11.223800 ms  DeleteObjects: 0.024000 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 6.065000 ms (FindLiveObjects: 0.103300 ms CreateObjectMapping: 0.045000 ms MarkObjects: 5.899800 ms  DeleteObjects: 0.016000 ms)
 
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libiZotope.bundle using Guid(4271908e13b463244a496f6b46a2a3d7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '40fdb2eae7d52021ce40042f62817ca6') in 0.025857 seconds 
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libiZotope.bundle using Guid(4271908e13b463244a496f6b46a2a3d7) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3cca16dbc8c151f143d0fbeb4c69b79c') in 0.006701 seconds 
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 106.218ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSynthOne.bundle using Guid(cd145a448e968ba4a89045b54d473dea) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '151608c9346252d766d9b9ba195bcd44') in 0.032074 seconds 
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+RefreshProfiler: Total: 34.247ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSynthOne.bundle using Guid(cd145a448e968ba4a89045b54d473dea) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '056a44d6eb8724ff2997059ada95b41a') in 0.009497 seconds 
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 83.905ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedImpact.bundle using Guid(5796f46c408d3b0438ec163ee025d3c6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '961130491d18e2a768a27c9e99169d4f') in 0.019407 seconds 
-Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+RefreshProfiler: Total: 29.952ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedImpact.bundle using Guid(5796f46c408d3b0438ec163ee025d3c6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3fc62c7cdf148ec5dc26f86dbf01d57f') in 0.006488 seconds 
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 77.664ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkTremolo.bundle using Guid(6232a42de73d10e4dbe522385c5d3631) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ca614d318d382d1f2b5fbf77cffd6154') in 0.030101 seconds 
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+RefreshProfiler: Total: 28.785ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkTremolo.bundle using Guid(6232a42de73d10e4dbe522385c5d3631) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '32476eb9ce2b23f95a293d7c71874efc') in 0.008501 seconds 
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 88.771ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.dll using Guid(483aad3b9b289054e8ad052f2cb46875) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4d698df0f44ec502a1d7aeea7676c84f') in 0.030063 seconds 
+RefreshProfiler: Total: 29.998ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.dll using Guid(483aad3b9b289054e8ad052f2cb46875) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '778feb6f6f5bf947b7c6f29fafdc1443') in 0.010059 seconds 
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 204.130ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkConvolutionReverb.dll using Guid(4131fd83fb05abb47be76e3eac0798d1) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '38a8842a78c04e2389acd143a11bb8d8') in 0.009620 seconds 
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 125.466ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Release/AkSoundEngine.bundle using Guid(f15e848ab0d43a748bf9d5203adf5902) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'bfa0cf499a465a9903f37941b644bde7') in 0.008646 seconds 
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 28.704ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/MasteringSuite.dll using Guid(8be4b593154c930409d4a6bce582299a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd5760526bcf1b7be4cf3f964a2ce3440') in 0.009321 seconds 
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 127.248ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedImpact.dll using Guid(4a41185d69a9cf043abc36d92a03b2c4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'cdfb8fe584706de0c6bd113f66244bc7') in 0.009636 seconds 
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 125.936ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/MSSpatial.dll using Guid(64a87ec08ffdebb4f82c59d62eb487d9) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ecc3da9b22c3c66816707ef6b3301710') in 0.009349 seconds 
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 127.685ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkTimeStretch.bundle using Guid(00e4a09e8260d3341930270697609e7c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2c1b1285aeb6eb755f354a5f31e74aca') in 0.007730 seconds 
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 28.893ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/iZotope.dll using Guid(0107580e0666a7248935e660c4c9f9d0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd919e8248fd7f134c2097fe8ef5a3ec6') in 0.008715 seconds 
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 123.620ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/Auro.dll using Guid(c2ff6dfe63320044d9f7b1320ba0a681) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '0d9d4ac3802c205a4f7d00319221ec09') in 0.009927 seconds 
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 126.030ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkFlanger.bundle using Guid(f398f6d8e671a6a4c9c9156f776bf67a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2572eadefe88ba324f5f28810b92fc29') in 0.008845 seconds 
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 28.873ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkConvolutionReverb.bundle using Guid(3d5b9821a20be354d94d2f99032179c4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7241ae5358f14854888888330025ea26') in 0.008415 seconds 
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 29.563ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Profile/AkSoundEngine.dll using Guid(898fe388e399a5442a2b02e76c5649d6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd436bf7a2a0b277da57dd2d3bd743aca') in 0.010456 seconds 
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 124.171ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/Debug/AkSoundEngine.dll using Guid(6026892562bfc224793f8f14c75a9217) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e502b76e191e8605d9ea51f7131f938f') in 0.009610 seconds 
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 116.184ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkMotion.dll using Guid(894a9098cf1d735469495303e572f77d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'aee09bf0a7ec3caa9c4a4b8ba540ce8b') in 0.008936 seconds 
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 124.124ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Debug/AkSoundEngine.bundle using Guid(b87004b34061cb0408b9171880518498) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '053704d56cf573d5a2e22d236d45e675') in 0.003377 seconds 
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 23.107ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkGuitarDistortion.bundle using Guid(fa4aeb00c31eaa4419b0161a20269676) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8a243f4caddab8fca991bac4e173cd59') in 0.008570 seconds 
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 29.215ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSoundSeedAir.dll using Guid(13f6737498179964988def17ce04760d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4c741baedc7cce814fb9b32ca246451b') in 0.009015 seconds 
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 123.254ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/Profile/AkSoundEngine.dll using Guid(658d2ad797fc34346bcb91a391f46405) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8ee24807460c53609b624f43f8fbe5e3') in 0.008678 seconds 
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 121.641ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedGrain.bundle using Guid(4dc4d7ac2c490c0419b89826e7c9f7e8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4721aa381783ceb5c54b83f1db37d9b4') in 0.008881 seconds 
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 30.423ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkConvolutionReverb.dll using Guid(004c6191481481c46a51a089aba1dd90) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6b4da20915273a77989b1e231eea2ad9') in 0.009056 seconds 
 Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 1028.197ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.154ms
-	Scan: 8.556ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 7.463ms
-	GetAllGuidsForCategorization: 0.278ms
-	CategorizeAssets: 2.019ms
-	ImportAndPostprocessOutOfDateAssets: 997.344ms (1.636ms without children)
-		ImportManagerImport: 33.563ms (2.243ms without children)
-			ImportInProcess: 31.279ms
-			UpdateCategorizedAssets: 0.041ms
-		PostProcessAllAssets: 945.438ms
-		ReloadImportedAssets: 0.818ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.950ms
-		InitializingProgressBar: 0.005ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.388ms
-		OnDemandSchedulerStart: 0.345ms
-		RestoreLoadedAssetsState: 4.764ms
-	UpdateImportedAssetsSnapshot: 9.437ms
-	ReloadSourceAssets: 0.963ms
-	UnloadImportedAssets: 0.274ms
-	Hotreload: 1.349ms
-	FixTempGuids: 0.009ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.312ms
-	UnloadStreamsBegin: 0.026ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.093ms
-	GetLoadedSourceAssetsSnapshot: 7.547ms
-	PersistCurrentRevisions: 0.468ms
-	UnloadStreamsEnd: 0.025ms
-	Untracked: 0.316ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkConvolutionReverb.dll using Guid(4131fd83fb05abb47be76e3eac0798d1) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '324e37315c4b1861174bbae60f80fe36') in 0.030916 seconds 
-Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+RefreshProfiler: Total: 124.078ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkRecorder.bundle using Guid(7fcddb95ec344d547a9f5ab78a58934c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f69038513ba758e44c54eeb0f5ec8f9b') in 0.010642 seconds 
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 518.736ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.152ms
-	Scan: 15.493ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 9.728ms
-	GetAllGuidsForCategorization: 0.304ms
-	CategorizeAssets: 3.140ms
-	ImportAndPostprocessOutOfDateAssets: 481.404ms (-4.208ms without children)
-		ImportManagerImport: 39.450ms (7.707ms without children)
-			ImportInProcess: 31.700ms
-			UpdateCategorizedAssets: 0.043ms
-		PostProcessAllAssets: 426.459ms
-		ReloadImportedAssets: 6.326ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.804ms
-		InitializingProgressBar: 0.005ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.459ms
-		OnDemandSchedulerStart: 0.344ms
-		RestoreLoadedAssetsState: 1.678ms
-	UpdateImportedAssetsSnapshot: 10.086ms
-	ReloadSourceAssets: 0.913ms
-	UnloadImportedAssets: 0.264ms
-	Hotreload: 2.314ms
-	FixTempGuids: 0.009ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.286ms
-	UnloadStreamsBegin: 0.028ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.634ms
-	GetLoadedSourceAssetsSnapshot: 3.322ms
-	PersistCurrentRevisions: 1.095ms
-	UnloadStreamsEnd: 0.023ms
-	Untracked: -1.373ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Release/AkSoundEngine.bundle using Guid(f15e848ab0d43a748bf9d5203adf5902) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'bfa0cf499a465a9903f37941b644bde7') in 0.036983 seconds 
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+RefreshProfiler: Total: 31.590ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMasteringSuite.bundle using Guid(afbca2b2bb45cec4fb5a4e5aa828a2e2) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '32d89f3f7b73fcdfeda13cc328b34d86') in 0.008038 seconds 
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 112.902ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/MasteringSuite.dll using Guid(8be4b593154c930409d4a6bce582299a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3a07949a120cf33d21fe9d2f21826e12') in 0.029858 seconds 
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+RefreshProfiler: Total: 29.811ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedGrain.dll using Guid(52893826c83fe8649b25847b269400b8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4a0302fb5bd19d8688473db29458aabd') in 0.009301 seconds 
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 392.306ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.106ms
-	Scan: 15.280ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 8.044ms
-	GetAllGuidsForCategorization: 0.349ms
-	CategorizeAssets: 5.308ms
-	ImportAndPostprocessOutOfDateAssets: 352.726ms (1.366ms without children)
-		ImportManagerImport: 36.629ms (5.834ms without children)
-			ImportInProcess: 30.733ms
-			UpdateCategorizedAssets: 0.061ms
-		PostProcessAllAssets: 304.634ms
-		ReloadImportedAssets: 1.020ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.640ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.398ms
-		OnDemandSchedulerStart: 0.286ms
-		RestoreLoadedAssetsState: 1.409ms
-	UpdateImportedAssetsSnapshot: 6.340ms
-	ReloadSourceAssets: 1.042ms
-	UnloadImportedAssets: 0.200ms
-	Hotreload: 1.661ms
-	FixTempGuids: 0.011ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.225ms
-	UnloadStreamsBegin: 0.019ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.439ms
-	GetLoadedSourceAssetsSnapshot: 3.365ms
-	PersistCurrentRevisions: 2.548ms
-	UnloadStreamsEnd: 0.027ms
-	Untracked: -0.046ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedImpact.dll using Guid(4a41185d69a9cf043abc36d92a03b2c4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '480a4668d46ee3d2d2448cb1956096ce') in 0.040834 seconds 
-Refreshing native plugins compatible for Editor in 5.96 ms, found 3 plugins.
+RefreshProfiler: Total: 124.241ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/Auro.dll using Guid(d6d5b409861afb248a77bb40d555ac3e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '030511b485a77edbc54b934c9ab00fc9') in 0.009902 seconds 
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 659.310ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.101ms
-	Scan: 4.978ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 12.804ms
-	GetAllGuidsForCategorization: 0.297ms
-	CategorizeAssets: 1.927ms
-	ImportAndPostprocessOutOfDateAssets: 622.331ms (1.676ms without children)
-		ImportManagerImport: 44.447ms (2.737ms without children)
-			ImportInProcess: 41.671ms
-			UpdateCategorizedAssets: 0.039ms
-		PostProcessAllAssets: 541.596ms
-		ReloadImportedAssets: 0.943ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.779ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.898ms
-		OnDemandSchedulerStart: 4.298ms
-		RestoreLoadedAssetsState: 6.271ms
-	UpdateImportedAssetsSnapshot: 21.421ms
-	ReloadSourceAssets: 0.840ms
-	UnloadImportedAssets: 0.194ms
-	Hotreload: 6.246ms
-	FixTempGuids: 0.012ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.264ms
-	UnloadStreamsBegin: 3.731ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.418ms
-	GetLoadedSourceAssetsSnapshot: 8.616ms
-	PersistCurrentRevisions: 0.391ms
-	UnloadStreamsEnd: 0.025ms
-	Untracked: -4.865ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/MSSpatial.dll using Guid(64a87ec08ffdebb4f82c59d62eb487d9) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '164c09538c2ecc05f2a42dfc0e757ed9') in 0.052843 seconds 
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+RefreshProfiler: Total: 121.626ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Release/AkSoundEngine.dll using Guid(a77dd9bd1e218a741b15ea126fefe255) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '5bb0bac945c5bf9ca2da05bb28f440c9') in 0.008962 seconds 
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 737.402ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.145ms
-	Scan: 15.745ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 18.112ms
-	GetAllGuidsForCategorization: 0.396ms
-	CategorizeAssets: 3.068ms
-	ImportAndPostprocessOutOfDateAssets: 683.221ms (0.942ms without children)
-		ImportManagerImport: 67.797ms (10.775ms without children)
-			ImportInProcess: 56.960ms
-			UpdateCategorizedAssets: 0.062ms
-		PostProcessAllAssets: 598.625ms
-		ReloadImportedAssets: 1.910ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.980ms
-		InitializingProgressBar: 0.005ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.600ms
-		OnDemandSchedulerStart: 0.401ms
-		RestoreLoadedAssetsState: 2.296ms
-	UpdateImportedAssetsSnapshot: 9.664ms
-	ReloadSourceAssets: 1.098ms
-	UnloadImportedAssets: 0.291ms
-	Hotreload: 2.159ms
-	FixTempGuids: 0.012ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.290ms
-	UnloadStreamsBegin: 0.025ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.468ms
-	GetLoadedSourceAssetsSnapshot: 5.079ms
-	PersistCurrentRevisions: 3.715ms
-	UnloadStreamsEnd: 0.049ms
-	Untracked: 2.527ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkTimeStretch.bundle using Guid(00e4a09e8260d3341930270697609e7c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '487c6dcecd558622ba931f26df0f559f') in 0.046564 seconds 
-Refreshing native plugins compatible for Editor in 6.23 ms, found 3 plugins.
+RefreshProfiler: Total: 120.100ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSynthOne.dll using Guid(6794197829d88a84cb93ff93b301aeb4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'dcf3e1881f6dbb1e17d187938500514b') in 0.008951 seconds 
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 142.053ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/iZotope.dll using Guid(0107580e0666a7248935e660c4c9f9d0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e6c3502ef3c660c1fbb9a9af19248e21') in 0.054320 seconds 
-Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
+RefreshProfiler: Total: 120.388ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/McDSP.dll using Guid(507d47ac08715b94c99388928f0ac827) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '92db1265ab97d30b169c0506b3eccc02') in 0.009075 seconds 
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 553.930ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.150ms
-	Scan: 16.452ms
-	OnSourceAssetsModified: 0.001ms
-	InitializeImportedAssetsSnapshot: 9.978ms
-	GetAllGuidsForCategorization: 3.933ms
-	CategorizeAssets: 2.915ms
-	ImportAndPostprocessOutOfDateAssets: 510.411ms (5.280ms without children)
-		ImportManagerImport: 63.917ms (2.968ms without children)
-			ImportInProcess: 60.902ms
-			UpdateCategorizedAssets: 0.047ms
-		PostProcessAllAssets: 427.542ms
-		ReloadImportedAssets: 1.107ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.925ms
-		InitializingProgressBar: 0.006ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.468ms
-		OnDemandSchedulerStart: 0.344ms
-		RestoreLoadedAssetsState: 1.527ms
-	UpdateImportedAssetsSnapshot: 9.296ms
-	ReloadSourceAssets: 5.077ms
-	UnloadImportedAssets: 0.307ms
-	Hotreload: 4.821ms
-	FixTempGuids: 0.007ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.291ms
-	UnloadStreamsBegin: 0.027ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.010ms
-	GetLoadedSourceAssetsSnapshot: 3.367ms
-	PersistCurrentRevisions: 0.268ms
-	UnloadStreamsEnd: 0.018ms
-	Untracked: -5.101ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/Auro.dll using Guid(c2ff6dfe63320044d9f7b1320ba0a681) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '61118f8c27b1d6b8278415bdab5a56bd') in 0.022415 seconds 
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+RefreshProfiler: Total: 123.963ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSoundSeedGrain.dll using Guid(78ded7ac1ad9ffe4c94d9a45dc5fef5b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3f944c94c202a33a7bd604b366c56b28') in 0.008544 seconds 
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 384.461ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.099ms
-	Scan: 14.886ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 9.679ms
-	GetAllGuidsForCategorization: 0.281ms
-	CategorizeAssets: 1.786ms
-	ImportAndPostprocessOutOfDateAssets: 350.560ms (0.941ms without children)
-		ImportManagerImport: 26.206ms (2.402ms without children)
-			ImportInProcess: 23.749ms
-			UpdateCategorizedAssets: 0.055ms
-		PostProcessAllAssets: 308.151ms
-		ReloadImportedAssets: 0.964ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.640ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.409ms
-		OnDemandSchedulerStart: 0.289ms
-		RestoreLoadedAssetsState: 5.470ms
-	UpdateImportedAssetsSnapshot: 7.486ms
-	ReloadSourceAssets: 0.787ms
-	UnloadImportedAssets: 0.169ms
-	Hotreload: 1.915ms
-	FixTempGuids: 0.008ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.205ms
-	UnloadStreamsBegin: 0.017ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.263ms
-	GetLoadedSourceAssetsSnapshot: 7.240ms
-	PersistCurrentRevisions: 0.306ms
-	UnloadStreamsEnd: 0.022ms
-	Untracked: -4.762ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkFlanger.bundle using Guid(f398f6d8e671a6a4c9c9156f776bf67a) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd169afc63cf75bfe9dbd56420965269b') in 0.027904 seconds 
-Refreshing native plugins compatible for Editor in 5.37 ms, found 3 plugins.
+RefreshProfiler: Total: 121.332ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkStereoDelay.bundle using Guid(1d96b52dbe3ca5c46bcfc7eb05f9b62c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2f6bb3ba54c88d19f6199b85a2a19085') in 0.008740 seconds 
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 88.345ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkConvolutionReverb.bundle using Guid(3d5b9821a20be354d94d2f99032179c4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '9898fd94eb358c3828ba52e8b27e7f8a') in 0.034520 seconds 
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+RefreshProfiler: Total: 28.994ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMcDSP.bundle using Guid(5373b81e4ca217d41bb71615fe6944b0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '72e59edc6823921f86d0351ae40eb24a') in 0.009362 seconds 
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 92.081ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Profile/AkSoundEngine.dll using Guid(898fe388e399a5442a2b02e76c5649d6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '2857f494fd3c0329d7e1b72dda51b5bf') in 0.020084 seconds 
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+RefreshProfiler: Total: 30.760ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSynthOne.dll using Guid(0ddfc5f39e9c0cd40aaeee8650429226) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'cdc6e9636c70738101a9e861938c1ef6') in 0.006400 seconds 
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 368.450ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 3.695ms
-	Scan: 10.039ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 8.356ms
-	GetAllGuidsForCategorization: 0.271ms
-	CategorizeAssets: 1.719ms
-	ImportAndPostprocessOutOfDateAssets: 334.058ms (2.094ms without children)
-		ImportManagerImport: 30.682ms (6.164ms without children)
-			ImportInProcess: 24.470ms
-			UpdateCategorizedAssets: 0.047ms
-		PostProcessAllAssets: 293.413ms
-		ReloadImportedAssets: 0.902ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.720ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.440ms
-		OnDemandSchedulerStart: 0.291ms
-		RestoreLoadedAssetsState: 1.583ms
-	UpdateImportedAssetsSnapshot: 3.931ms
-	ReloadSourceAssets: 0.734ms
-	UnloadImportedAssets: 0.174ms
-	Hotreload: 1.551ms
-	FixTempGuids: 0.008ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.199ms
-	UnloadStreamsBegin: 0.021ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 5.590ms
-	GetLoadedSourceAssetsSnapshot: 4.227ms
-	PersistCurrentRevisions: 0.256ms
-	UnloadStreamsEnd: 0.017ms
-	Untracked: -2.466ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/Debug/AkSoundEngine.dll using Guid(6026892562bfc224793f8f14c75a9217) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a48d5f91b5a8f08feb9de8d78cd83d64') in 0.026190 seconds 
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+RefreshProfiler: Total: 115.345ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Debug/AkSoundEngine.dll using Guid(0d365c6876296334c9f8587a9770ba6c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f8bde172948e7996911f43329da85d78') in 0.003894 seconds 
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 321.909ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.112ms
-	Scan: 8.418ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 4.350ms
-	GetAllGuidsForCategorization: 0.389ms
-	CategorizeAssets: 3.070ms
-	ImportAndPostprocessOutOfDateAssets: 299.733ms (1.422ms without children)
-		ImportManagerImport: 29.441ms (2.413ms without children)
-			ImportInProcess: 26.989ms
-			UpdateCategorizedAssets: 0.039ms
-		PostProcessAllAssets: 257.925ms
-		ReloadImportedAssets: 0.928ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.820ms
-		InitializingProgressBar: 0.005ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.479ms
-		OnDemandSchedulerStart: 3.713ms
-		RestoreLoadedAssetsState: 1.700ms
-	UpdateImportedAssetsSnapshot: 3.301ms
-	ReloadSourceAssets: 1.001ms
-	UnloadImportedAssets: 0.244ms
-	Hotreload: 1.208ms
-	FixTempGuids: 0.006ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.193ms
-	UnloadStreamsBegin: 0.015ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.958ms
-	GetLoadedSourceAssetsSnapshot: 3.308ms
-	PersistCurrentRevisions: 0.243ms
-	UnloadStreamsEnd: 0.016ms
-	Untracked: -1.356ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkMotion.dll using Guid(894a9098cf1d735469495303e572f77d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3b8d98472cc22ac166635b1d96927210') in 0.017145 seconds 
-Refreshing native plugins compatible for Editor in 4.35 ms, found 3 plugins.
+RefreshProfiler: Total: 118.522ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/iZotope.dll using Guid(5b30181d673a49d47b6a3074ee4e2459) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4277803fa2ecd8d93bd64b34900b63f1') in 0.008735 seconds 
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 322.391ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.089ms
-	Scan: 6.967ms
-	OnSourceAssetsModified: 0.001ms
-	InitializeImportedAssetsSnapshot: 6.993ms
-	GetAllGuidsForCategorization: 3.495ms
-	CategorizeAssets: 2.104ms
-	ImportAndPostprocessOutOfDateAssets: 293.815ms (1.633ms without children)
-		ImportManagerImport: 19.710ms (1.993ms without children)
-			ImportInProcess: 17.689ms
-			UpdateCategorizedAssets: 0.028ms
-		PostProcessAllAssets: 262.361ms
-		ReloadImportedAssets: 0.633ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.713ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.578ms
-		OnDemandSchedulerStart: 0.324ms
-		RestoreLoadedAssetsState: 1.946ms
-	UpdateImportedAssetsSnapshot: 5.914ms
-	ReloadSourceAssets: 1.043ms
-	UnloadImportedAssets: 0.173ms
-	Hotreload: 4.559ms
-	FixTempGuids: 0.006ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.189ms
-	UnloadStreamsBegin: 0.017ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.912ms
-	GetLoadedSourceAssetsSnapshot: 3.400ms
-	PersistCurrentRevisions: 0.243ms
-	UnloadStreamsEnd: 0.016ms
-	Untracked: -1.631ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Debug/AkSoundEngine.bundle using Guid(b87004b34061cb0408b9171880518498) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '053704d56cf573d5a2e22d236d45e675') in 0.009425 seconds 
-Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+RefreshProfiler: Total: 120.230ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkPitchShifter.bundle using Guid(fbcad288654e0c04bb002c05719655ba) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '62f39119141cc9d94bcb4928f8e560ef') in 0.008269 seconds 
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 57.299ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkGuitarDistortion.bundle using Guid(fa4aeb00c31eaa4419b0161a20269676) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd0e77c32ddb69ef78ec260da5487202c') in 0.021028 seconds 
-Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
+RefreshProfiler: Total: 28.590ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkHarmonizer.bundle using Guid(2f5f7c32312e2fb46b89e1b70936523f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '4ab6c0714a742c1b8307bc4004fc3aa7') in 0.008531 seconds 
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 63.949ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSoundSeedAir.dll using Guid(13f6737498179964988def17ce04760d) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '0f2424ce1a1ff2613eca3f068f67b39f') in 0.008633 seconds 
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+RefreshProfiler: Total: 29.206ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkMotion.dll using Guid(279e8306376fb474386b19184e6dda3f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'cae1031f9d89a67ec6a3e58a65412d17') in 0.009349 seconds 
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 484.480ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.099ms
-	Scan: 6.595ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 4.193ms
-	GetAllGuidsForCategorization: 0.283ms
-	CategorizeAssets: 1.685ms
-	ImportAndPostprocessOutOfDateAssets: 458.732ms (2.125ms without children)
-		ImportManagerImport: 11.535ms (2.100ms without children)
-			ImportInProcess: 9.380ms
-			UpdateCategorizedAssets: 0.055ms
-		PostProcessAllAssets: 431.649ms
-		ReloadImportedAssets: 0.627ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.814ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.374ms
-		OnDemandSchedulerStart: 0.304ms
-		RestoreLoadedAssetsState: 2.212ms
-	UpdateImportedAssetsSnapshot: 9.088ms
-	ReloadSourceAssets: 1.079ms
-	UnloadImportedAssets: 0.173ms
-	Hotreload: 1.651ms
-	FixTempGuids: 0.008ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.244ms
-	UnloadStreamsBegin: 0.021ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.131ms
-	GetLoadedSourceAssetsSnapshot: 3.997ms
-	PersistCurrentRevisions: 0.345ms
-	UnloadStreamsEnd: 0.018ms
-	Untracked: 4.228ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/Profile/AkSoundEngine.dll using Guid(658d2ad797fc34346bcb91a391f46405) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3027f52f1fe3f21a39f08e43a59fc25d') in 0.053930 seconds 
-Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+RefreshProfiler: Total: 115.617ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkReflect.bundle using Guid(a0455afd73e5cb642a731f8b16d3c8e0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'dc60e00a8fa3e69ed232fa8e8b17e8ef') in 0.005750 seconds 
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 771.199ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.115ms
-	Scan: 8.874ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 6.753ms
-	GetAllGuidsForCategorization: 0.392ms
-	CategorizeAssets: 2.805ms
-	ImportAndPostprocessOutOfDateAssets: 740.659ms (1.973ms without children)
-		ImportManagerImport: 61.520ms (6.744ms without children)
-			ImportInProcess: 54.718ms
-			UpdateCategorizedAssets: 0.058ms
-		PostProcessAllAssets: 664.684ms
-		ReloadImportedAssets: 1.037ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.252ms
-		InitializingProgressBar: 0.006ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.665ms
-		OnDemandSchedulerStart: 0.461ms
-		RestoreLoadedAssetsState: 2.676ms
-	UpdateImportedAssetsSnapshot: 6.386ms
-	ReloadSourceAssets: 1.177ms
-	UnloadImportedAssets: 0.315ms
-	Hotreload: 2.085ms
-	FixTempGuids: 0.010ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.215ms
-	UnloadStreamsBegin: 0.022ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.586ms
-	GetLoadedSourceAssetsSnapshot: 4.872ms
-	PersistCurrentRevisions: 0.394ms
-	UnloadStreamsEnd: 0.027ms
-	Untracked: 0.896ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedGrain.bundle using Guid(4dc4d7ac2c490c0419b89826e7c9f7e8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '05522f6a5a785b7714ab42e6899c4c8a') in 0.045722 seconds 
-Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+RefreshProfiler: Total: 26.088ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/Release/AkSoundEngine.dll using Guid(91a7049678bc87e4280dc4d349130263) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '0299ade50ac39358847976e0b11bb246') in 0.006089 seconds 
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 123.518ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkConvolutionReverb.dll using Guid(004c6191481481c46a51a089aba1dd90) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f0fb21742440d72bcb7293e2e891d251') in 0.013772 seconds 
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+RefreshProfiler: Total: 119.235ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkRoomVerb.bundle using Guid(a5e7382c40336824e8a3019e97b99fbf) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd9be98455a5c05eb5c012499489c1506') in 0.008783 seconds 
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 416.818ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.155ms
-	Scan: 10.652ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 8.709ms
-	GetAllGuidsForCategorization: 0.410ms
-	CategorizeAssets: 3.070ms
-	ImportAndPostprocessOutOfDateAssets: 380.611ms (3.358ms without children)
-		ImportManagerImport: 20.503ms (5.657ms without children)
-			ImportInProcess: 14.806ms
-			UpdateCategorizedAssets: 0.040ms
-		PostProcessAllAssets: 330.157ms
-		ReloadImportedAssets: 3.960ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.190ms
-		InitializingProgressBar: 0.006ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.592ms
-		OnDemandSchedulerStart: 0.904ms
-		RestoreLoadedAssetsState: 2.579ms
-	UpdateImportedAssetsSnapshot: 17.361ms
-	ReloadSourceAssets: 5.343ms
-	UnloadImportedAssets: 0.288ms
-	Hotreload: 1.652ms
-	FixTempGuids: 0.007ms
-	GatherAllCurrentPrimaryArtifactRevisions: 3.702ms
-	UnloadStreamsBegin: 0.036ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.384ms
-	GetLoadedSourceAssetsSnapshot: 4.821ms
-	PersistCurrentRevisions: 0.353ms
-	UnloadStreamsEnd: 0.018ms
-	Untracked: -4.393ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkRecorder.bundle using Guid(7fcddb95ec344d547a9f5ab78a58934c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'de13938dc83322b3c6c249c293ffc6d8') in 0.025184 seconds 
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+RefreshProfiler: Total: 30.360ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedAir.bundle using Guid(c5a761df8759813408f520660fa1def2) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd859b14d10db9d4a1c9afbcb1e1129e0') in 0.008684 seconds 
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 89.518ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMasteringSuite.bundle using Guid(afbca2b2bb45cec4fb5a4e5aa828a2e2) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3da0e25e96ff5942e8acebe9daaaa2e4') in 0.026386 seconds 
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+RefreshProfiler: Total: 29.013ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSoundSeedImpact.dll using Guid(788cf16b89ec3ad408862ac67bf23641) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'bd9595a2cc75c77db2c5b8dfcc6172f9') in 0.009074 seconds 
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 83.170ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedGrain.dll using Guid(52893826c83fe8649b25847b269400b8) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '415f09f2c67c17000d53fe793686da81') in 0.024279 seconds 
-Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+RefreshProfiler: Total: 119.915ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/MasteringSuite.dll using Guid(e2aa8e5bb4bd58d47a657d43f8da66a4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '957037d34f1deb9c445745ddb69d2843') in 0.009687 seconds 
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 374.260ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.150ms
-	Scan: 6.822ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 4.419ms
-	GetAllGuidsForCategorization: 0.266ms
-	CategorizeAssets: 1.949ms
-	ImportAndPostprocessOutOfDateAssets: 347.830ms (1.891ms without children)
-		ImportManagerImport: 29.862ms (4.863ms without children)
-			ImportInProcess: 24.966ms
-			UpdateCategorizedAssets: 0.032ms
-		PostProcessAllAssets: 303.067ms
-		ReloadImportedAssets: 0.734ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.852ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.617ms
-		OnDemandSchedulerStart: 0.341ms
-		RestoreLoadedAssetsState: 1.999ms
-	UpdateImportedAssetsSnapshot: 8.465ms
-	ReloadSourceAssets: 1.052ms
-	UnloadImportedAssets: 0.178ms
-	Hotreload: 1.880ms
-	FixTempGuids: 0.009ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.251ms
-	UnloadStreamsBegin: 0.022ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.286ms
-	GetLoadedSourceAssetsSnapshot: 6.277ms
-	PersistCurrentRevisions: 0.442ms
-	UnloadStreamsEnd: 0.026ms
-	Untracked: 1.399ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/Auro.dll using Guid(d6d5b409861afb248a77bb40d555ac3e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd32ef39b5b5603838a3dff3dbf331e80') in 0.009812 seconds 
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+RefreshProfiler: Total: 126.660ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAuro.bundle using Guid(3205196cb2e31c24f8727f353a390e46) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '10744912cf5032d102411f01cf111b45') in 0.009211 seconds 
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 357.522ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.137ms
-	Scan: 10.535ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 9.362ms
-	GetAllGuidsForCategorization: 0.263ms
-	CategorizeAssets: 2.897ms
-	ImportAndPostprocessOutOfDateAssets: 320.941ms (1.674ms without children)
-		ImportManagerImport: 18.051ms (7.281ms without children)
-			ImportInProcess: 10.732ms
-			UpdateCategorizedAssets: 0.038ms
-		PostProcessAllAssets: 290.887ms
-		ReloadImportedAssets: 0.977ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.880ms
-		InitializingProgressBar: 0.006ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.508ms
-		OnDemandSchedulerStart: 0.300ms
-		RestoreLoadedAssetsState: 1.995ms
-	UpdateImportedAssetsSnapshot: 5.661ms
-	ReloadSourceAssets: 1.056ms
-	UnloadImportedAssets: 0.282ms
-	Hotreload: 1.437ms
-	FixTempGuids: 0.009ms
-	GatherAllCurrentPrimaryArtifactRevisions: 3.894ms
-	UnloadStreamsBegin: 0.025ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 4.323ms
-	GetLoadedSourceAssetsSnapshot: 3.713ms
-	PersistCurrentRevisions: 0.265ms
-	UnloadStreamsEnd: 0.019ms
-	Untracked: -1.636ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Release/AkSoundEngine.dll using Guid(a77dd9bd1e218a741b15ea126fefe255) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '73a4a0c27b1dd6ec1a55e76422ea0fd0') in 0.035179 seconds 
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+RefreshProfiler: Total: 29.542ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/McDSP.dll using Guid(8399b08144b2f484ba9376728c4f070b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'db999a09962f44cd863306e771580cd7') in 0.009539 seconds 
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 377.298ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.143ms
-	Scan: 9.344ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 5.336ms
-	GetAllGuidsForCategorization: 0.288ms
-	CategorizeAssets: 2.279ms
-	ImportAndPostprocessOutOfDateAssets: 352.057ms (-3.052ms without children)
-		ImportManagerImport: 42.718ms (6.503ms without children)
-			ImportInProcess: 36.165ms
-			UpdateCategorizedAssets: 0.050ms
-		PostProcessAllAssets: 299.591ms
-		ReloadImportedAssets: 4.782ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.689ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.369ms
-		OnDemandSchedulerStart: 0.275ms
-		RestoreLoadedAssetsState: 1.803ms
-	UpdateImportedAssetsSnapshot: 4.878ms
-	ReloadSourceAssets: 0.641ms
-	UnloadImportedAssets: 0.267ms
-	Hotreload: 1.938ms
-	FixTempGuids: 0.007ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.298ms
-	UnloadStreamsBegin: 0.031ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.314ms
-	GetLoadedSourceAssetsSnapshot: 3.637ms
-	PersistCurrentRevisions: 0.308ms
-	UnloadStreamsEnd: 0.020ms
-	Untracked: -0.613ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSynthOne.dll using Guid(6794197829d88a84cb93ff93b301aeb4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3916676dba1616fbdc32627e230c1080') in 0.026421 seconds 
-Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
+RefreshProfiler: Total: 123.493ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/MSSpatial.dll using Guid(677c8c79f2748704992743f95d7074e6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '6ac5d0e857b6e0b05391a4f16e39a852') in 0.009249 seconds 
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 379.841ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.163ms
-	Scan: 6.604ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 5.139ms
-	GetAllGuidsForCategorization: 1.863ms
-	CategorizeAssets: 2.701ms
-	ImportAndPostprocessOutOfDateAssets: 352.582ms (1.770ms without children)
-		ImportManagerImport: 30.144ms (2.699ms without children)
-			ImportInProcess: 27.406ms
-			UpdateCategorizedAssets: 0.039ms
-		PostProcessAllAssets: 306.949ms
-		ReloadImportedAssets: 0.926ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.840ms
-		InitializingProgressBar: 0.003ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.591ms
-		OnDemandSchedulerStart: 0.393ms
-		RestoreLoadedAssetsState: 5.038ms
-	UpdateImportedAssetsSnapshot: 5.928ms
-	ReloadSourceAssets: 1.000ms
-	UnloadImportedAssets: 0.178ms
-	Hotreload: 5.821ms
-	FixTempGuids: 0.008ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.307ms
-	UnloadStreamsBegin: 0.039ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.195ms
-	GetLoadedSourceAssetsSnapshot: 6.876ms
-	PersistCurrentRevisions: 0.307ms
-	UnloadStreamsEnd: 0.022ms
-	Untracked: -4.964ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/McDSP.dll using Guid(507d47ac08715b94c99388928f0ac827) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'eecdc780d88b423ad843dee304d0d83b') in 0.045001 seconds 
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+RefreshProfiler: Total: 133.242ms
+Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkSoundEngine.bundle using Guid(3df101e5617234a49b545d5a0118dbf3) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c4e87e3b00a3b1b6e9c14b189491b138') in 0.009776 seconds 
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 799.753ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.142ms
-	Scan: 8.691ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 10.219ms
-	GetAllGuidsForCategorization: 0.427ms
-	CategorizeAssets: 2.589ms
-	ImportAndPostprocessOutOfDateAssets: 762.154ms (1.344ms without children)
-		ImportManagerImport: 53.548ms (7.542ms without children)
-			ImportInProcess: 45.951ms
-			UpdateCategorizedAssets: 0.054ms
-		PostProcessAllAssets: 682.391ms
-		ReloadImportedAssets: 4.970ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.888ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.570ms
-		OnDemandSchedulerStart: 5.117ms
-		RestoreLoadedAssetsState: 2.006ms
-	UpdateImportedAssetsSnapshot: 11.315ms
-	ReloadSourceAssets: 4.046ms
-	UnloadImportedAssets: 0.254ms
-	Hotreload: 2.070ms
-	FixTempGuids: 0.011ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.278ms
-	UnloadStreamsBegin: 0.024ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 5.693ms
-	GetLoadedSourceAssetsSnapshot: 8.210ms
-	PersistCurrentRevisions: 0.350ms
-	UnloadStreamsEnd: 0.024ms
-	Untracked: -5.432ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSoundSeedGrain.dll using Guid(78ded7ac1ad9ffe4c94d9a45dc5fef5b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'e5b3db8af920fb41d6c473e36f08724a') in 0.032430 seconds 
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 495.658ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.114ms
-	Scan: 12.474ms
-	OnSourceAssetsModified: 0.001ms
-	InitializeImportedAssetsSnapshot: 14.733ms
-	GetAllGuidsForCategorization: 0.833ms
-	CategorizeAssets: 7.685ms
-	ImportAndPostprocessOutOfDateAssets: 451.543ms (1.811ms without children)
-		ImportManagerImport: 36.502ms (2.931ms without children)
-			ImportInProcess: 33.524ms
-			UpdateCategorizedAssets: 0.047ms
-		PostProcessAllAssets: 399.776ms
-		ReloadImportedAssets: 1.039ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 4.899ms
-		InitializingProgressBar: 0.006ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.559ms
-		OnDemandSchedulerStart: 0.277ms
-		RestoreLoadedAssetsState: 2.951ms
-	UpdateImportedAssetsSnapshot: 3.724ms
-	ReloadSourceAssets: 1.226ms
-	UnloadImportedAssets: 0.290ms
-	Hotreload: 1.910ms
-	FixTempGuids: 0.010ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.256ms
-	UnloadStreamsBegin: 0.022ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.318ms
-	GetLoadedSourceAssetsSnapshot: 4.981ms
-	PersistCurrentRevisions: 0.346ms
-	UnloadStreamsEnd: 0.027ms
-	Untracked: -2.113ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkStereoDelay.bundle using Guid(1d96b52dbe3ca5c46bcfc7eb05f9b62c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '3eb170714ae7c7e6575c231c200daad3') in 0.032247 seconds 
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 94.617ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMcDSP.bundle using Guid(5373b81e4ca217d41bb71615fe6944b0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a9d6b2bd2f5ad93d6f16d37fe318d740') in 0.027751 seconds 
-Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 92.404ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSynthOne.dll using Guid(0ddfc5f39e9c0cd40aaeee8650429226) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '78c9eb62e3819c6aa0b4cc6692ea56e8') in 0.011333 seconds 
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 387.262ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.096ms
-	Scan: 8.936ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 8.958ms
-	GetAllGuidsForCategorization: 0.393ms
-	CategorizeAssets: 3.532ms
-	ImportAndPostprocessOutOfDateAssets: 355.596ms (1.381ms without children)
-		ImportManagerImport: 17.927ms (5.644ms without children)
-			ImportInProcess: 12.238ms
-			UpdateCategorizedAssets: 0.044ms
-		PostProcessAllAssets: 320.909ms
-		ReloadImportedAssets: 4.127ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.699ms
-		InitializingProgressBar: 0.005ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.377ms
-		OnDemandSchedulerStart: 0.330ms
-		RestoreLoadedAssetsState: 1.810ms
-	UpdateImportedAssetsSnapshot: 8.031ms
-	ReloadSourceAssets: 0.682ms
-	UnloadImportedAssets: 0.249ms
-	Hotreload: 1.709ms
-	FixTempGuids: 0.009ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.221ms
-	UnloadStreamsBegin: 0.018ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 4.543ms
-	GetLoadedSourceAssetsSnapshot: 6.955ms
-	PersistCurrentRevisions: 0.284ms
-	UnloadStreamsEnd: 0.018ms
-	Untracked: -4.936ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Debug/AkSoundEngine.dll using Guid(0d365c6876296334c9f8587a9770ba6c) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b18de556ead669f181ccb769b2005a49') in 0.017387 seconds 
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 522.578ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.092ms
-	Scan: 8.266ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 6.248ms
-	GetAllGuidsForCategorization: 0.320ms
-	CategorizeAssets: 1.868ms
-	ImportAndPostprocessOutOfDateAssets: 494.410ms (4.953ms without children)
-		ImportManagerImport: 24.123ms (2.487ms without children)
-			ImportInProcess: 21.588ms
-			UpdateCategorizedAssets: 0.047ms
-		PostProcessAllAssets: 452.049ms
-		ReloadImportedAssets: 0.909ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.937ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.585ms
-		OnDemandSchedulerStart: 0.439ms
-		RestoreLoadedAssetsState: 1.976ms
-	UpdateImportedAssetsSnapshot: 8.436ms
-	ReloadSourceAssets: 4.282ms
-	UnloadImportedAssets: 0.179ms
-	Hotreload: 2.089ms
-	FixTempGuids: 0.010ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.215ms
-	UnloadStreamsBegin: 0.019ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.360ms
-	GetLoadedSourceAssetsSnapshot: 3.999ms
-	PersistCurrentRevisions: 4.353ms
-	UnloadStreamsEnd: 0.024ms
-	Untracked: -5.156ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/iZotope.dll using Guid(5b30181d673a49d47b6a3074ee4e2459) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a77bc1f3848178d555a1dd50f1ebb309') in 0.017757 seconds 
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 427.414ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.147ms
-	Scan: 8.368ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 5.228ms
-	GetAllGuidsForCategorization: 0.455ms
-	CategorizeAssets: 2.266ms
-	ImportAndPostprocessOutOfDateAssets: 394.797ms (1.209ms without children)
-		ImportManagerImport: 26.476ms (7.460ms without children)
-			ImportInProcess: 18.965ms
-			UpdateCategorizedAssets: 0.050ms
-		PostProcessAllAssets: 353.412ms
-		ReloadImportedAssets: 1.241ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 4.763ms
-		InitializingProgressBar: 0.004ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.603ms
-		OnDemandSchedulerStart: 0.781ms
-		RestoreLoadedAssetsState: 2.283ms
-	UpdateImportedAssetsSnapshot: 4.026ms
-	ReloadSourceAssets: 1.194ms
-	UnloadImportedAssets: 0.209ms
-	Hotreload: 1.242ms
-	FixTempGuids: 0.005ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.275ms
-	UnloadStreamsBegin: 4.052ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.939ms
-	GetLoadedSourceAssetsSnapshot: 9.542ms
-	PersistCurrentRevisions: 0.258ms
-	UnloadStreamsEnd: 0.017ms
-	Untracked: -1.582ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkPitchShifter.bundle using Guid(fbcad288654e0c04bb002c05719655ba) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'f39beb3740764f845f0c7505ecab7f02') in 0.026121 seconds 
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 80.294ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkHarmonizer.bundle using Guid(2f5f7c32312e2fb46b89e1b70936523f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c3ef0093142b432a2c58b3523e1dd980') in 0.023372 seconds 
-Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 81.950ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkMotion.dll using Guid(279e8306376fb474386b19184e6dda3f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'de5ddd59d3395140ac5e44a63938f739') in 0.007910 seconds 
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 288.927ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkReflect.bundle using Guid(a0455afd73e5cb642a731f8b16d3c8e0) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '172d52e1bc4bce45a84dea7a33f0a807') in 0.021619 seconds 
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 75.702ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/Release/AkSoundEngine.dll using Guid(91a7049678bc87e4280dc4d349130263) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'abf8c28230989ead02ad258f15d9a7ca') in 0.009230 seconds 
-Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 266.721ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkRoomVerb.bundle using Guid(a5e7382c40336824e8a3019e97b99fbf) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '7c00036e6c8a65f9395c92b347cc9ece') in 0.019768 seconds 
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 66.574ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedAir.bundle using Guid(c5a761df8759813408f520660fa1def2) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b56bb5f78af27e761f7777e07e0f2b4c') in 0.020423 seconds 
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 61.259ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSoundSeedImpact.dll using Guid(788cf16b89ec3ad408862ac67bf23641) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'ba345bf50f29ca1d0b50bb91dd45b6b6') in 0.007718 seconds 
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 278.887ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/MasteringSuite.dll using Guid(e2aa8e5bb4bd58d47a657d43f8da66a4) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'b46b1c8664ccdd7fe629fc4672606dbb') in 0.009790 seconds 
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 261.519ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAuro.bundle using Guid(3205196cb2e31c24f8727f353a390e46) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c4a4e7bb03055d7a9882d921494e5679') in 0.024396 seconds 
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 66.237ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/McDSP.dll using Guid(8399b08144b2f484ba9376728c4f070b) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'd07879726ee9aa2ab0d027e87043d01c') in 0.014887 seconds 
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 259.795ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/MSSpatial.dll using Guid(677c8c79f2748704992743f95d7074e6) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'a7bcecd86155ae5faf70ebac76e03f43') in 0.010357 seconds 
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 403.652ms
-	InvokeBeforeRefreshCallbacks: 0.001ms
-	ApplyChangesToAssetFolders: 0.084ms
-	Scan: 7.648ms
-	OnSourceAssetsModified: 0.000ms
-	InitializeImportedAssetsSnapshot: 4.585ms
-	GetAllGuidsForCategorization: 0.331ms
-	CategorizeAssets: 2.450ms
-	ImportAndPostprocessOutOfDateAssets: 377.565ms (1.479ms without children)
-		ImportManagerImport: 13.818ms (2.721ms without children)
-			ImportInProcess: 11.055ms
-			UpdateCategorizedAssets: 0.041ms
-		PostProcessAllAssets: 345.237ms
-		ReloadImportedAssets: 0.901ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 3.645ms
-		InitializingProgressBar: 0.003ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.451ms
-		OnDemandSchedulerStart: 0.423ms
-		RestoreLoadedAssetsState: 2.050ms
-	UpdateImportedAssetsSnapshot: 9.559ms
-	ReloadSourceAssets: 0.864ms
-	UnloadImportedAssets: 0.175ms
-	Hotreload: 1.329ms
-	FixTempGuids: 0.011ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.179ms
-	UnloadStreamsBegin: 0.015ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 4.901ms
-	GetLoadedSourceAssetsSnapshot: 4.760ms
-	PersistCurrentRevisions: 0.244ms
-	UnloadStreamsEnd: 0.025ms
-	Untracked: -1.515ms
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkSoundEngine.bundle using Guid(3df101e5617234a49b545d5a0118dbf3) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c4e87e3b00a3b1b6e9c14b189491b138') in 0.063409 seconds 
-Refreshing native plugins compatible for Editor in 6.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 152.762ms
+RefreshProfiler: Total: 31.647ms
 WwiseUnity: Refreshing asset database.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-WwiseSetupWizard:RunModify () (at Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs:14)
+WwiseSetupWizard:RunModify () (at C:/Users/arthu/Desktop/ISE 2/BehindClosedDoors_Git/BehindClosedDoors/Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs:14)
 
-(Filename: Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 14)
+(Filename: C:/Users/arthu/Desktop/ISE 2/BehindClosedDoors_Git/BehindClosedDoors/Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 14)
 
-Refresh completed in 0.013571 seconds.
+Refresh completed in 0.003072 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 13.541ms
+RefreshProfiler: Total: 3.058ms
 WwiseUnity: End of setup, exiting Unity.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-WwiseSetupWizard:RunModify () (at Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs:18)
+WwiseSetupWizard:RunModify () (at C:/Users/arthu/Desktop/ISE 2/BehindClosedDoors_Git/BehindClosedDoors/Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs:18)
 
-(Filename: Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 18)
+(Filename: C:/Users/arthu/Desktop/ISE 2/BehindClosedDoors_Git/BehindClosedDoors/Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkWwiseSetupWizard.cs Line: 18)
 
 Batchmode quit successfully invoked - shutting down!
-[Performance] WinEditorMain                                                           :        1 samples, Peak.  4.60 s (1.0x), Avg.  4.60 s, Total. 4.600 s (4.9%)
-[Performance] WinEditorMain.ConfigureCrashHandler                                     :        1 samples, Peak.  51.9 us (1.0x), Avg.  51.9 us, Total. 51.90 us (0.0%)
-[Performance] WinEditorMain.CurlRequestInitialize                                     :        1 samples, Peak.  7.01 ms (1.0x), Avg.  7.01 ms, Total. 7.012 ms (0.0%)
-[Performance] WinEditorMain.SetupLogFile                                              :        1 samples, Peak.   556 us (1.0x), Avg.   556 us, Total. 555.7 us (0.0%)
-[Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit                           :        1 samples, Peak.  7.10 us (1.0x), Avg.  7.10 us, Total. 7.100 us (0.0%)
-[Performance] WinEditorMain.Licensing                                                 :        1 samples, Peak.  4.56 s (1.0x), Avg.  4.56 s, Total. 4.564 s (4.8%)
-[Performance] WinEditorMain.InitializeCrashHandler                                    :        1 samples, Peak.  26.6 ms (1.0x), Avg.  26.6 ms, Total. 26.57 ms (0.0%)
-[Performance] WinEditorMain.CreateApplication                                         :        1 samples, Peak.   371 us (1.0x), Avg.   371 us, Total. 371.3 us (0.0%)
-[Performance] Application.InitializeProject                                           :        1 samples, Peak.  74.2 s (1.0x), Avg.  74.2 s, Total. 74.25 s (78.6%)
-[Performance] Application.PackageManager.StartServer                                  :        1 samples, Peak.  10.2 ms (1.0x), Avg.  10.2 ms, Total. 10.16 ms (0.0%)
-[Performance] Application.AcquireProjectLock                                          :        1 samples, Peak.  21.3 ms (1.0x), Avg.  21.3 ms, Total. 21.31 ms (0.0%)
-[Performance] Application.InitializeEngineNoGraphics                                  :        1 samples, Peak.  75.7 ms (1.0x), Avg.  75.7 ms, Total. 75.71 ms (0.1%)
-[Performance] Application.PackageManager.Initialize                                   :        1 samples, Peak.  2.58 s (1.0x), Avg.  2.58 s, Total. 2.580 s (2.7%)
-[Performance] CurlRequestCheck                                                        :       47 samples, Peak.   101 us (12.3x), Avg.  8.24 us, Total. 387.2 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously                                 :       69 samples, Peak.  1.34 ms (48.4x), Avg.  27.8 us, Total. 1.918 ms (0.0%)
-[Performance] VersionControl.Task.Wait                                                :        1 samples, Peak.  27.7 us (1.0x), Avg.  27.7 us, Total. 27.70 us (0.0%)
-[Performance] Application.EngineGraphics.Initialize                                   :        1 samples, Peak.   655 ms (1.0x), Avg.   655 ms, Total. 654.5 ms (0.7%)
-[Performance] Application.GI.Initialize                                               :        1 samples, Peak.  14.2 ms (1.0x), Avg.  14.2 ms, Total. 14.24 ms (0.0%)
-[Performance] Application.LoadAllDefaultResourcesFromEditor                           :        1 samples, Peak.  4.29 ms (1.0x), Avg.  4.29 ms, Total. 4.295 ms (0.0%)
-[Performance] Application.LoadMonoAssemblies                                          :        1 samples, Peak.  2.80 s (1.0x), Avg.  2.80 s, Total. 2.798 s (3.0%)
-[Performance] RestoreManagedReferences                                                :        2 samples, Peak.   210 ms (2.0x), Avg.   105 ms, Total. 209.6 ms (0.2%)
-[Performance] ProcessService.EditorAfterLoadAllAssemblies                             :        2 samples, Peak.  3.59 ms (1.8x), Avg.  2.03 ms, Total. 4.063 ms (0.0%)
-[Performance] Application.ReadLicenseInfo                                             :        1 samples, Peak.  12.8 ms (1.0x), Avg.  12.8 ms, Total. 12.83 ms (0.0%)
-[Performance] Application.InitialScriptRefresh                                        :        1 samples, Peak.  54.7 s (1.0x), Avg.  54.7 s, Total. 54.75 s (58.0%)
-[Performance] PresetManagerPostProcessor.OnPreprocessAsset                            :       83 samples, Peak.  2.89 ms (33.4x), Avg.  86.6 us, Total. 7.189 ms (0.0%)
-[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset                       :       83 samples, Peak.   266 us (19.0x), Avg.  14.0 us, Total. 1.162 ms (0.0%)
-[Performance] Compiling Scripts                                                       :        1 samples, Peak.  16.5 s (1.0x), Avg.  16.5 s, Total. 16.46 s (17.4%)
-[Performance] AssetDatabase.ImportAssets                                              :       52 samples, Peak.  2.00 us (1.8x), Avg.  1.09 us, Total. 56.60 us (0.0%)
-[Performance] AssetPostprocessor.OnPostprocessAllAssets                               :       52 samples, Peak.  3.12 ms (32.7x), Avg.  95.5 us, Total. 4.964 ms (0.0%)
-[Performance] SpriteEditorTexturePostprocessor.OnPostprocessAllAssets                 :       52 samples, Peak.   930 us (20.2x), Avg.  46.1 us, Total. 2.400 ms (0.0%)
-[Performance] TMPro_TexturePostProcessor.OnPostprocessAllAssets                       :       52 samples, Peak.  17.4 ms (44.6x), Avg.   389 us, Total. 20.23 ms (0.0%)
-[Performance] RetainedMode.OnPostprocessAllAssets                                     :       52 samples, Peak.  9.73 ms (37.6x), Avg.   259 us, Total. 13.47 ms (0.0%)
-[Performance] EditorAtlasMonitorInjector.OnPostprocessAllAssets                       :       52 samples, Peak.   598 us (23.6x), Avg.  25.4 us, Total. 1.320 ms (0.0%)
-[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets                          :       52 samples, Peak.  3.52 ms (35.9x), Avg.  98.1 us, Total. 5.100 ms (0.0%)
-[Performance] AssetEvents.OnPostprocessAllAssets                                      :      104 samples, Peak.   835 us (54.8x), Avg.  15.2 us, Total. 1.585 ms (0.0%)
-[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets                       :       52 samples, Peak.  29.5 ms (26.7x), Avg.  1.10 ms, Total. 57.45 ms (0.1%)
-[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets                        :       52 samples, Peak.   337 ms (51.9x), Avg.  6.49 ms, Total. 337.6 ms (0.4%)
-[Performance] BuildCatalog                                                            :        1 samples, Peak.   328 ms (1.0x), Avg.   328 ms, Total. 328.2 ms (0.3%)
-[Performance] Application.AssetDatabase.Refresh                                       :        1 samples, Peak.  3.79 s (1.0x), Avg.  3.79 s, Total. 3.794 s (4.0%)
-[Performance] AssetDatabase.Refresh                                                   :        2 samples, Peak.  3.79 s (2.0x), Avg.  1.90 s, Total. 3.808 s (4.0%)
-[Performance] TextureImporter.Import                                                  :        6 samples, Peak.   590 ms (2.5x), Avg.   235 ms, Total. 1.412 s (1.5%)
-[Performance] EditorAtlasMonitorInjector.OnPostprocessTexture                         :        6 samples, Peak.   378 us (5.0x), Avg.  75.6 us, Total. 453.5 us (0.0%)
-[Performance] ModelImporter.Import                                                    :        4 samples, Peak.   716 ms (2.7x), Avg.   267 ms, Total. 1.069 s (1.1%)
-[Performance] TreeAOImporter.OnPostprocessModel                                       :        4 samples, Peak.  1.44 ms (3.8x), Avg.   379 us, Total. 1.514 ms (0.0%)
-[Performance] FBXMaterialDescriptionPreprocessor.OnPreprocessMaterialDescription      :        1 samples, Peak.  16.3 ms (1.0x), Avg.  16.3 ms, Total. 16.30 ms (0.0%)
-[Performance] SketchupMaterialDescriptionPreprocessor.OnPreprocessMaterialDescription :        1 samples, Peak.   292 us (1.0x), Avg.   292 us, Total. 292.0 us (0.0%)
-[Performance] ThreeDSMaterialDescriptionPreprocessor.OnPreprocessMaterialDescription  :        1 samples, Peak.   270 us (1.0x), Avg.   270 us, Total. 270.3 us (0.0%)
-[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion             :        1 samples, Peak.   225 ms (1.0x), Avg.   225 ms, Total. 224.9 ms (0.2%)
-[Performance] Application.SyncCurrentColorSpace                                       :        1 samples, Peak.   227 ms (1.0x), Avg.   227 ms, Total. 226.8 ms (0.2%)
-[Performance] Application.OnUsbDevicesChanged                                         :        1 samples, Peak.  12.7 ms (1.0x), Avg.  12.7 ms, Total. 12.67 ms (0.0%)
-[Performance] Application.AssetInstanceCacheUpdate                                    :        1 samples, Peak.   500 ns (1.0x), Avg.   500 ns, Total. 500.0 ns (0.0%)
-[Performance] Application.UnityExtensions.Initialize                                  :        1 samples, Peak.  2.22 ms (1.0x), Avg.  2.22 ms, Total. 2.218 ms (0.0%)
-[Performance] Application.InitializeManagedCompilationPipeline                        :        1 samples, Peak.   168 ms (1.0x), Avg.   168 ms, Total. 168.3 ms (0.2%)
-[Performance] Application.ExecuteStartups                                             :        1 samples, Peak.   181 ms (1.0x), Avg.   181 ms, Total. 181.2 ms (0.2%)
-[Performance] Gizmo.RebuildRenderers                                                  :        1 samples, Peak.   146 ms (1.0x), Avg.   146 ms, Total. 145.7 ms (0.2%)
-[Performance] Gizmo.AddGizmoRenderers                                                 :       42 samples, Peak.  7.11 ms (29.5x), Avg.   241 us, Total. 10.12 ms (0.0%)
-[Performance] Application.InitializeMenu                                              :        1 samples, Peak.   253 ms (1.0x), Avg.   253 ms, Total. 253.3 ms (0.3%)
-[Performance] UpdateAllMenus                                                          :        1 samples, Peak.   245 ms (1.0x), Avg.   245 ms, Total. 245.1 ms (0.3%)
-[Performance] Application.editorInitializingProject                                   :        1 samples, Peak.  86.8 us (1.0x), Avg.  86.8 us, Total. 86.80 us (0.0%)
-[Performance] GUIView.RepaintAll.PlayerLoopController                                 :        2 samples, Peak.  1.80 us (1.2x), Avg.  1.50 us, Total. 3.000 us (0.0%)
-[Performance] Application.InvokeFinishedLoadingProject                                :        1 samples, Peak.   185 ms (1.0x), Avg.   185 ms, Total. 185.1 ms (0.2%)
-[Performance] ProcessService.OnProjectLoaded                                          :        1 samples, Peak.  73.8 us (1.0x), Avg.  73.8 us, Total. 73.80 us (0.0%)
-[Performance] AssetDatabase.ImportAsset                                               :       50 samples, Peak.  1.03 s (3.5x), Avg.   297 ms, Total. 14.87 s (15.7%)
+[Performance] WinEditorMain                                               :        1 samples, Peak.  1.62 s (1.0x), Avg.  1.62 s, Total. 1.616 s (6.6%)
+[Performance] WinEditorMain.ConfigureCrashHandler                         :        1 samples, Peak.  19.8 us (1.0x), Avg.  19.8 us, Total. 19.80 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                         :        1 samples, Peak.  1.18 ms (1.0x), Avg.  1.18 ms, Total. 1.177 ms (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                  :        1 samples, Peak.   279 us (1.0x), Avg.   279 us, Total. 278.7 us (0.0%)
+[Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit               :        1 samples, Peak.  2.80 us (1.0x), Avg.  2.80 us, Total. 2.800 us (0.0%)
+[Performance] WinEditorMain.Licensing                                     :        1 samples, Peak.  1.60 s (1.0x), Avg.  1.60 s, Total. 1.596 s (6.5%)
+[Performance] WinEditorMain.InitializeCrashHandler                        :        1 samples, Peak.  17.4 ms (1.0x), Avg.  17.4 ms, Total. 17.37 ms (0.1%)
+[Performance] WinEditorMain.CreateApplication                             :        1 samples, Peak.   197 us (1.0x), Avg.   197 us, Total. 196.6 us (0.0%)
+[Performance] Application.InitializeProject                               :        1 samples, Peak.  17.5 s (1.0x), Avg.  17.5 s, Total. 17.51 s (71.5%)
+[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  2.58 ms (1.0x), Avg.  2.58 ms, Total. 2.576 ms (0.0%)
+[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.  7.33 ms (1.0x), Avg.  7.33 ms, Total. 7.326 ms (0.0%)
+[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  17.7 ms (1.0x), Avg.  17.7 ms, Total. 17.68 ms (0.1%)
+[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.  1.03 s (1.0x), Avg.  1.03 s, Total. 1.026 s (4.2%)
+[Performance] CurlRequestCheck                                            :       19 samples, Peak.  38.3 us (6.0x), Avg.  6.39 us, Total. 121.5 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously                     :       14 samples, Peak.   465 us (12.8x), Avg.  36.3 us, Total. 508.5 us (0.0%)
+[Performance] VersionControl.Task.Wait                                    :        1 samples, Peak.  17.3 us (1.0x), Avg.  17.3 us, Total. 17.30 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.   164 ms (1.0x), Avg.   164 ms, Total. 164.3 ms (0.7%)
+[Performance] Application.GI.Initialize                                   :        1 samples, Peak.  1.42 ms (1.0x), Avg.  1.42 ms, Total. 1.417 ms (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  1.89 ms (1.0x), Avg.  1.89 ms, Total. 1.886 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.   832 ms (1.0x), Avg.   832 ms, Total. 831.6 ms (3.4%)
+[Performance] RestoreManagedReferences                                    :        2 samples, Peak.  79.3 ms (2.0x), Avg.  39.7 ms, Total. 79.30 ms (0.3%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        2 samples, Peak.   306 us (1.1x), Avg.   268 us, Total. 535.9 us (0.0%)
+[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.  11.9 ms (1.0x), Avg.  11.9 ms, Total. 11.91 ms (0.0%)
+[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  13.0 s (1.0x), Avg.  13.0 s, Total. 12.96 s (52.9%)
+[Performance] Compiling Scripts                                           :        1 samples, Peak.  33.5 ms (1.0x), Avg.  33.5 ms, Total. 33.50 ms (0.1%)
+[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.   135 ms (1.0x), Avg.   135 ms, Total. 134.5 ms (0.5%)
+[Performance] AssetDatabase.Refresh                                       :        2 samples, Peak.   135 ms (2.0x), Avg.  68.8 ms, Total. 137.7 ms (0.6%)
+[Performance] PresetManagerPostProcessor.OnPreprocessAsset                :       51 samples, Peak.   281 us (15.4x), Avg.  18.3 us, Total. 934.9 us (0.0%)
+[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset           :       51 samples, Peak.   118 us (25.7x), Avg.  4.60 us, Total. 234.4 us (0.0%)
+[Performance] AssetDatabase.ImportAssets                                  :       51 samples, Peak.   900 ns (1.5x), Avg.   582 ns, Total. 29.70 us (0.0%)
+[Performance] AssetPostprocessor.OnPostprocessAllAssets                   :       51 samples, Peak.   183 us (14.7x), Avg.  12.5 us, Total. 635.8 us (0.0%)
+[Performance] SpriteEditorTexturePostprocessor.OnPostprocessAllAssets     :       51 samples, Peak.   333 us (14.4x), Avg.  23.1 us, Total. 1.176 ms (0.0%)
+[Performance] TMPro_TexturePostProcessor.OnPostprocessAllAssets           :       51 samples, Peak.   348 us (17.4x), Avg.  20.0 us, Total. 1.019 ms (0.0%)
+[Performance] RetainedMode.OnPostprocessAllAssets                         :       51 samples, Peak.   508 us (14.0x), Avg.  36.2 us, Total. 1.844 ms (0.0%)
+[Performance] EditorAtlasMonitorInjector.OnPostprocessAllAssets           :       51 samples, Peak.   148 us (16.3x), Avg.  9.07 us, Total. 462.5 us (0.0%)
+[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets              :       51 samples, Peak.   368 us (36.8x), Avg.  10.0 us, Total. 510.8 us (0.0%)
+[Performance] AssetEvents.OnPostprocessAllAssets                          :      102 samples, Peak.   187 us (40.8x), Avg.  4.59 us, Total. 467.8 us (0.0%)
+[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets           :       51 samples, Peak.   950 us (27.6x), Avg.  34.4 us, Total. 1.754 ms (0.0%)
+[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets            :       51 samples, Peak.  61.0 ms (50.7x), Avg.  1.20 ms, Total. 61.37 ms (0.3%)
+[Performance] BuildCatalog                                                :        1 samples, Peak.  60.1 ms (1.0x), Avg.  60.1 ms, Total. 60.10 ms (0.2%)
+[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.  62.3 ms (1.0x), Avg.  62.3 ms, Total. 62.33 ms (0.3%)
+[Performance] Application.SyncCurrentColorSpace                           :        1 samples, Peak.  56.4 ms (1.0x), Avg.  56.4 ms, Total. 56.40 ms (0.2%)
+[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.  3.88 ms (1.0x), Avg.  3.88 ms, Total. 3.882 ms (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                        :        1 samples, Peak.   400 ns (1.0x), Avg.   400 ns, Total. 400.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.   865 us (1.0x), Avg.   865 us, Total. 865.1 us (0.0%)
+[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.  51.0 ms (1.0x), Avg.  51.0 ms, Total. 50.96 ms (0.2%)
+[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.  48.0 ms (1.0x), Avg.  48.0 ms, Total. 48.03 ms (0.2%)
+[Performance] Gizmo.RebuildRenderers                                      :        1 samples, Peak.  38.3 ms (1.0x), Avg.  38.3 ms, Total. 38.28 ms (0.2%)
+[Performance] Gizmo.AddGizmoRenderers                                     :       42 samples, Peak.  1.20 ms (23.1x), Avg.  51.8 us, Total. 2.176 ms (0.0%)
+[Performance] Application.InitializeMenu                                  :        1 samples, Peak.  57.5 ms (1.0x), Avg.  57.5 ms, Total. 57.50 ms (0.2%)
+[Performance] UpdateAllMenus                                              :        1 samples, Peak.  55.6 ms (1.0x), Avg.  55.6 ms, Total. 55.62 ms (0.2%)
+[Performance] Application.editorInitializingProject                       :        1 samples, Peak.  40.4 us (1.0x), Avg.  40.4 us, Total. 40.40 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                     :        2 samples, Peak.  1.70 us (1.4x), Avg.  1.25 us, Total. 2.500 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  48.8 ms (1.0x), Avg.  48.8 ms, Total. 48.84 ms (0.2%)
+[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.   118 us (1.0x), Avg.   118 us, Total. 117.8 us (0.0%)
+[Performance] AssetDatabase.ImportAsset                                   :       50 samples, Peak.   204 ms (2.4x), Avg.  83.5 ms, Total. 4.174 s (17.0%)
+Start importing Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset using Guid(3380d88324c89f449bff11f519d47300) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '8c7f088605b6ee55801accb14cd36b06') in 0.004920 seconds 
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 25.381ms
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
-Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
 Exiting batchmode successfully now!
 Exiting without the bug reporter. Application will terminate with return code 0

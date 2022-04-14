@@ -775,6 +775,10 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6612651481185315793, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
+      propertyPath: FootstepSpeedConditioner
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3192472654378874851, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
     - {fileID: 3239428321685134021, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
@@ -825,6 +829,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDefaultListener: 1
   listenerId: 0
+--- !u!114 &299471383 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6612651481185315793, guid: 6815b1156bab4ba4d847b4e0db3a989b, type: 3}
+  m_PrefabInstance: {fileID: 299471378}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369144053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656ac0e557f54c049aac22d65f91823b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &319028755 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 35ee00a149846ab4f9c61c1abe8ceac4, type: 3}
@@ -4770,6 +4785,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7908931686443223687, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 56.493237
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908931686443223687, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.2970912
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908931686443223687, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 34.180336
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908931686443223687, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908931686443223687, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908931686443223687, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9178758799219217542, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
+      propertyPath: data.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 51c0543285b13ca43a0bab8827414432, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2301fe83fc0591044b5a667c3dc42c60, type: 3}
 --- !u!1 &1405353548 stripped
@@ -6673,6 +6716,7 @@ MonoBehaviour:
   itemUIDisplay: {fileID: 762270561}
   icon_clickUISprite: {fileID: 984153768}
   SceneFade: {fileID: 0}
+  Script_Player_Sound: {fileID: 299471383}
 --- !u!23 &1808468571
 MeshRenderer:
   m_ObjectHideFlags: 0

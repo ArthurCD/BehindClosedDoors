@@ -9,6 +9,7 @@ TagManager:
   - GameKey
   - ReturnTunnelTrigger
   - EndKey
+  - Audio_PersistantVariables
   layers:
   - Default
   - TransparentFX

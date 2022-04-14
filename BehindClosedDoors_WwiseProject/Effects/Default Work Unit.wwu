@@ -15,6 +15,12 @@
 						<Property Name="GainBand1" Type="Real32" Value="12"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="Breath_Longer" ID="{07F420F0-2420-4DF1-97BA-0AF7999DD961}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<PropertyList>
+						<Property Name="OutputGain" Type="Real32" Value="1"/>
+						<Property Name="TimeStretch" Type="Real32" Value="136"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

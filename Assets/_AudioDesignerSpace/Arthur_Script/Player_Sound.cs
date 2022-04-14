@@ -50,6 +50,7 @@ public class Player_Sound : MonoBehaviour
     public float FootstepSpeedSneak = .6f;
     public float FootstepSpeedWalk = .5f;
     public float FootstepSpeedRun = .35f;
+    public int FootstepSpeedConditioner = 0; //0= Normal     1= only Walk       2= only Run
 
 
     [SerializeField] private bool m_IsRunning;
@@ -76,6 +77,8 @@ public class Player_Sound : MonoBehaviour
     public AK.Wwise.Event PLYR_Breath_Run;
     public AK.Wwise.Event PLYR_Breath_Stop;
 
+    public AK.Wwise.Event PLYR_Breath_Oneoff_Distressing;
+
 
 
 
@@ -92,6 +95,8 @@ public class Player_Sound : MonoBehaviour
 
 
     public AK.Wwise.RTPC RTPC_PLYR_Exhaust;
+    public GameObject Audio_PersistantVariables;
+    public Audio_PersistantVariables PersistantScript;
 
 
 
@@ -113,9 +118,12 @@ public class Player_Sound : MonoBehaviour
     {
         //FS_Run.Post(gameObject);
         PLYR_Breath_Idle.Post(gameObject);
+
+        Audio_PersistantVariables = GameObject.FindGameObjectWithTag("Audio_PersistantVariables");
+        PersistantScript = Audio_PersistantVariables.GetComponent<Audio_PersistantVariables>();
     }
 
-
+ 
     // Track Player movement
     private void Update()
     {
@@ -137,40 +145,59 @@ public class Player_Sound : MonoBehaviour
         else
         {
 
-            //SNEAK
-            if (rb.velocity.magnitude < 2.0f)
+            //Normal Walk System
+            if (FootstepSpeedConditioner == 0)
             {
-                if (m_IsPostedBreathRun == true)
+
+                //SNEAK
+                if (rb.velocity.magnitude < 2.0f)
                 {
-                    PLYR_Breath_Stop.Post(gameObject);
-                    m_IsPostedBreathRun = false;
+                    if (m_IsPostedBreathRun == true)
+                    {
+                        PLYR_Breath_Stop.Post(gameObject);
+                        m_IsPostedBreathRun = false;
+                    }
+                    m_IsRunning = false;
+                    FootstepSpeed = FootstepSpeedSneak;
                 }
-                m_IsRunning = false;
-                FootstepSpeed = FootstepSpeedSneak;
+
+                //RUN
+                else if (Input.GetKey(KeyCode.LeftShift))
+                {
+                    if (m_IsPostedBreathRun == false)
+                    {
+                        m_IsPostedBreathRun = true;
+
+                        PLYR_Breath_Run.Post(gameObject);
+                        Debug.Log("RUNBREATH");
+                    }
+                    m_IsRunning = true;
+                    FootstepSpeed = FootstepSpeedRun;
+
+                    if (m_RTPC_PLYR_Exhaust < 100)
+                    {
+                        m_RTPC_PLYR_Exhaust = m_RTPC_PLYR_Exhaust + 0.1f;
+                        RTPC_PLYR_Exhaust.SetGlobalValue(m_RTPC_PLYR_Exhaust);
+                    }
+                }
+
+                //WALK
+                else
+                {
+                    if (m_IsPostedBreathRun == true)
+                    {
+                        PLYR_Breath_Stop.Post(gameObject);
+                        m_IsPostedBreathRun = false;
+                    }
+                    m_IsRunning = false;
+                    FootstepSpeed = FootstepSpeedWalk;
+
+                }
             }
 
-            //RUN
-            else if (Input.GetKey(KeyCode.LeftShift))
-            {
-                if (m_IsPostedBreathRun==false)
-                {
-                    m_IsPostedBreathRun = true;
-                    
-                    PLYR_Breath_Run.Post(gameObject);
-                    Debug.Log("RUNBREATH");
-                }
-                m_IsRunning = true;
-                FootstepSpeed = FootstepSpeedRun;
 
-                if (m_RTPC_PLYR_Exhaust < 100)
-                {
-                    m_RTPC_PLYR_Exhaust = m_RTPC_PLYR_Exhaust + 0.1f;
-                    RTPC_PLYR_Exhaust.SetGlobalValue(m_RTPC_PLYR_Exhaust);
-                }
-            }
-
-            //WALK
-            else
+            // Walk in the Tunnel
+            else if (FootstepSpeedConditioner == 1) 
             {
                 if (m_IsPostedBreathRun == true)
                 {
@@ -179,8 +206,49 @@ public class Player_Sound : MonoBehaviour
                 }
                 m_IsRunning = false;
                 FootstepSpeed = FootstepSpeedWalk;
-               
             }
+
+            
+
+            // Run in the Return Tunnel 
+            else if (FootstepSpeedConditioner == 2)
+            {
+                if (rb.velocity.magnitude > .1f)
+                {
+                    m_IsRunning = true;
+                    
+                    FootstepSpeed = FootstepSpeedRun;
+                    if (m_IsPostedBreathRun==false)
+                    {
+                        m_IsPostedBreathRun = true;
+                        PLYR_Breath_Run.Post(gameObject);
+                    }
+                    if (m_RTPC_PLYR_Exhaust <= 100.0f)
+                    {
+                        m_RTPC_PLYR_Exhaust = m_RTPC_PLYR_Exhaust + 0.1f;
+                        RTPC_PLYR_Exhaust.SetGlobalValue(m_RTPC_PLYR_Exhaust);
+                    }
+                }
+                else
+                {
+                    if (m_IsPostedBreathRun == true)
+                    {
+                        PLYR_Breath_Stop.Post(gameObject);
+                        m_IsPostedBreathRun = false;
+                    }
+                    m_IsRunning = false;
+                    FootstepSpeed = FootstepSpeedWalk;
+                    if (m_RTPC_PLYR_Exhaust >= 0.0f)
+                    {
+                        m_RTPC_PLYR_Exhaust = m_RTPC_PLYR_Exhaust - 0.1f;
+                        RTPC_PLYR_Exhaust.SetGlobalValue(m_RTPC_PLYR_Exhaust);
+                    }
+                }
+
+            }
+
+
+          
 
             //Debug.Log(FootstepSpeedWalk);
             //Debug.Log(FootstepSpeed);
@@ -264,27 +332,62 @@ public class Player_Sound : MonoBehaviour
     private void PlayFootStepAudio()
     {
 
-        if (m_IsRunning)
+        //Normal Walk System
+        if (FootstepSpeedConditioner == 0)
         {
-            Switch_PLYR_Movement_Run.SetValue(gameObject);
-            FS_Run.Post(gameObject);
-            //Debug.Log("Run");
+            if (m_IsRunning)
+            {
+                Switch_PLYR_Movement_Run.SetValue(gameObject);
+                FS_Run.Post(gameObject);
+                //Debug.Log("Run");
+            }
+
+            else if (rb.velocity.magnitude < 2.0f)
+            {
+                Switch_PLYR_Movement_Sneak.SetValue(gameObject);
+                FS_Sneak.Post(gameObject);
+                //Debug.Log("Sneak");
+
+            }
+
+            else
+            {
+                Switch_PLYR_Movement_Walk.SetValue(gameObject);
+                FS_Walk.Post(gameObject);
+                //Debug.Log("Walk");
+            }
         }
 
-        else if (rb.velocity.magnitude < 2.0f)
-        {
-            Switch_PLYR_Movement_Sneak.SetValue(gameObject);
-            FS_Sneak.Post(gameObject);
-            //Debug.Log("Sneak");
-        }
-
-        else
+        // Walk in the Tunnel
+        else if (FootstepSpeedConditioner == 1)
         {
             Switch_PLYR_Movement_Walk.SetValue(gameObject);
             FS_Walk.Post(gameObject);
-            //Debug.Log("Walk");
+        }
+
+
+        // Run in the Return Tunnel 
+        else if (FootstepSpeedConditioner == 2)
+        {
+            Switch_PLYR_Movement_Run.SetValue(gameObject);
+            FS_Run.Post(gameObject);
         }
     }
+
+
+
+    public void Collectible_Distressing()
+    {
+        Debug.Log("Collect");
+        PLYR_Breath_Oneoff_Distressing.Post(gameObject);
+        PersistantScript.m_DistressingItem = true;
+    }
+
+
+
+
+
+
 
 
     private void OnDestroy()
@@ -295,56 +398,3 @@ public class Player_Sound : MonoBehaviour
 }
 
     
-
-
-
-
-
-
-
-
-
-        //private void ProgressStepCycle(float speed)
-        //{
-        //    if (!(m_StepCycle > m_NextStep))
-        //    {
-        //        return;
-        //    }
-
-        //    m_NextStep = m_StepCycle + m_StepInterval;
-
-        //    PlayFootStepAudio();
-        //}
-
-
-
-
-        //private void UpdateCameraPosition(float speed)
-        //{
-        //    Vector3 newCameraPosition;
-        //    if (!m_UseHeadBob)
-        //    {
-        //        return;
-        //    }
-        //    if (m_CharacterController.velocity.magnitude > 0 && m_CharacterController.isGrounded)
-        //    {
-        //        m_Camera.transform.localPosition =
-        //            m_HeadBob.DoHeadBob(m_CharacterController.velocity.magnitude +
-        //                              (speed * (m_IsWalking ? 1f : m_RunstepLenghten)));
-        //        newCameraPosition = m_Camera.transform.localPosition;
-        //        newCameraPosition.y = m_Camera.transform.localPosition.y - m_JumpBob.Offset();
-        //    }
-        //    else
-        //    {
-        //        newCameraPosition = m_Camera.transform.localPosition;
-        //        newCameraPosition.y = m_OriginalCameraPosition.y - m_JumpBob.Offset();
-        //    }
-        //    m_Camera.transform.localPosition = newCameraPosition;
-        //}
-
-
-
-        //private void RotateView()
-        //{
-        //    m_MouseLook.LookRotation(transform, m_Camera.transform);
-        //
